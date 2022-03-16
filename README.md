@@ -4,9 +4,11 @@ En este proyecto se pretende crear un ecommerce para la marca Refer. Se trata de
 
 # Requisitos
 -Instalación
+
 Debes clonar el repositorio del proyecto.
 
 -Contribuir
+
 Debes crear un pull request al proyecto.
 
 # Programas utilizados
@@ -34,6 +36,7 @@ La convención de nombre para las clases de los elementos sigue el patrón BEM:
 Para la localización rápida de archivos sass emplearemos etiquetas en texto comentado, por ejemplo:
 
 //-------$VARIABLES
+
 //-------$BUTTONS
 
 # SCSS
@@ -60,12 +63,13 @@ _navigation.scss
 _footer.scss
 site/
 _site.scss
+
 El archivo main.sass nos indica el path de los elementos así como su nombre. Todos los archivos sass tienen una etiqueta para facilitar su localización mediante la búsqueda de nuestro editor (Cmd/Ctrl + f) y acceder a ellos fácilmente.
 
 # Variables
 Las variables que se emplearán en este proyecto se encuentra en el archivo sass/utilites/_variables.scss. Estas variables globales definen los colores, el espaciado y las tipografías de todo el documento.
 
-#Espaciado#
+# Espaciado
 Para el espaciado la unidad base será 6px, de la cual se emplearán sus múltiplos en función del espaciado que necesitemos. 
 
 $space-unit: 6px;
