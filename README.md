@@ -26,13 +26,18 @@ Prepos: compilador de archivos.
 La convención de nombre para las clases de los elementos sigue el patrón BEM:
 
 .bloque{}
+
 .bloque__elemento{}
+
 .bloque--modificador{}
+
 '.bloque': representa el primer nivel de una abstracción o componente, es el elemento padre. 
+
 '.bloque__elemento': representa un hijo del elemento padre '.bloque'. 
+
 '.bloque--modificador': representa un estado diferente de '.bloque'.
 
-#Etiquetas archivos sass#
+# Etiquetas archivos sass
 Para la localización rápida de archivos sass emplearemos etiquetas en texto comentado, por ejemplo:
 
 //-------$VARIABLES
@@ -57,7 +62,6 @@ _tags.scss
 structure/
 grid.scss
 layout/
-_main.scss
 _header.scss
 _navigation.scss
 _footer.scss
