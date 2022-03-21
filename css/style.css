@@ -1,9 +1,107 @@
+.newletter__button {
+  border-width: 3px;
+  border-radius: 6px;
+  border-color: #BBEC00;
+  color: #BBEC00;
+  background-color: #4F4F4F;
+  width: 70vw;
+  padding: 6px;
+}
+
+.footer__nav {
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.legal-pag {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.title-page {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #0099A8;
+}
+
+.subtitle-page {
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  color: #BBEC00;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+
+.newsletter__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 70vw;
+}
+
 .header__home {
   background-color: #0099A8;
   width: 100%;
 }
 
-.footer__container {
+.footer {
   background-color: #4F4F4F;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__logo {
+  width: 99px;
+}
+.footer__nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.newsletter__email {
+  width: 100%;
+  padding: 6px;
+  color: #F2F2F2;
+}
+
+.legal-pag__container {
+  padding: 12px;
 }

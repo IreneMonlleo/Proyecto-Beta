@@ -1,0 +1,22 @@
+//-----------------------> $MIXINS<------------------//
+
+// TYPOGRAFI //
+@mixin special-elite ($font-size, $color) {
+    font-family: 'Special Elite', cursive;
+    font-size: $font-size; 
+    color: $color;
+}
+
+@mixin ralewey ($font-size,$font-weight, $color) {
+    font-family: 'Raleway', sans-serif;
+    font-size: $font-size;
+    font-weight:$font-weight;
+    color: $color;
+}
+
+// RRSS //
+@mixin icons ($font-size){
+    width: 1em;
+    height: 1em;
+    font-size: $font-size;
+  }
