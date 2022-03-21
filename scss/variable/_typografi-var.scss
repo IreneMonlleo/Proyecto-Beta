@@ -1,3 +1,12 @@
 //-----------------------> $TYPOGRAFI-VAR <------------------//
+@mixin special-elite ($font-size) {
+    font-family: 'Special Elite', cursive;
+    font-size: $font-size; 
+}
 
-$font-family: 'Special Elite', cursive;
+@mixin ralewey ($font-size,$font-weight) {
+    font-family: 'Raleway', sans-serif;
+    font-size: $font-size;
+    font-weight:$font-weight;
+}
+

@@ -1,19 +1,19 @@
 
-@import "./variable/color-vars";
-@import "./variable/space-vars";
-@import "./variable/typografi-var";
+@import "./variable/_color-vars";
+@import "./variable/_space-vars";
+@import "./variable/_typografi-var";
 
-@import "./utilities/mixins";
+@import "./utilities/_mixins";
 
-@import "./site/site";
+@import "./site/_site";
 
-@import "./structure/grid";
+@import "./structure/_grid";
 
-@import "./htmlelements/slider";
-@import "./htmlelements/buttons";
-@import "./htmlelements/links";
-@import "./htmlelements/typography";
+@import "./htmlelements/_slider";
+@import "./htmlelements/_buttons";
+@import "./htmlelements/_links";
+@import "./htmlelements/_typography";
 
-@import "./layout/header";
-@import "./layout/navigation";
-@import "./layout/footer";
+@import "./layout/_header";
+@import "./layout/_navigation";
+@import "./layout/_footer";
