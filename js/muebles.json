@@ -1,0 +1,53 @@
+{
+    "muebles": [
+        {
+            "id": "1",
+            "name": "silla caset",
+            "description": "Webpack vanilla starter seed",
+            "image": "../img/neumatico.png",
+            "price": "120€"
+        },
+        {
+            "id": "2",
+            "name": "silla caset",
+            "description": "Webpack vanilla starter seed",
+            "image": "../img/neumatico.png",
+            "price": "120€"
+        },
+
+        {
+            "id": "2",
+            "name": "silla caset",
+            "description": "Webpack vanilla starter seed",
+            "image": "../img/neumatico.png",
+            "price": "120€"
+        }
+    ],
+    
+    "iluminacion": [
+        {
+            "id": "1",
+            "name": "silla caset",
+            "description": "Webpack vanilla starter seed",
+            "image": "../img/perro.jpg",
+            "price": "120€"
+        },
+        {
+            "id": "2",
+            "name": "silla caset",
+            "description": "Webpack vanilla starter seed",
+            "image": "../img/perro.jpg",
+            "price": "120€"
+        },
+
+        {
+            "id": "2",
+            "name": "silla caset",
+            "description": "Webpack vanilla starter seed",
+            "image": "../img/perro.jpg",
+            "price": "120€"
+        }
+
+
+    ]
+}
