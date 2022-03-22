@@ -24,4 +24,17 @@
 .newsletter__text{
     @include ralewey (14px,400,$color-white);
     width: 70vw;
+    margin: 24px 12px;
+    
+}
+// ABOUT US//
+
+.about-us__text{
+    @include ralewey (14px,400,$color-white);
+    width: 70vw;
+    padding: $unit*2;
+}
+
+.upcycling__title{
+    @include special-elite (24px, $color-greydark);
 }

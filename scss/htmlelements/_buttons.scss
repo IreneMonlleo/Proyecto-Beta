@@ -13,8 +13,12 @@
     border-color: $color-green;
     color: $color-green;
     background-color: $color-greydark;
-    width: 70vw;
+    width: 50vw;
     padding: $unit;
-    
-    
+
+    &:hover{
+        background-color: $color-green;
+        color: $color-greydark;
+    }
+     
 }

@@ -1,16 +1,3 @@
-.main__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .swiper {
   width: 100%;
   height: 500px;
@@ -29,20 +16,38 @@
           align-items: center;
 }
 
+.newlwttwe__email {
+  width: 50vw;
+  padding: 6px;
+}
+
 .newletter__button {
   border-width: 3px;
   border-radius: 6px;
   border-color: #BBEC00;
   color: #BBEC00;
   background-color: #4F4F4F;
-  width: 70vw;
+  width: 50vw;
   padding: 6px;
+}
+.newletter__button:hover {
+  background-color: #BBEC00;
+  color: #4F4F4F;
+}
+
+.header__nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 14;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: right;
 }
 
 .footer__nav {
-  font-family: "Special Elite", cursive;
+  font-family: "Special Elite";
   font-size: 18px;
   color: #FFFFFF;
+  padding-top: 24px;
 }
 
 .legal-pag {
@@ -51,9 +56,12 @@
   font-weight: 400;
   color: #FFFFFF;
 }
+.legal-pag:hover {
+  color: #BBEC00;
+}
 
 .slider__title {
-  font-family: "Special Elite", cursive;
+  font-family: "Special Elite";
   font-size: 24;
   color: #FFFFFF;
 }
@@ -67,7 +75,7 @@
 }
 
 .slider__quest {
-  font-family: "Special Elite", cursive;
+  font-family: "Special Elite";
   font-size: 18;
   color: #4F4F4F;
 }
@@ -80,7 +88,7 @@
 }
 
 .subtitle-page {
-  font-family: "Special Elite", cursive;
+  font-family: "Special Elite";
   font-size: 18px;
   color: #BBEC00;
 }
@@ -100,6 +108,22 @@
   font-weight: 400;
   color: #FFFFFF;
   width: 70vw;
+  margin: 24px 12px;
+}
+
+.about-us__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 70vw;
+  padding: 12px;
+}
+
+.upcycling__title {
+  font-family: "Special Elite";
+  font-size: 24px;
+  color: #4F4F4F;
 }
 
 .header__home {
@@ -108,9 +132,38 @@
   height: 500px;
 }
 
+.main__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4F4F4F;
+  width: 90vw;
+}
+
 .footer {
   background-color: #4F4F4F;
   width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,6 +177,7 @@
 }
 .footer__logo {
   width: 99px;
+  padding: 24px;
 }
 .footer__nav__container {
   display: -webkit-box;

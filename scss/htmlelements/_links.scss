@@ -2,7 +2,10 @@
 
 
 //header//
-
+.header__nav{
+    @include ralewey (14,400, $color-white);
+    text-align: right;
+}
 
 
 
@@ -10,7 +13,12 @@
 
 .footer__nav{
     @include special-elite (18px, $color-white);
+    padding-top: 24px;
 }
 .legal-pag{
     @include ralewey (14px, 400, $color-white);
+
+    &:hover{
+        color:$color-green;
+    }
 }
