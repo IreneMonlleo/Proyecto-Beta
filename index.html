@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css"/>
 
     <title>Refer</title>
 </head>
@@ -15,19 +16,59 @@
     <header class="header__home">
         <nav class="header__menu">
             <a class="header__nav" href="aboutus.html">Sobre nosotros</a>
-            <a href="header__nav" href="index.html">Nuestros productos</a>
+            <a class="header__nav" href="index.html">Nuestros productos</a>
         </nav>
     
-        <div class="header__container">
+        
+        <!-- Slider main container -->
+    <div class="swiper">
+            <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+                <!-- Slides -->
+            <div class="swiper-slide">
+                <img class="slider__img" src="https://fakeimg.pl/237x184/" alt="recycled materials">
+                <div class="slider__text" >
+                    <h2 class="slider__title">¿Mueble?</h2>
+                    <p class="slider__description">Si quieres unos muebles con ritmos, en Refer dejamos volar nuestra imaginación creando muebles con cosas que ni te imaginarias y que le daran un toque especial a tu casa.
+                        <br>Lamparas, muebles y decoración respetuosa con el medio ambiente, original y unica.</p>
+                    <h3 class="slider__quest">¿Quieres ver el resultado?</h3>
+
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <img class="slider__img" src="https://fakeimg.pl/237x184/" alt="recycled materials">
+                <div class="slider__text" >
+                    <h2 class="slider__title">¿Iluminación?</h2>
+                    <p class="slider__description">Deja volar tu imaginación, en Refer podemos iluminar tu casa con objetos que nunca antes hubieras pensado.
+                        <br>Lamparas, muebles y decoración respetuosa con el medio ambiente, original y unica.</p>
+                    <h3 class="slider__quest">¿Quieres ver el resultado?</h3>
+                    
+                </div>
+            </div>    
+            <div class="swiper-slide">
+                <img class="slider__img" src="https://fakeimg.pl/237x184/" alt="recycled materials">
+                <div class="slider__text" >
+                    <h2 class="slider__title">¿Decoración?</h2>
+                    <p class="slider__description">Decora tu casa con objetos que tiene una historia y un valor añadido. 
+                        <br>Lamparas, muebles y decoración respetuosa con el medio ambiente, original y unica.</p>
+                    <h3 class="slider__quest">¿Quieres ver el resultado?</h3>
+            </div>
+        </div>
+         <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+              
+                <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+                <script src="./slider.js"></script>
             
         </div>
     </header>
-    <main>
+    <main class="main__shop">
         <div class="main__text">
             <h1 class="title-page">Nuestros</h1>
             <h3 class="subtitle-page">Productos</h3>
-            <p class="text">Piezas únicas, confeccionadas con el método Upcyling.
-                <br>Decoración con identidad propia.
+            <p class="text">Piezas únicas, confeccionadas con el método Upcyling.Decoración con identidad propia.
             </p>
         </div>
         <div class="main__filter" id="filter__box">

@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-beta",
+  "version": "1.0.0",
+  "description": "En este proyecto se pretende crear un ecommerce para la marca Refer. Se trata de un comercio de muebles y decoración hechos con materiales reciclados, siguiendo el concepto de Upcycling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IreneMonlleo/Proyecto-Beta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IreneMonlleo/Proyecto-Beta/issues"
+  },
+  "homepage": "https://github.com/IreneMonlleo/Proyecto-Beta#readme",
+  "dependencies": {
+    "swiper": "^8.0.7"
+  }
+}
