@@ -50,25 +50,32 @@ Para la localización rápida de archivos sass emplearemos etiquetas en texto co
 Los archivos scss son los encargados de aportar los estilos necesarios a los elementos html, estos se encuentran organizados en la carpeta sass/.
 
 Estructura del repositorio scss/
+
 sass/
 style.scss
+
 utilities/
 _mixins.scss
+
 variable/
 _color-vars.scss
 _space-vars.scss
+
 htmlelements/
 _buttons.scss
 _links.scss
 _slider.scss
 _typography.scss
+
 structure/
 _grid.scss
+
 layout/
 _header.scss
 _main.scss
 _menu.scss
 _footer.scss
+
 site/
 _site.scss
 
