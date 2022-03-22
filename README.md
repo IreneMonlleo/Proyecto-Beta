@@ -17,6 +17,8 @@ El proyecto se ha construido con los siguientes programas:
 -Para el diseño:
 Figma: diseño de wireframes.
 
+https://www.figma.com/file/mbKnHupZjCgBQTrwMay41V/IreneMonlleo-projectalpha?node-id=370%3A48
+
 -Para el desarrollo:
 Visual Studio Code: editor de código fuente.
 Prepos: compilador de archivos.
@@ -51,19 +53,21 @@ Estructura del repositorio scss/
 sass/
 style.scss
 utilities/
-_variables.scss
-_functions.scss
 _mixins.scss
-style/
-_typo.scss
+variable/
+_color-vars.scss
+_space-vars.scss
 htmlelements/
 _buttons.scss
-_tags.scss
+_links.scss
+_slider.scss
+_typography.scss
 structure/
-grid.scss
+_grid.scss
 layout/
 _header.scss
-_navigation.scss
+_main.scss
+_menu.scss
 _footer.scss
 site/
 _site.scss
