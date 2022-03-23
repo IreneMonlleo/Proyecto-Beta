@@ -16,11 +16,12 @@
 .subtitle-page{
     @include special-elite(18px,$color-green);
 }
-.text{
+.text-top{
     @include ralewey (14px,400,$color-greydark);
     text-justify: center;
     width: 70vw;
 }
+
 .newsletter__text{
     @include ralewey (14px,400,$color-white);
     width: 70vw;
@@ -29,12 +30,18 @@
 }
 // ABOUT US//
 
+
+
 .about-us__text{
     @include ralewey (14px,400,$color-white);
-    width: 70vw;
-    padding: $unit*2;
+    width: 70vw; 
 }
 
-.upcycling__title{
+.title{
     @include special-elite (24px, $color-greydark);
+    justify-content: center;
 }
+.text{
+    @include ralewey (14px,400,$color-greydark);
+}
+

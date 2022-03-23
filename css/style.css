@@ -16,7 +16,7 @@
           align-items: center;
 }
 
-.newlwttwe__email {
+.newletter__email {
   width: 50vw;
   padding: 6px;
 }
@@ -93,7 +93,7 @@
   color: #BBEC00;
 }
 
-.text {
+.text-top {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -117,12 +117,21 @@
   font-weight: 400;
   color: #FFFFFF;
   width: 70vw;
-  padding: 12px;
 }
 
-.upcycling__title {
+.title {
   font-family: "Special Elite";
   font-size: 24px;
+  color: #4F4F4F;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   color: #4F4F4F;
 }
 
