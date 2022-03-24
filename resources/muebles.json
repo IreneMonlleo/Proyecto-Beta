@@ -4,14 +4,14 @@
             "id": "1",
             "name": "Rebobina",
             "description": "Webpack vanilla starter seed",
-            "image": "../img/neumatico.png",
+            "image": "resources/img/neumatico.png",
             "price": "50€"
         },
         {
             "id": "2",
             "name": "Esqueleto",
             "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
-            "image": "img/Esqueleto.jpg",
+            "image": "resources/img/Esqueleto.jpg",
             "price": "120€"
         },
 
@@ -19,7 +19,7 @@
             "id": "2",
             "name": "silla caset",
             "description": "Webpack vanilla starter seed",
-            "image": "../img/neumatico.png",
+            "image": "resources/img/neumatico.png",
             "price": "120€"
         }
     ],
@@ -29,14 +29,14 @@
             "id": "01",
             "name": "Can og coffe",
             "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
-            "image": "img/can_of_coffe.jpg",
+            "image": "resources/img/can_of_coffe.jpg",
             "price": "85€"
         },
         {
             "id": "02",
             "name": "Rallando el sol",
             "description": "Webpack vanilla starter seed",
-            "image": "img/Rallando_el_sol.jpg",
+            "image": "resources/img/Rallando_el_sol.jpg",
             "price": "62€"
         },
 
@@ -44,7 +44,7 @@
             "id": "2",
             "name": "silla caset",
             "description": "Webpack vanilla starter seed",
-            "image": "../img/perro.jpg",
+            "image": "resources/img/perro.jpg",
             "price": "120€"
         }
 
