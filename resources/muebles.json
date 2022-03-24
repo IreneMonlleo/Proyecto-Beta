@@ -2,16 +2,16 @@
     "muebles": [
         {
             "id": "1",
-            "name": "silla caset",
+            "name": "Rebobina",
             "description": "Webpack vanilla starter seed",
             "image": "../img/neumatico.png",
-            "price": "120€"
+            "price": "50€"
         },
         {
             "id": "2",
-            "name": "silla caset",
-            "description": "Webpack vanilla starter seed",
-            "image": "../img/neumatico.png",
+            "name": "Esqueleto",
+            "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+            "image": "img/Esqueleto.jpg",
             "price": "120€"
         },
 
@@ -26,18 +26,18 @@
     
     "iluminacion": [
         {
-            "id": "1",
-            "name": "silla caset",
-            "description": "Webpack vanilla starter seed",
-            "image": "../img/perro.jpg",
-            "price": "120€"
+            "id": "01",
+            "name": "Can og coffe",
+            "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
+            "image": "img/can_of_coffe.jpg",
+            "price": "85€"
         },
         {
-            "id": "2",
-            "name": "silla caset",
+            "id": "02",
+            "name": "Rallando el sol",
             "description": "Webpack vanilla starter seed",
-            "image": "../img/perro.jpg",
-            "price": "120€"
+            "image": "img/Rallando_el_sol.jpg",
+            "price": "62€"
         },
 
         {

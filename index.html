@@ -14,11 +14,15 @@
 </head>
 <body>
     <header class="header__home">
+        <picture>
+            <source srcset="logotipos\marca_blanco.webp" media="(min-width:650px)" >
+            <img src="logotipos\logo mobile blanco.png" alt="Marca Refer" style="width:auto;">
+        </picture>
         <nav class="header__menu">
             <a class="header__nav" href="aboutus.html">Sobre nosotros</a>
             <a class="header__nav" href="index.html">Nuestros productos</a>
         </nav>
-    
+        
         
         <!-- Slider main container -->
     <div class="swiper">
@@ -32,9 +36,7 @@
                     <p class="slider__description">Si quieres unos muebles con ritmos, en Refer dejamos volar nuestra imaginación creando muebles con cosas que ni te imaginarias y que le daran un toque especial a tu casa.
                         <br>Lamparas, muebles y decoración respetuosa con el medio ambiente, original y unica.</p>
                     <h3 class="slider__quest">¿Quieres ver el resultado?</h3>
-
                 </div>
-
             </div>
             <div class="swiper-slide">
                 <img class="slider__img" src="./img/materiales_iluminación.webp" alt="recycled materials ">
@@ -55,11 +57,9 @@
                     <h3 class="slider__quest">¿Quieres ver el resultado?</h3>
             </div>
         </div>
+        
          <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-
-        
-        
     </header>
     <main class="main__shop">
         <div class="main__text">
@@ -88,7 +88,7 @@
                 Suscríbete a nuestra newsletter para ponte al día de las últimas novedades, tendencias, consejos y ofertas.
             </p>
             <label class="newletter__email"for="E-mail"> </label>
-            <input type="Email" id="Email" placeholder="Email">
+            <input class="newletter__email"type="Email" id="Email" placeholder="Email">
             <input class="newletter__button" type="submit" value="Unirse">  
 
         </form>

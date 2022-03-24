@@ -34,7 +34,9 @@
 
 .about-us__text{
     @include ralewey (14px,400,$color-white);
-    width: 70vw; 
+    width: 70vw;
+    margin:auto;
+    padding: 12px;
 }
 
 .title{
