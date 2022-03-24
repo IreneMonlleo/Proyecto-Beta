@@ -1,13 +1,19 @@
 //-------------------------> $TYPOGRAFY <----------------------------//
 .slider__title{
     @include special-elite(24,$color-white);
+    text-align: center;
+    margin: $space-small;
 }
 .slider__description{
     @include ralewey(14, 400, $color-white);
     width: 75vw;
+    margin:0px;
+    padding: $unit;
 }
 .slider__quest{
     @include special-elite (18,$color-greydark);
+    margin: $space-small;
+    text-align: center;
 }
 
 .title-page{
@@ -25,7 +31,7 @@
 .newsletter__text{
     @include ralewey (14px,400,$color-white);
     width: 70vw;
-    margin: 24px 12px;
+    margin: $space-medium $space-small;
     
 }
 // ABOUT US//
@@ -42,6 +48,7 @@
 .title{
     @include special-elite (24px, $color-greydark);
     justify-content: center;
+    width: 70vw;
 }
 .text{
     @include ralewey (14px,400,$color-greydark);
