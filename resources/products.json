@@ -1,81 +1,86 @@
 {
-    "furniture": [
-        {
-            "id": "1",
-            "name": "Rebobina",
-            "description": "Webpack vanilla starter seed",
-            "image": "resources/img/neumatico.png",
-            "price": "50€"
-        },
-        {
-            "id": "2",
-            "name": "Esqueleto",
-            "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
-            "image": "resources/img/Esqueleto.jpg",
-            "price": "120€"
-        },
-
-        {
-            "id": "2",
-            "name": "silla caset",
-            "description": "Webpack vanilla starter seed",
-            "image": "resources/img/neumatico.png",
-            "price": "120€"
-        }
-    ],
-    
-    "illuminations": [
-        {
-            "id": "01",
-            "name": "Can og coffe",
-            "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
-            "image": "resources/img/can_of_coffe.jpg",
-            "price": "85€"
-        },
-        {
-            "id": "02",
-            "name": "Rallando el sol",
-            "description": "Webpack vanilla starter seed",
-            "image": "resources/img/Rallando_el_sol.jpg",
-            "price": "62€"
-        },
-
-        {
-            "id": "2",
-            "name": "silla caset",
-            "description": "Webpack vanilla starter seed",
-            "image": "resources/img/perro.jpg",
-            "price": "120€"
-        }
-
-
-    ],
-    "decor" : [
-        {
-            "id": "01",
-            "name": "Can og coffe",
-            "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
-            "image": "resources/img/can_of_coffe.jpg",
-            "price": "85€"
-        },
-        {
-            "id": "02",
-            "name": "Rallando el sol",
-            "description": "Webpack vanilla starter seed",
-            "image": "resources/img/Rallando_el_sol.jpg",
-            "price": "62€"
-        },
-
-        {
-            "id": "2",
-            "name": "silla caset",
-            "description": "Webpack vanilla starter seed",
-            "image": "resources/img/perro.jpg",
-            "price": "120€"
-        }
-    ]
-       
-
-
-    
+    "furniture": {
+        "name": "muebles",
+        "id": "furniture",
+        "classes": "filter furniture",
+        "elements": [
+            {
+                "id": "f1",
+                "name": "Rebobina",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/neumatico.png",
+                "price": "50€"
+            },
+            {
+                "id": "f2",
+                "name": "Esqueleto",
+                "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "image": "resources/img/Esqueleto.jpg",
+                "price": "120€"
+            },
+            {
+                "id": "f3",
+                "name": "silla caset",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/neumatico.png",
+                "price": "120€"
+            }
+        ]
+    },
+    "illumination": {
+        "name": "Iluminación",
+        "id": "illumination",
+        "classes": "filter illumination",
+        "elements": [
+            {
+                "id": "I1",
+                "name": "Can og coffe",
+                "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
+                "image": "resources/img/can_of_coffe.jpg",
+                "price": "85€"
+            },
+            {
+                "id": "i2",
+                "name": "Rallando el sol",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/Rallando_el_sol.jpg",
+                "price": "62€"
+            },
+            {
+                "id": "i3",
+                "name": "silla caset",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/perro.jpg",
+                "price": "120€"
+            }
+        ]
+    },
+    "decor": {
+        "name": "decoración",
+        "id": "decor",
+        "classes": "filter decor",
+        "elements": [
+            {
+                "id": "d1",
+                "name": "Can og coffe",
+                "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
+                "image": "resources/img/can_of_coffe.jpg",
+                "price": "85€"
+            },
+            {
+                "id": "d2",
+                "name": "Rallando el sol",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/Rallando_el_sol.jpg",
+                "price": "62€"
+            },
+            {
+                "id": "d2",
+                "name": "silla caset",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/perro.jpg",
+                "price": "120€"
+            }
+        ]
+    }
 }
