@@ -61,14 +61,14 @@
     .upcycling{
         display:grid;
         grid-template-areas: "section   header "  
-                            "main   header"     
+                             "main      header"     
                             ;
 
     }
     .threeR{
         display:grid;
-        grid-template-areas: "section   header "  
-                            "main   header"     
+        grid-template-areas: "header   section "  
+                            "header   main"     
                             ;
 
     }

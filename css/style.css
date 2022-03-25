@@ -61,13 +61,13 @@ html {
   .upcycling {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "section   header " "main   header";
+        grid-template-areas: "section   header " "main      header";
   }
 
   .threeR {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "section   header " "main   header";
+        grid-template-areas: "header   section " "header   main";
   }
   .about-us__text {
     -ms-grid-row: 1;
@@ -84,7 +84,7 @@ html {
   .threeR > .about-us__text {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
+    -ms-grid-column: 2;
   }
   .about-us__img {
     -ms-grid-row: 1;
@@ -101,7 +101,7 @@ html {
   .threeR > .about-us__img {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
-    -ms-grid-column: 2;
+    -ms-grid-column: 1;
   }
   .upcycling__img {
     -ms-grid-row: 1;
@@ -118,7 +118,7 @@ html {
   .threeR > .upcycling__img {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
-    -ms-grid-column: 2;
+    -ms-grid-column: 1;
   }
 
   .upcycling > .title {
@@ -128,7 +128,7 @@ html {
 
   .threeR > .title {
     -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    -ms-grid-column: 2;
   }
   .text {
     -ms-grid-row: 1;
@@ -145,7 +145,7 @@ html {
   .threeR > .text {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
+    -ms-grid-column: 2;
   }
   .threeR__img {
     -ms-grid-row: 1;
@@ -162,7 +162,7 @@ html {
   .threeR > .threeR__img {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
-    -ms-grid-column: 2;
+    -ms-grid-column: 1;
   }
 }
 .slider__img {

@@ -36,14 +36,14 @@
                 "id": "I1",
                 "name": "Can og coffe",
                 "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
-                "image": "resources/img/Esqueleto.jpg",
+                "image": "resources/img/can_of_coffe.jpg",
                 "price": "85€"
             },
             {
                 "id": "i2",
                 "name": "Rallando el sol",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/can_of_coffe.jpg",
+                "image": "resources/img/Rallando_el_sol.jpg",
                 "price": "62€"
             },
             {
