@@ -26,16 +26,21 @@ function identifyCategory(category, products) {
             elements.push(product);
         });
     } else {
-        elements.push(products[category].elements);
+        products[category].elements.forEach(function (product) {
+            elements.push(product);
+        });
     }
-
     paintElements(elements);
+    console.log(elements);
 }
-
+//pintamos en el html las imagenes//
 function paintElements(elements) {
     let father = document.querySelector('#father--grid');
+    father.innerHTML = ``;
     elements.forEach(function (element) {
-        ´${name.image}
+        console.log(element.image);
+        father.innerHTML = father.innerHTML + `
+        <img src="${element.image}" alt="">`
     })
 }
 

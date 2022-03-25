@@ -8,7 +8,7 @@
                 "id": "f1",
                 "name": "Rebobina",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/neumatico.png",
+                "image": "resources/img/can_of_coffe.jpg",
                 "price": "50€"
             },
             {
@@ -22,7 +22,7 @@
                 "id": "f3",
                 "name": "silla caset",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/neumatico.png",
+                "image": "resources/img/can_of_coffe.jpg",
                 "price": "120€"
             }
         ]
@@ -36,21 +36,21 @@
                 "id": "I1",
                 "name": "Can og coffe",
                 "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
-                "image": "resources/img/can_of_coffe.jpg",
+                "image": "resources/img/Esqueleto.jpg",
                 "price": "85€"
             },
             {
                 "id": "i2",
                 "name": "Rallando el sol",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/Rallando_el_sol.jpg",
+                "image": "resources/img/can_of_coffe.jpg",
                 "price": "62€"
             },
             {
                 "id": "i3",
                 "name": "silla caset",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/perro.jpg",
+                "image": "resources/img/Esqueleto.jpg",
                 "price": "120€"
             }
         ]
@@ -71,14 +71,14 @@
                 "id": "d2",
                 "name": "Rallando el sol",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/Rallando_el_sol.jpg",
+                "image": "resources/img/Esqueleto.jpg",
                 "price": "62€"
             },
             {
                 "id": "d2",
                 "name": "silla caset",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/perro.jpg",
+                "image": "resources/img/can_of_coffe.jpg",
                 "price": "120€"
             }
         ]
