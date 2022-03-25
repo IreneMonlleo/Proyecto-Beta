@@ -1,3 +1,4 @@
+
 fetch('/resources/products.json')
   .then(function(resources) { return resources.json() })
   .then(function(products) {
@@ -5,7 +6,7 @@ fetch('/resources/products.json')
    })
 
    products.forEach(function(product){
-       document.querySelector('.father-grid').innerHTML += `<img>${products.img}</img>`
+       document.querySelector('.father-grid').innerHTML += `<img>${decor.image}`
    })
 
    document.querySelectorAll('.filter').forEach(function(button) {
