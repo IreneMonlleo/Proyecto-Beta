@@ -1,5 +1,5 @@
 {
-    "muebles": [
+    "furniture": [
         {
             "id": "1",
             "name": "Rebobina",
@@ -24,7 +24,7 @@
         }
     ],
     
-    "iluminacion": [
+    "illuminations": [
         {
             "id": "01",
             "name": "Can og coffe",
@@ -49,5 +49,33 @@
         }
 
 
+    ],
+    "decor": [
+        {
+            "id": "01",
+            "name": "Can og coffe",
+            "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
+            "image": "resources/img/can_of_coffe.jpg",
+            "price": "85€"
+        },
+        {
+            "id": "02",
+            "name": "Rallando el sol",
+            "description": "Webpack vanilla starter seed",
+            "image": "resources/img/Rallando_el_sol.jpg",
+            "price": "62€"
+        },
+
+        {
+            "id": "2",
+            "name": "silla caset",
+            "description": "Webpack vanilla starter seed",
+            "image": "resources/img/perro.jpg",
+            "price": "120€"
+        }
     ]
+       
+
+
+    
 }

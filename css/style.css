@@ -42,12 +42,21 @@ html {
   color: #4F4F4F;
 }
 
+.main__filter {
+  text-align: center;
+}
+
 .filter {
   background-color: #FFFFFF;
   color: #BBEC00;
   border-radius: 6px;
   border-color: #BBEC00;
   padding: 6px;
+  width: 84px;
+  height: 31px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .filter:hover {
   background-color: #BBEC00;
