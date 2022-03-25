@@ -49,10 +49,12 @@
 
 .title{
     @include special-elite (24px, $color-greydark);
-    justify-content: center;
-    width: 70vw;
+    text-align: center;
 }
 .text{
     @include ralewey (14px,400,$color-greydark);
 }
 
+br{
+    padding: $space-small;
+}

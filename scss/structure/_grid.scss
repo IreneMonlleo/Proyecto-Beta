@@ -58,5 +58,18 @@
                         ;
     }
         
-    
+    .upcycling{
+        display:grid;
+        grid-template-areas: "section   header "  
+                            "main   header"     
+                            ;
+
+    }
+    .threeR{
+        display:grid;
+        grid-template-areas: "section   header "  
+                            "main   header"     
+                            ;
+
+    }
 }

@@ -57,19 +57,77 @@ html {
     -ms-grid-rows: auto 20px auto;
         grid-template-areas: "header   main " "header   main";
   }
+
+  .upcycling {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "section   header " "main   header";
+  }
+
+  .threeR {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "section   header " "main   header";
+  }
   .about-us__text {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 3;
+  }
+
+  .upcycling > .about-us__text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+
+  .threeR > .about-us__text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
   }
   .about-us__img {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 1;
   }
+
+  .upcycling > .about-us__img {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+  }
+
+  .threeR > .about-us__img {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+  }
   .upcycling__img {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
+    -ms-grid-column: 1;
+  }
+
+  .upcycling > .upcycling__img {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+  }
+
+  .threeR > .upcycling__img {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+  }
+
+  .upcycling > .title {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  .threeR > .title {
+    -ms-grid-row: 1;
     -ms-grid-column: 1;
   }
   .text {
@@ -77,10 +135,34 @@ html {
     -ms-grid-row-span: 3;
     -ms-grid-column: 3;
   }
+
+  .upcycling > .text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
+
+  .threeR > .text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+  }
   .threeR__img {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 1;
+  }
+
+  .upcycling > .threeR__img {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+  }
+
+  .threeR > .threeR__img {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
   }
 }
 .slider__img {
@@ -258,10 +340,7 @@ html {
   font-family: "Special Elite";
   font-size: 24px;
   color: #4F4F4F;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 70vw;
+  text-align: center;
 }
 
 .text {
@@ -269,6 +348,10 @@ html {
   font-size: 14px;
   font-weight: 400;
   color: #4F4F4F;
+}
+
+br {
+  padding: 12px;
 }
 
 .header__home {
