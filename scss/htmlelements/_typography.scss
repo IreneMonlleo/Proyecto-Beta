@@ -44,17 +44,29 @@
 .about-us__text{
     @include ralewey (14px,400,$color-white);
     margin:auto;
-    padding: 12px;
+    padding: $space-mediumbig;
 }
 
 .title{
     @include special-elite (24px, $color-greydark);
     text-align: center;
+    margin-bottom:0px;
 }
 .text{
     @include ralewey (14px,400,$color-greydark);
+    padding:$space-mediumbig;
+    margin:0 auto;
 }
 
 br{
     padding: $space-small;
 }
+.r__title{
+    @include special-elite(14,$color-turquoise);
+    text-align: center;
+    margin:0px;
+}
+.r__container{
+    border-color: $color-green;
+    border-width: $space-mediumbig;
+    }

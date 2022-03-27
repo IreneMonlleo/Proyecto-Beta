@@ -333,7 +333,7 @@ html {
   font-weight: 400;
   color: #FFFFFF;
   margin: auto;
-  padding: 12px;
+  padding: 36px;
 }
 
 .title {
@@ -341,6 +341,7 @@ html {
   font-size: 24px;
   color: #4F4F4F;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .text {
@@ -348,10 +349,25 @@ html {
   font-size: 14px;
   font-weight: 400;
   color: #4F4F4F;
+  padding: 36px;
+  margin: 0 auto;
 }
 
 br {
   padding: 12px;
+}
+
+.r__title {
+  font-family: "Special Elite";
+  font-size: 14;
+  color: #0099A8;
+  text-align: center;
+  margin: 0px;
+}
+
+.r__container {
+  border-color: #BBEC00;
+  border-width: 36px;
 }
 
 .header__home {
