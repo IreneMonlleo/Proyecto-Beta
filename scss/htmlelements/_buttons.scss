@@ -13,8 +13,10 @@
     border-color: $color-green;
     color: $color-green;
     background-color: $color-greydark;
-    width: 50vw;
+    // width: 248px;
+    // width: 100%;
     padding: $unit;
+    margin: $space-small;
 
     &:hover{
         background-color: $color-green;
@@ -22,6 +24,8 @@
     }
      
 }
+
+//FILTER//
 .main__filter{
    text-align: center;
 }
@@ -39,6 +43,15 @@
     &:hover{
         background-color:$color-green ;
         color:$color-white;
+    }
+    
+}
+
+//BREAK//
+@media all and (min-width: 600px){
+    .newsletter__button{
+        width: 100%;
+        margin:$space-medium;
     }
     
 }

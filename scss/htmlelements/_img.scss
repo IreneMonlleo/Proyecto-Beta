@@ -1,8 +1,8 @@
 //------------------> $IMG <--------------------//
-
 //SLIDER//
 .slider__img{
     width:60vw;
+    margin:0 auto;
     
 }
 
@@ -40,4 +40,10 @@
 
 }
 
-@media 
+@media all and (min-width: 600px){
+    .slider__img{
+        width:359px;
+        
+    }
+}
+

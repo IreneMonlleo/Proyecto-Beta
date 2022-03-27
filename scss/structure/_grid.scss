@@ -1,7 +1,62 @@
 //--------------->$GRID<----------------//
 
 //SLIDER//
+.swiper-slide{
+    display:grid;
+    margin: 0 auto;
 
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+
+    grid-template-areas: "header"
+                         "main";
+}
+.slider__img{
+    grid-area: header;
+}
+.slider__text{
+    grid-area: main;
+}
+//FOOTER//
+.footer{
+    display:grid;
+    text-align: center;
+    
+    
+
+    grid-template-columns: 1fr;
+    grid-gap:$space-small;
+
+    grid-template-areas: "header"
+                         "main"
+                         "section"
+                         "footer";
+    &__nav__container{
+        grid-area: header;
+    }
+    &__nav{
+    display:grid;
+
+    grid-template-columns: 1fr;
+    grid-gap:$space-small;
+    }
+}
+
+
+.newsletter{
+    display:grid;
+    grid-area:main;
+    justify-self: center;
+    grid-template-columns: 290,08px;
+    
+}
+.container--right{
+    grid-area:section;
+}
+.legal-pag__container{
+    grid-area:footer;
+}
+                         
 
 
 // ABOUT US//
@@ -48,14 +103,65 @@
 }
 
 @media only screen and (min-width: 800px) {
+    //SLIDER//
+    .swiper-slide{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:$space-medium;
+    
+        grid-template-areas: "main   header "  
+                                  
+                        ;
+    }
+    //FOOTER//
+.footer{
+    text-align: left;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:$space-mediumbig;
+
+    grid-template-areas: "header header"
+                         "main section"
+                         "footer footer";
+    &__nav__container{
+        display:grid;
+        grid-template-columns: 200px 200px;//repeat(2, 1fr);
+        grid-template-areas: "nav1 nav2";
+    }
+    .shop--nav{
+        grid-area: nav1;
+    }
+    .about--nav{
+        grid-area: nav2;
+    }
+}
+
+.newsletter{
+    display: grid;
+    justify-self: start;
+    grid-template-columns: 248px 109px; // repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+    grid-gap:$unit;
+    grid-template-areas: "text text"
+                        "form button";
+    &__text{
+        grid-area: text;
+    }
+    &__email{
+        grid-area: form;
+    }
+    &__button{
+        grid-area: button;        
+    }
+}
+
+    
+    //ABOUT-US//
     .grid {
-        
-          
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
         
         grid-template-areas: "header   main "  
-                             "header   main"     
+                                  
                         ;
     }
         

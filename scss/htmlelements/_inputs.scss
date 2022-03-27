@@ -1,4 +1,13 @@
 .newletter__email{
-    width: 50vw;
-    padding: $unit;
+    // width: 248px;
+    // width: 100%;
+    padding:$unit;
+    margin:$space-small;
+}
+
+//BREAK//
+@media all and (min-width: 600px){
+    .newletter__email{
+        width: 222px;
+    }
 }

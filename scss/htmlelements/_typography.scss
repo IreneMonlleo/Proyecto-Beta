@@ -7,7 +7,7 @@
 .slider__description{
     @include ralewey(14, 400, $color-white);
     width: 75vw;
-    margin:0px;
+    margin:0px auto;
     padding: $unit;
 }
 .slider__quest{
@@ -34,7 +34,6 @@
 .newsletter__text{
     @include ralewey (14px,400,$color-white);
     width: 70vw;
-    margin: $space-medium $space-small;
     
 }
 // ABOUT US//
@@ -69,4 +68,80 @@ br{
 .r__container{
     border-color: $color-green;
     border-width: $space-mediumbig;
-    }
+}
+
+//BREAK//
+@media all and (min-width: 600px){
+        .slider__title{
+            @include special-elite(36,$color-white);
+            text-align: center;
+            margin: $space-small;
+        }
+        .slider__description{
+            @include ralewey(18, 400, $color-white);
+            width: 50vw;
+            margin-left: $space-medium;
+        }
+        .slider__quest{
+            @include special-elite (24,$color-greydark);
+            margin: $space-small;
+            text-align: center;
+        }
+        
+        .title-page{
+            @include ralewey (36px,600,$color-turquoise);
+            margin:0;
+            padding-top:$space-medium; 
+        }
+        .subtitle-page{
+            @include special-elite(18px,$color-green);
+            margin:0;
+        }
+        .text-top{
+            @include ralewey (14px,400,$color-greydark);
+            text-justify: center;
+            width: 70vw;
+        }
+        
+        .newsletter__text{
+            @include ralewey (18px,400,$color-white);
+            width: 100%;
+            justify-self: start;
+            margin-left:$space-small;
+            
+            
+        }
+        // ABOUT US//
+        
+        
+        
+        .about-us__text{
+            @include ralewey (14px,400,$color-white);
+            margin:auto;
+            padding: $space-mediumbig;
+        }
+        
+        .title{
+            @include special-elite (24px, $color-greydark);
+            text-align: center;
+            margin-bottom:0px;
+        }
+        .text{
+            @include ralewey (14px,400,$color-greydark);
+            padding:$space-mediumbig;
+            margin:0 auto;
+        }
+        
+        br{
+            padding: $space-small;
+        }
+        .r__title{
+            @include special-elite(14,$color-turquoise);
+            text-align: center;
+            margin:0px;
+        }
+        .r__container{
+            border-color: $color-green;
+            border-width: $space-mediumbig;
+        }
+ }
