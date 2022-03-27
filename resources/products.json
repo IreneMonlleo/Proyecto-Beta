@@ -7,6 +7,7 @@
             {
                 "id": "f1",
                 "name": "Sillones y meda de bañera",
+                "alt": "sillones y mesa de bañera",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/F__conjunto-comedor.jpg",
                 "price": "165€"
@@ -14,6 +15,7 @@
             {
                 "id": "f2",
                 "name": "Esqueleto",
+                "alt": "silla de perchas",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__esqueleto.jpg",
                 "price": "100€"
@@ -21,6 +23,7 @@
             {
                 "id": "f3",
                 "name": "sillon carretilla",
+                "alt": "sillon carretilla",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/F__carretilla-sillon.jpg",
                 "price": "63€"
@@ -28,6 +31,7 @@
             {
                 "id": "f4",
                 "name": "Mesita patinete",
+                "alt": "Mesita Mono patin",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__mesita-patin.jpg",
                 "price": "50€"
@@ -35,6 +39,7 @@
             {
                 "id": "f5",
                 "name": "Sillon bicicleta",
+                "alt": "Sillon bicicleta",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__silla-bici.jpg",
                 "price": "112€"
@@ -42,6 +47,7 @@
             {
                 "id": "f6",
                 "name": "Mesita perchas",
+                "alt": "mesita perchas",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__mesita-perchas.jpg",
                 "price": "90€"
@@ -49,6 +55,7 @@
             {
                 "id": "f7",
                 "name": "Cama para mascotas",
+                "alt": "Tele cama para mascotas",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__cama_gatos.jpg",
                 "price": "87€"
@@ -56,6 +63,7 @@
             {
                 "id": "f8",
                 "name": "Silla perchas",
+                "alt": "silla de perchas",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__silla-perchas.jpg",
                 "price": "55€"
@@ -63,6 +71,7 @@
             {
                 "id": "f9",
                 "name": "Sillon Maleta",
+                "alt": "sillon maleta",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__sillo-baul.jpg",
                 "price": "120€"
@@ -70,6 +79,7 @@
             {
                 "id": "f10",
                 "name": "Taburetes",
+                "alt": "taburetes de cubos",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__taburetes-cubo.jpg",
                 "price": "30€"
@@ -84,6 +94,7 @@
             {
                 "id": "i1",
                 "name": "Can og coffe",
+                "alt": "Lampara lecho",
                 "description": "Antiguas latas de cafe, convertidas en una magnifica lampara ",
                 "image": "resources/img/I__can-of-coffe.jpg",
                 "price": "100€"
@@ -91,6 +102,7 @@
             {
                 "id": "i2",
                 "name": "Rallando el sol",
+                "alt": "Ralladores lampara techo",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__rallando-e-sol.jpg",
                 "price": "58€"
@@ -98,6 +110,7 @@
             {
                 "id": "i3",
                 "name": "Botellas Jacker",
+                "alt": "botellas jacker lamapara techo",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__botellas.jpg",
                 "price": "135€"
@@ -105,6 +118,7 @@
             {
                 "id": "i4",
                 "name": "Casets",
+                "alt": "lampara casets",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/mg/I__casets.jpg",
                 "price": "35€"
@@ -112,6 +126,7 @@
             {
                 "id": "i5",
                 "name": "Perchas fuera",
+                "alt": "lampara techo perchas",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__exterior-perchas.jpg",
                 "price": "78€"
@@ -119,6 +134,7 @@
             {
                 "id": "i6",
                 "name": "Tuberias",
+                "alt": "lampara pared tuberias",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__tuberias.jpg",
                 "price": "30€"
@@ -126,6 +142,7 @@
             {
                 "id": "i7",
                 "name": "Rueda bici",
+                "alt": "lampara techo rueda bici",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__rueda-bici.jpg",
                 "price": "46€"
@@ -133,6 +150,7 @@
             {
                 "id": "i8",
                 "name": "Perchas huevo",
+                "alt": "lampara techo perchas",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__interior-perchas.jpg",
                 "price": "81€"
@@ -147,6 +165,7 @@
             {
                 "id": "d1",
                 "name": "Corchos Posa vasos",
+                "alt": "corchos posa vasos",
                 "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
                 "image": "resources/img/D__posa-vasos.jpg",
                 "price": "85€"
@@ -154,6 +173,7 @@
             {
                 "id": "d2",
                 "name": "Alfombra de corcho",
+                "alt": "felpudo corcho",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__botasagua.jpg",
                 "price": "62€"
@@ -161,6 +181,7 @@
             {
                 "id": "d3",
                 "name": "Palitos estanterias",
+                "alt": "Estanteria pared",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__decoración-pared.jpg",
                 "price": "10€"
@@ -168,6 +189,7 @@
             {
                 "id": "d4",
                 "name": "escurridores maceteros",
+                "alt": "Macetas de escurridores",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__escurridor-macetas.jpg",
                 "price": "20€"
@@ -175,6 +197,7 @@
             {
                 "id": "d5",
                 "name": "Tambor estanteria",
+                "alt": "estanteria pared de tambor",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__tambor-stanteria.jpg",
                 "price": "63€"
@@ -182,6 +205,7 @@
             {
                 "id": "d6",
                 "name": "Perchas musical",
+                "alt": "percha clavijero guitarra",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__percha-musical.jpg",
                 "price": "50€"
@@ -189,6 +213,7 @@
             {
                 "id": "d7",
                 "name": "Posa belas",
+                "alt": "botes metal posa belas",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__posa-belas.jpg",
                 "price": "10€"
@@ -196,6 +221,7 @@
             {
                 "id": "d8",
                 "name": "Reloj Tambor",
+                "alt": "reloj tambor",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__reloj-tambor.jpg",
                 "price": "80€"
