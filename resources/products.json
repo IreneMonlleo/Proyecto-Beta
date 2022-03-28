@@ -8,7 +8,7 @@
                 "id": "f1",
                 "name": "Sillones y meda de bañera",
                 "alt": "sillones y mesa de bañera",
-                "href": "furniture.html",
+                "href": "/decor.html?section=furniture&product=f1",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/F__conjunto-comedor.jpg",
                 "price": "165€"

@@ -1,47 +1,23 @@
-//llama al json//
-function getJSON() {
-
-    fetch('/resources/products.json')
-        .then(function (resources) {
-            return resources.json();
-        }).then(function (products) {
-            //por defecto al iniciar muestra todo//
-            identifyCategory("all", products);
-            initialFunction(products);
-        })
-}
-
 //recoje los elementos del Json segun la categoria//
 function identifyCategory(category, products) {
-
     let elements = [];
     if (category == "all") {
-        products.furniture.elements.forEach(function (product) {
-            elements.push(product);
-        });
-        products.illumination.elements.forEach(function (product) {
-            elements.push(product);
-        });
-        products.decor.elements.forEach(function (product) {
-            elements.push(product);
-        });
+        elements = getAllProducts(products);
     } else {
-        products[category].elements.forEach(function (product) {
-            elements.push(product);
-        });
+        elmements = getProductByCategory(product, category);
     }
     paintElements(elements);
-    console.log(elements);
 }
+
 //pintamos en el html las imagenes//
 function paintElements(elements) {
     let father = document.querySelector('#father--grid');
     father.innerHTML = ``;
     elements.forEach(function (element) {
-        console.log(element.image);
+        console.log(element, element.href);
         father.innerHTML = father.innerHTML + `
-        <a class="column" href="${element.href}">
-            <img class="product-img" src="${element.image}" alt="${element.alt}">
+        <a class="product-img" href="${element.href}">
+            <img width="100%" src="${element.image}" alt="${element.alt}">
         </a>`
     })
 }
@@ -54,20 +30,33 @@ function initialFunction(products) {
             showCategorie(products, ev.target);
         })
     })
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
 }
 
 //identifica la classe del boton//
 function showCategorie(products, button) {
-
     let category = button.classList[1];
     identifyCategory(category, products);
 }
 
 // iniciar el navegador//
 function init() {
-
     //función de la promesa y sacar el Json//
-    getJSON();
+    getJSON(function(products) {
+        debugger;
+        //por defecto al iniciar muestra todo//
+        identifyCategory("all", products);
+        initialFunction(products);
+    });
 }
 
 window.onload = init();

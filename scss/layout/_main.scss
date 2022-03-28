@@ -5,28 +5,12 @@
     flex-direction: column;
     align-items: center;
 }
-.father-grid{
-    display:flex;
-    flex:1 1 1 1;
-}
 
 //ABOUT US//
-.container__main{
-    position: relative;
-}
 .about-us{
     flex-direction: column;
     background-color: $color-greydark;
     width: 90vw;
-    
-
-    &::before{
-        content: "";
-        position: absolute;
-        top: 40px;
-        bottom: -40px;
-        background-color: $color-green;
-    }
 }
 
 
