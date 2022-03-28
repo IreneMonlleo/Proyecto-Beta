@@ -40,7 +40,7 @@ function paintElements(elements) {
     elements.forEach(function (element) {
         console.log(element.image);
         father.innerHTML = father.innerHTML + `
-        <a href="${element.href}">
+        <a class="column" href="${element.href}">
             <img class="product-img" src="${element.image}" alt="${element.alt}">
         </a>`
     })

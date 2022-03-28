@@ -44,6 +44,9 @@
         background-color:$color-green ;
         color:$color-white;
     }
+    &:checked{
+        background-color: $color-green;
+    }
     
 }
 
