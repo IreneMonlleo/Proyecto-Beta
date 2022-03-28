@@ -649,6 +649,10 @@ body {
   .slider__img {
     width: 359px;
   }
+
+  .upcycling__img {
+    width: 444px;
+  }
 }
 .swiper {
   width: 100%;
@@ -896,7 +900,7 @@ br {
 
   .title-page {
     font-family: "Raleway", sans-serif;
-    font-size: 36px;
+    font-size: 64px;
     font-weight: 600;
     color: #0099A8;
     margin: 0;
@@ -905,18 +909,19 @@ br {
 
   .subtitle-page {
     font-family: "Special Elite";
-    font-size: 18px;
+    font-size: 36px;
     color: #BBEC00;
     margin: 0;
   }
 
   .text-top {
     font-family: "Raleway", sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 400;
     color: #4F4F4F;
-    text-justify: center;
-    width: 70vw;
+    text-align: center;
+    width: 50vw;
+    margin-bottom: 60px;
   }
 
   .newsletter__text {
@@ -941,7 +946,7 @@ br {
 
   .title {
     font-family: "Special Elite";
-    font-size: 24px;
+    font-size: 36px;
     color: #4F4F4F;
     text-align: center;
     margin-bottom: 0px;
@@ -949,7 +954,7 @@ br {
 
   .text {
     font-family: "Raleway", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     color: #4F4F4F;
     padding: 36px;
@@ -1001,6 +1006,17 @@ br {
   width: 90vw;
 }
 
+@media all and (min-width: 600px) {
+  .about-us {
+    width: 70vw;
+  }
+
+  .container__r {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .footer {
   background-color: #4F4F4F;
   width: 100%;

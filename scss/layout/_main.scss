@@ -12,3 +12,20 @@
     background-color: $color-greydark;
     width: 90vw;
 }
+
+
+@media all and (min-width: 600px){
+
+    .about-us{
+        width: 70vw;
+    }
+
+    .container__r{
+        display:flex;
+    }
+
+
+
+}
+
+

@@ -89,18 +89,19 @@ br{
         }
         
         .title-page{
-            @include ralewey (36px,600,$color-turquoise);
+            @include ralewey (64px,600,$color-turquoise);
             margin:0;
             padding-top:$space-medium; 
         }
         .subtitle-page{
-            @include special-elite(18px,$color-green);
+            @include special-elite(36px,$color-green);
             margin:0;
         }
         .text-top{
-            @include ralewey (14px,400,$color-greydark);
-            text-justify: center;
-            width: 70vw;
+            @include ralewey (24px,400,$color-greydark);
+            text-align: center;
+            width: 50vw;
+            margin-bottom: $space-verybig;
         }
         
         .newsletter__text{
@@ -122,12 +123,12 @@ br{
         }
         
         .title{
-            @include special-elite (24px, $color-greydark);
+            @include special-elite (36px, $color-greydark);
             text-align: center;
             margin-bottom:0px;
         }
         .text{
-            @include ralewey (14px,400,$color-greydark);
+            @include ralewey (18px,400,$color-greydark);
             padding:$space-mediumbig;
             margin:0 auto;
         }
