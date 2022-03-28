@@ -63,7 +63,7 @@
 
  .grid {
     display: grid;
-    width: 100%;
+    width: 70vw;
     margin: 0 auto;
     
     grid-template-columns: 1fr;
@@ -73,6 +73,7 @@
                          "section"
                          "main";
                          
+    // justify-content: center;
 }
 .about-us{
     
@@ -83,12 +84,13 @@
         grid-area: header;
 
     }
-        
+    
 }
 .upcycling{
     &__img{
         grid-area: header;
     }
+    
 }
 .title{
     grid-area: section;
@@ -108,9 +110,9 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap:$space-medium;
     
-        grid-template-areas: "main   header "  
-                                  
+        grid-template-areas: "main  header "        
                         ;
+        
     }
     //FOOTER//
 .footer{
@@ -167,6 +169,8 @@
         
     .upcycling{
         display:grid;
+        grid-template-columns: 500px 100px;
+
         grid-template-areas: "section   header "  
                              "main      header"     
                             ;

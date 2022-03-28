@@ -1,5 +1,11 @@
 //--------------------> $MAIN <-------------------------//
 //SHOP//
+.father-grid{
+    display: grid;
+ 
+    grid-template-columns: repeat(2,1fr) ;
+    grid-gap:$unit;
+}
 .main__text{
     display: flex;
     flex-direction: column;
@@ -24,7 +30,12 @@
         display:flex;
     }
 
-
+    .father-grid{
+        display: grid;
+     
+        grid-template-columns: repeat(4,1fr) ;
+        grid-gap:$unit;
+    }
 
 }
 
