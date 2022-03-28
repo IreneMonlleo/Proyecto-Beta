@@ -191,6 +191,8 @@ body {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: main;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .footer > .text {
@@ -844,7 +846,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: #4F4F4F;
-  padding: 36px;
   margin: 0 auto;
 }
 
@@ -950,7 +951,6 @@ br {
     font-size: 18px;
     font-weight: 400;
     color: #4F4F4F;
-    padding: 36px;
     margin: 0 auto;
   }
 

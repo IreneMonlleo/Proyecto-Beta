@@ -72,8 +72,6 @@
     grid-template-areas: "header"
                          "section"
                          "main";
-                         
-    // justify-content: center;
 }
 .about-us{
     
@@ -97,6 +95,8 @@
 }
 .text{
     grid-area: main;
+    // text-align: justify;
+    justify-self: start;
 }
 .threeR{
     &__img{
