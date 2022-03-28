@@ -4,7 +4,7 @@ function identifyCategory(category, products) {
     if (category == "all") {
         elements = getAllProducts(products);
     } else {
-        elmements = getProductByCategory(product, category);
+        elements = getProductByCategory(products, category);
     }
     paintElements(elements);
 }
@@ -52,7 +52,7 @@ function showCategorie(products, button) {
 function init() {
     //función de la promesa y sacar el Json//
     getJSON(function(products) {
-        debugger;
+    
         //por defecto al iniciar muestra todo//
         identifyCategory("all", products);
         initialFunction(products);
