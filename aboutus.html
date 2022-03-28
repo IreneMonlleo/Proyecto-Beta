@@ -22,12 +22,13 @@
         </picture>
     </header>
     <main >
-        <div class="main__text">
-            <h1 class="title-page">Sobre</h1>
-            <h3 class="subtitle-page">Nosotros</h3>
-            <p class="text-top">Somos apasionado del diseño, por lo que personalmente opinamos que diseño y
-                ecología deberían ir siempre ligados.
-            </p>
+            <div class="main__text">
+                <h1 class="title-page">Sobre</h1>
+                <h3 class="subtitle-page">Nosotros</h3>
+                <p class="text-top">Somos apasionado del diseño, por lo que personalmente opinamos que diseño y
+                    ecología deberían ir siempre ligados.
+                </p>
+            </div>
             <article class="grid about-us">
                 <img class="about-us__img" src="resources\img\restaurant-img.webp" alt="restaurant lighting">
                 <p class="about-us__text">Este proyecto nace a raíz de una de las grandes problemáticas que tenemos hoy en día en el mundo, creada por el aumento vertiginoso de residuos perjudiciales para el medio ambiente de las últimas décadas. El objetivo es buscar otras soluciones para reutilizar los residuos existentes y reducir la producción de nuevos.
@@ -64,36 +65,29 @@
                     <p class="text">las partes que no podemos aprovechar de dichos objetos las reciclamos, separándolos y llevándolos a puntos limpios.</p> 
                 </li>
             </ul>
-            <section>	<!-- Slider main container -->
-                <div class="swiper">
-                  <!-- Additional required wrapper -->
-                  <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                  </div>
-                  <!-- If we need pagination -->
-                  <div class="swiper-pagination"></div>
-                
-                  <!-- If we need navigation buttons -->
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-                
-                  <!-- If we need scrollbar -->
-                  <div class="swiper-scrollbar"></div>
-                </div>
-                
+            	<!-- Slider main container -->
+            <section class="swiperAbout mySwiper">
+                    <div class="container__slide">
+                      <div class="about-slide">Slide 1</div>
+                      <div class="about-slide">Slide 2</div>
+                      <div class="about-slide">Slide 3</div>
+                      <div class="about-slide">Slide 4</div>
+                      <div class="about-slide">Slide 5</div>
+                      <div class="about-slide">Slide 6</div>
+                      <div class="about-slide">Slide 7</div>
+                      <div class="about-slide">Slide 8</div>
+                      <div class="about-slide">Slide 9</div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
             </section>
-
+                
      <!----------------FOOTER------------>       
     <footer class="footer">
         <nav class="footer__nav__container">
-            <a href="" class="footer__nav" href="aboutus.html">Sobre Nosotros</a>
-            <a href="" class="footer__nav" href="index.html" >Nuestros productos</a>
+            <a class="footer__nav" href="aboutus.html">Sobre Nosotros</a>
+            <a class="footer__nav" href="index.html" >Nuestros productos</a>
         </nav>
         <form class="newsletter">
             <label class="newsletter__text"for="E-mail">Suscríbete a nuestra newsletter para ponte al día de las últimas novedades, tendencias, consejos y ofertas. </label>
@@ -119,6 +113,7 @@
         </div>
     </footer>
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/slider.js"></script>
 </body>
 </html>

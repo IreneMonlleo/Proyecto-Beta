@@ -2,6 +2,10 @@ html {
   font-size: 100%;
 }
 
+body {
+  margin: 0;
+}
+
 .swiper-slide {
   display: -ms-grid;
   display: grid;
@@ -648,9 +652,44 @@ html {
 }
 .swiper {
   width: 100%;
-  height: 500px;
+  height: 75vh;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.about-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media all and (min-width: 600px) {
+  .swiper {
+    width: 100%;
+    height: 50vh;
+  }
+}
 .newletter__email {
   padding: 6px;
   margin: 12px;

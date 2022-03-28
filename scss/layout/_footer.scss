@@ -10,11 +10,9 @@
         width:99px;
         padding-top:$space-medium;
     }
-    
 }
 
 .newsletter{
-    
     &__email{
     width:100%;
     padding: $space-small;
@@ -42,7 +40,6 @@
         
         &__logo{
             width:171px;
-            
         }
         &__nav__container{
             padding:$space-medium;
@@ -55,26 +52,19 @@
         
     }
     .newsletter{
-        &__text{
-            
-        }
-
         &__email{
         width:100%;
         }
     }
     
     .legal-pag__container{
-        padding: $unit*2;
-        
-        
+        padding: $unit*2; 
     }
     
     .rrss{
         color:$color-white;
         @include icons(1.5em);
-        margin-top: $space-small;
-        
+        margin-top: $space-small; 
     }
 
 }
