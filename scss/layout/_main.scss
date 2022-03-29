@@ -1,10 +1,29 @@
 //--------------------> $MAIN <-------------------------//
 //SHOP//
-.father-grid{
+.table__img {
+    max-width: 100%;
+    display: block;
+  }
+  
+.product-img {
+    margin: 0;
     display: grid;
- 
-    grid-template-columns: repeat(2,1fr) ;
-    grid-gap:$unit;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 10px;
+    break-inside: avoid;
+ }
+  
+.product-img > img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+}
+  
+  
+.father-grid {
+    column-count: 2;
+    column-gap: 10px;
+    margin-left:12px;
+    margin-right:12px;
 }
 .main__text{
     display: flex;
@@ -36,10 +55,7 @@
     }
    
 }
-.upcycling{
-   
-    
-} 
+
     
     
 
@@ -57,11 +73,11 @@
         display:flex;
     }
 
-    .father-grid{
-        display: grid;
-     
-        grid-template-columns: repeat(4,1fr) ;
-        grid-gap:$unit;
+    .father-grid {
+        column-count: 4;
+        column-gap: 10px;
+        margin-left:12px;
+        margin-right:12px;
     }
 
 }

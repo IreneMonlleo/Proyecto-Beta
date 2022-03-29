@@ -17,7 +17,7 @@ function paintElements(elements) {
         console.log(element, element.href);
         father.innerHTML = father.innerHTML + `
         <a class="product-img" href="${element.href}">
-            <img width="100%" src="${element.image}" alt="${element.alt}">
+            <img class="table__img" width="100%" src="${element.image}" alt="${element.alt}">
         </a>`
     })
 }
