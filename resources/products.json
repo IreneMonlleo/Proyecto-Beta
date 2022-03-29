@@ -17,6 +17,7 @@
                 "id": "f2",
                 "name": "Esqueleto",
                 "alt": "silla de perchas",
+                "href": "/decor.html?section=furniture&product=f2",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__esqueleto.jpg",
                 "price": "100€"
@@ -25,6 +26,7 @@
                 "id": "f3",
                 "name": "sillon carretilla",
                 "alt": "sillon carretilla",
+                "href": "/decor.html?section=furniture&product=f3",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/F__carretilla-sillon.jpg",
                 "price": "63€"
@@ -33,6 +35,7 @@
                 "id": "f4",
                 "name": "Mesita patinete",
                 "alt": "Mesita Mono patin",
+                "href": "/decor.html?section=furniture&product=f4",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__mesita-patin.jpg",
                 "price": "50€"
@@ -41,6 +44,7 @@
                 "id": "f5",
                 "name": "Sillon bicicleta",
                 "alt": "Sillon bicicleta",
+                "href": "/decor.html?section=furniture&product=f5",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__silla-bici.jpg",
                 "price": "112€"
@@ -49,6 +53,7 @@
                 "id": "f6",
                 "name": "Mesita perchas",
                 "alt": "mesita perchas",
+                "href": "/decor.html?section=furniture&product=f6",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__mesita-perchas.jpg",
                 "price": "90€"
@@ -57,6 +62,7 @@
                 "id": "f7",
                 "name": "Cama para mascotas",
                 "alt": "Tele cama para mascotas",
+                "href": "/decor.html?section=furniture&product=f7",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__cama_gatos.jpg",
                 "price": "87€"
@@ -65,6 +71,7 @@
                 "id": "f8",
                 "name": "Silla perchas",
                 "alt": "silla de perchas",
+                "href": "/decor.html?section=furniture&product=f8",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__silla-perchas.jpg",
                 "price": "55€"
@@ -73,6 +80,7 @@
                 "id": "f9",
                 "name": "Sillon Maleta",
                 "alt": "sillon maleta",
+                "href": "/decor.html?section=furniture&product=f9",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__sillo-baul.jpg",
                 "price": "120€"
@@ -81,6 +89,7 @@
                 "id": "f10",
                 "name": "Taburetes",
                 "alt": "taburetes de cubos",
+                "href": "/decor.html?section=furniture&product=f10",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "image": "resources/img/F__taburetes-cubo.jpg",
                 "price": "30€"
@@ -96,7 +105,7 @@
                 "id": "i1",
                 "name": "Can og coffe",
                 "alt": "Lampara lecho",
-                "href": "illumination.html",
+                "href": "/decor.html?section=illumination&product=i1",
                 "description": "Antiguas latas de cafe, convertidas en una magnifica lampara ",
                 "image": "resources/img/I__can-of-coffe.jpg",
                 "price": "100€"
@@ -105,6 +114,7 @@
                 "id": "i2",
                 "name": "Rallando el sol",
                 "alt": "Ralladores lampara techo",
+                "href": "/decor.html?section=illumination&product=i2",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__rallando-e-sol.jpg",
                 "price": "58€"
@@ -113,6 +123,7 @@
                 "id": "i3",
                 "name": "Botellas Jacker",
                 "alt": "botellas jacker lamapara techo",
+                "href": "/decor.html?section=illumination&product=i3",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__botellas.jpg",
                 "price": "135€"
@@ -121,6 +132,7 @@
                 "id": "i4",
                 "name": "Casets",
                 "alt": "lampara casets",
+                "href": "/decor.html?section=illumination&product=i4",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__casets.jpg",
                 "price": "35€"
@@ -129,6 +141,7 @@
                 "id": "i5",
                 "name": "Perchas fuera",
                 "alt": "lampara techo perchas",
+                "href": "/decor.html?section=illumination&product=i5",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__exterior-perchas.jpg",
                 "price": "78€"
@@ -137,6 +150,7 @@
                 "id": "i6",
                 "name": "Tuberias",
                 "alt": "lampara pared tuberias",
+                "href": "/decor.html?section=illumination&product=i6",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__tuberias.jpg",
                 "price": "30€"
@@ -145,6 +159,7 @@
                 "id": "i7",
                 "name": "Rueda bici",
                 "alt": "lampara techo rueda bici",
+                "href": "/decor.html?section=illumination&product=i7",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__rueda-bici.jpg",
                 "price": "46€"
@@ -153,6 +168,7 @@
                 "id": "i8",
                 "name": "Perchas huevo",
                 "alt": "lampara techo perchas",
+                "href": "/decor.html?section=illumination&product=i8",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__interior-perchas.jpg",
                 "price": "81€"
@@ -168,6 +184,7 @@
                 "id": "d1",
                 "name": "Corchos Posa vasos",
                 "alt": "corchos posa vasos",
+                "href": "/decor.html?section=decor&product=d1",
                 "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
                 "image": "resources/img/D__posa-vasos.jpg",
                 "price": "85€"
@@ -176,6 +193,7 @@
                 "id": "d2",
                 "name": "Alfombra de corcho",
                 "alt": "felpudo corcho",
+                "href": "/decor.html?section=decor&product=d2",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__botasagua.jpg",
                 "price": "62€"
@@ -184,6 +202,7 @@
                 "id": "d3",
                 "name": "Palitos estanterias",
                 "alt": "Estanteria pared",
+                "href": "/decor.html?section=decor&product=d3",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__decoración-pared.jpg",
                 "price": "10€"
@@ -192,6 +211,7 @@
                 "id": "d4",
                 "name": "escurridores maceteros",
                 "alt": "Macetas de escurridores",
+                "href": "/decor.html?section=decor&product=d4",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__escurridor-macetas.jpg",
                 "price": "20€"
@@ -200,6 +220,7 @@
                 "id": "d5",
                 "name": "Tambor estanteria",
                 "alt": "estanteria pared de tambor",
+                "href": "/decor.html?section=decor&product=d5",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__tambor-stanteria.jpg",
                 "price": "63€"
@@ -207,8 +228,8 @@
             {
                 "id": "d6",
                 "name": "Perchas musical",
-                "href": "decor.html",
                 "alt": "percha clavijero guitarra",
+                "href": "/decor.html?section=decor&product=d6",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__percha-musical.jpg",
                 "price": "50€"
@@ -217,6 +238,7 @@
                 "id": "d7",
                 "name": "Posa belas",
                 "alt": "botes metal posa belas",
+                "href": "/decor.html?section=decor&product=d7",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__posa-belas.jpg",
                 "price": "10€"
@@ -225,6 +247,7 @@
                 "id": "d8",
                 "name": "Reloj Tambor",
                 "alt": "reloj tambor",
+                "href": "/decor.html?section=decor&product=d8",
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/D__reloj-tambor.jpg",
                 "price": "80€"
