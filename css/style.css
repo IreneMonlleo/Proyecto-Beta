@@ -998,6 +998,10 @@ br {
           align-items: center;
 }
 
+.main__about {
+  position: relative;
+}
+
 .about-us {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1005,6 +1009,20 @@ br {
           flex-direction: column;
   background-color: #4F4F4F;
   width: 90vw;
+}
+.about-us::before {
+  content: "";
+  position: absolute;
+  top: 500px;
+  left: 0vw;
+  right: 0px;
+  bottom: 50vh;
+  background-color: #0099A8;
+  z-index: -1;
+}
+
+.r__container {
+  border-color: #BBEC00;
 }
 
 @media all and (min-width: 600px) {

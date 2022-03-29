@@ -12,13 +12,40 @@
     align-items: center;
 }
 
+
+
 //ABOUT US//
+
+.main__about{
+    position: relative;
+}
+
 .about-us{
     flex-direction: column;
     background-color: $color-greydark;
     width: 90vw;
+    &::before {
+        content: "";
+        position: absolute;
+        top:500px;
+        left: 0vw;
+        right: 0px;
+        bottom: 50vh;
+        background-color: $color-turquoise;
+        z-index: -1;
+    }
+   
 }
+.upcycling{
+   
+    
+} 
+    
+    
 
+.r__container{
+    border-color: $color-green;
+}
 
 @media all and (min-width: 600px){
 
