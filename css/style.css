@@ -699,6 +699,7 @@ body {
   border-width: 3px;
   border-radius: 6px;
   border-color: #BBEC00;
+  border-style: solid;
   color: #BBEC00;
   background-color: #4F4F4F;
   padding: 6px;
@@ -715,9 +716,10 @@ body {
 
 .filter {
   background-color: #FFFFFF;
-  color: #BBEC00;
+  color: #0099A8;
   border-radius: 6px;
-  border-color: #BBEC00;
+  border-color: #0099A8;
+  border-style: solid;
   padding: 6px;
   width: 84px;
   height: 31px;
@@ -727,7 +729,8 @@ body {
 }
 .filter:hover {
   background-color: #BBEC00;
-  color: #FFFFFF;
+  border-color: #BBEC00;
+  color: #4F4F4F;
 }
 
 @media all and (min-width: 600px) {
@@ -984,7 +987,7 @@ br {
   display: grid;
   -ms-grid-rows: 1fr auto;
   grid-template-rows: 1fr auto;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   -webkit-column-break-inside: avoid;
      -moz-column-break-inside: avoid;
           break-inside: avoid;
@@ -1000,11 +1003,10 @@ br {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
-  margin-left: 12px;
-  margin-right: 12px;
+  -webkit-column-gap: 6px;
+     -moz-column-gap: 6px;
+          column-gap: 6px;
+  margin: 6vw;
 }
 
 .main__text {
@@ -1043,8 +1045,9 @@ br {
   z-index: -1;
 }
 
-.r__container {
+.r__group {
   border-color: #BBEC00;
+  border-style: solid;
 }
 
 @media all and (min-width: 600px) {
@@ -1062,14 +1065,14 @@ br {
     -webkit-column-count: 4;
        -moz-column-count: 4;
             column-count: 4;
-    -webkit-column-gap: 10px;
-       -moz-column-gap: 10px;
-            column-gap: 10px;
-    margin-left: 12px;
-    margin-right: 12px;
+    -webkit-column-gap: 12px;
+       -moz-column-gap: 12px;
+            column-gap: 12px;
+    margin-left: 12vw;
+    margin-right: 12vw;
   }
 }
-label .menu {
+.menu {
   position: absolute;
   right: -100px;
   top: -100px;
@@ -1085,13 +1088,13 @@ label .menu {
   cursor: pointer;
 }
 
-label .hamburger {
+.hamburger {
   position: absolute;
   top: 135px;
   left: 50px;
   width: 30px;
   height: 2px;
-  background: #69D2e7;
+  background: #0099A8;
   display: block;
   -webkit-transform-origin: center;
   transform-origin: center;
@@ -1099,7 +1102,7 @@ label .hamburger {
   transition: 0.5s ease-in-out;
 }
 
-label .hamburger:after, label .hamburger:before {
+.hamburger:after, .hamburger:before {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   content: "";
@@ -1107,14 +1110,14 @@ label .hamburger:after, label .hamburger:before {
   display: block;
   width: 100%;
   height: 100%;
-  background: #69d2e7;
+  background: #0099A8;
 }
 
-label .hamburger:before {
+.hamburger:before {
   top: -10px;
 }
 
-label .hamburger:after {
+.hamburger:after {
   bottom: -10px;
 }
 
@@ -1164,8 +1167,11 @@ label ul {
 label a {
   margin-bottom: 1em;
   display: block;
-  color: #4F4F4F;
+  color: #0099A8;
   text-decoration: none;
+  font-family: "Special Elite";
+  font-size: 24px;
+  color: #0099A8;
 }
 
 .footer {

@@ -11,6 +11,7 @@
     border-width: 3px;
     border-radius: 6px;
     border-color: $color-green;
+    border-style: solid;
     color: $color-green;
     background-color: $color-greydark;
     // width: 248px;
@@ -31,9 +32,10 @@
 }
 .filter{
     background-color: $color-white;
-    color:$color-green;
+    color:$color-turquoise;
     border-radius: $unit;
-    border-color: $color-green;
+    border-color: $color-turquoise;
+    border-style: solid;
     padding: $unit;
     width: 84px;
     height: 31px;
@@ -42,7 +44,8 @@
 
     &:hover{
         background-color:$color-green ;
-        color:$color-white;
+        border-color:$color-green;
+        color:$color-greydark;
     }
     
 }

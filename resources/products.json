@@ -191,12 +191,12 @@
             },
             {
                 "id": "d2",
-                "name": "Alfombra de corcho",
-                "alt": "felpudo corcho",
-                "href": "/decor.html?section=decor&product=d2",
+                "name": "Reloj Tambor",
+                "alt": "reloj tambor",
+                "href": "/decor.html?section=decor&product=d8",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/D__botasagua.jpg",
-                "price": "62€"
+                "image": "resources/img/D__reloj-tambor.jpg",
+                "price": "80€"
             },
             {
                 "id": "d3",
@@ -209,7 +209,7 @@
             },
             {
                 "id": "d4",
-                "name": "escurridores maceteros",
+                "name": "Escurridores maceteros",
                 "alt": "Macetas de escurridores",
                 "href": "/decor.html?section=decor&product=d4",
                 "description": "Webpack vanilla starter seed",
@@ -245,12 +245,12 @@
             },
             {
                 "id": "d8",
-                "name": "Reloj Tambor",
-                "alt": "reloj tambor",
-                "href": "/decor.html?section=decor&product=d8",
+                "name": "Alfombra de corcho",
+                "alt": "felpudo corcho",
+                "href": "/decor.html?section=decor&product=d2",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/D__reloj-tambor.jpg",
-                "price": "80€"
+                "image": "resources/img/D__botasagua.jpg",
+                "price": "62€"
             }
         ]
     }

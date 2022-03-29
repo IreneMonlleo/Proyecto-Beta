@@ -9,7 +9,7 @@
     margin: 0;
     display: grid;
     grid-template-rows: 1fr auto;
-    margin-bottom: 10px;
+    margin-bottom: $space-small;
     break-inside: avoid;
  }
   
@@ -21,9 +21,8 @@
   
 .father-grid {
     column-count: 2;
-    column-gap: 10px;
-    margin-left:12px;
-    margin-right:12px;
+    column-gap: $unit;
+    margin:6vw;
 }
 .main__text{
     display: flex;
@@ -59,8 +58,9 @@
     
     
 
-.r__container{
+.r__group{
     border-color: $color-green;
+    border-style: solid;
 }
 
 @media all and (min-width: 600px){
@@ -75,9 +75,9 @@
 
     .father-grid {
         column-count: 4;
-        column-gap: 10px;
-        margin-left:12px;
-        margin-right:12px;
+        column-gap: $space-small;
+        margin-left:12vw;
+        margin-right:12vw;
     }
 
 }
