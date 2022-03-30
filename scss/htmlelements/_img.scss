@@ -1,4 +1,11 @@
 //------------------> $IMG <--------------------//
+
+//LOGO HEADER//
+.logo_desktop{
+    margin:$space-small;
+}
+
+
 //SLIDER//
 .slider__img{
     width:60vw;
@@ -35,7 +42,10 @@
         width:359px;
         
     }
-
+    .header__logo{
+        margin: $space-medium;
+    
+    }
 
     //ABOUT US//
     .upcycling__img{
