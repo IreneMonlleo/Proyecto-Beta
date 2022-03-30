@@ -90,7 +90,7 @@ br{
         .title-page{
             @include ralewey (64px,600,$color-turquoise);
             margin:0;
-            padding-top:$space-medium; 
+            padding-top:$unit*24; 
         }
         .subtitle-page{
             @include special-elite(36px,$color-green);
@@ -100,7 +100,7 @@ br{
             @include ralewey (24px,400,$color-greydark);
             text-align: center;
             width: 50vw;
-            margin-bottom: $space-verybig;
+            margin-bottom: $unit*24;
         }
         
         .newsletter__text{

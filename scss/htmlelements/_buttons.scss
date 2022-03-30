@@ -34,19 +34,35 @@
     background-color: $color-white;
     color:$color-turquoise;
     border-radius: $unit;
-    border-color: $color-turquoise;
-    border-style: solid;
+    border:none;
     padding: $unit;
     width: 84px;
     height: 31px;
     align-items: center;
+    box-shadow: 2px 2px 1px $color-greylight;
     
 
     &:hover{
-        background-color:$color-green ;
-        border-color:$color-green;
-        color:$color-greydark;
+        background-color:$color-turquoise ;
+        color:$color-white;
     }
+    //Float BUTTON//
+/*.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}*/
     
 }
 
@@ -56,5 +72,14 @@
         width: 100%;
         margin:$space-medium;
     }
-    
+}
+@media all and (min-width: 800px){
+    .filter{
+        padding: $space-medium;
+        width: 144px;
+        height: 48px;
+        font-size: 18px;
+        
+       
+    }
 }
