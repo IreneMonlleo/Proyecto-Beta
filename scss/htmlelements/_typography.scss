@@ -38,12 +38,19 @@
 }
 // ABOUT US//
 
-
+.about-us{
+    p:last-child{
+        padding-bottom:$space-small;
+    }
+}
 
 .about-us__text{
     @include ralewey (14px,400,$color-white);
     margin:auto;
-    padding: $space-mediumbig;
+    padding-left: $space-mediumbig;
+    padding-right: $space-mediumbig;
+    padding-top:$space-small;
+    
 }
 
 .title{
@@ -54,20 +61,19 @@
 .text{
     @include ralewey (14px,400,$color-greydark);
     margin:0 auto;
+    padding: $space-small;
 }
 
 br{
     padding: $space-small;
 }
-.r__title{
+.Rs__title{
     @include special-elite(14px,$color-turquoise);
     text-align: center;
     margin:0px;
+    padding-top: $space-medium;
 }
-.r__container{
-    border-color: $color-green;
-    border-width: $space-mediumbig;
-}
+
 
 //BREAK//
 @media all and (min-width: 600px){

@@ -63,7 +63,7 @@
 
 // ABOUT US//
 
- .grid {
+ /*.grid {
     display: grid;
     width: 70vw;
     margin: 0 auto;
@@ -104,7 +104,7 @@
     &__img{
         grid-area:header;
     }
-}
+}*/
 
 @media only screen and (min-width: 800px) {
     //SLIDER//
@@ -161,29 +161,29 @@
 
     
     //ABOUT-US//
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
+    // .grid {
+    //     grid-template-columns: repeat(2, 1fr);
+    //     grid-gap: 20px;
         
-        grid-template-areas: "header   main "  
+    //     grid-template-areas: "header   main "  
                                   
-                        ;
-    }
+    //                     ;
+    // }
         
-    .upcycling{
-        display:grid;
-        grid-template-columns: 500px 100px;
+    // .upcycling{
+    //     display:grid;
+    //     grid-template-columns: 500px 100px;
 
-        grid-template-areas: "section   header "  
-                             "main      header"     
-                            ;
+    //     grid-template-areas: "section   header "  
+    //                          "main      header"     
+    //                         ;
 
-    }
-    .threeR{
-        display:grid;
-        grid-template-areas: "header   section "  
-                            "header   main"     
-                            ;
+    // }
+    // .threeR{
+    //     display:grid;
+    //     grid-template-areas: "header   section "  
+    //                         "header   main"     
+    //                         ;
 
-    }
+    // }
 }
