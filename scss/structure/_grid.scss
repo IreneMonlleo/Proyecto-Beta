@@ -3,6 +3,8 @@
 //SLIDER//
 .swiper-slide{
     display:grid;
+    align-content: center;
+    justify-items: center;
     margin: 0 auto;
 
     grid-template-columns: 1fr;
@@ -109,7 +111,8 @@
     .swiper-slide{
         grid-template-columns: repeat(2, 1fr);
         grid-gap:$space-medium;
-    
+        justify-items: center;
+        align-items: center;
         grid-template-areas: "main  header "        
                         ;
         

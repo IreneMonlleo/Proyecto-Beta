@@ -5,13 +5,13 @@
     margin: $space-small;
 }
 .slider__description{
-    @include ralewey(14, 400, $color-white);
+    @include ralewey(14px, 400, $color-white);
     width: 75vw;
     margin:0px auto;
     padding: $unit;
 }
 .slider__quest{
-    @include special-elite (18,$color-greydark);
+    @include special-elite (18px,$color-greydark);
     margin: $space-small;
     text-align: center;
 }
@@ -60,7 +60,7 @@ br{
     padding: $space-small;
 }
 .r__title{
-    @include special-elite(14,$color-turquoise);
+    @include special-elite(14px,$color-turquoise);
     text-align: center;
     margin:0px;
 }
@@ -72,17 +72,17 @@ br{
 //BREAK//
 @media all and (min-width: 600px){
         .slider__title{
-            @include special-elite(36,$color-white);
+            @include special-elite(48px,$color-white);
             text-align: center;
             margin: $space-small;
         }
         .slider__description{
-            @include ralewey(18, 400, $color-white);
-            width: 50vw;
+            @include ralewey(18px, 400, $color-white);
+            width: 30vw;
             margin-left: $space-medium;
         }
         .slider__quest{
-            @include special-elite (24,$color-greydark);
+            @include special-elite (24px,$color-greydark);
             margin: $space-small;
             text-align: center;
         }
