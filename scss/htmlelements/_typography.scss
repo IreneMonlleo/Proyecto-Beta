@@ -27,7 +27,7 @@
 }
 .text-top{
     @include ralewey (14px,400,$color-greydark);
-    text-justify: center;
+    text-align: center;
     width: 70vw;
 }
 
@@ -98,8 +98,6 @@ br{
         }
         .text-top{
             @include ralewey (24px,400,$color-greydark);
-            text-align: center;
-            width: 50vw;
             margin-bottom: $unit*24;
         }
         
@@ -143,4 +141,10 @@ br{
             border-color: $color-green;
             border-width: $space-mediumbig;
         }
- }
+}
+
+ @media all and (min-width: 800px){
+     .text-top{
+        width: 40vw;
+     }
+}

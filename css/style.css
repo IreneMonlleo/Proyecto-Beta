@@ -851,7 +851,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: #4F4F4F;
-  text-justify: center;
+  text-align: center;
   width: 70vw;
 }
 
@@ -952,8 +952,6 @@ br {
     font-size: 24px;
     font-weight: 400;
     color: #4F4F4F;
-    text-align: center;
-    width: 50vw;
     margin-bottom: 144px;
   }
 
@@ -1010,12 +1008,22 @@ br {
     border-width: 36px;
   }
 }
+@media all and (min-width: 800px) {
+  .text-top {
+    width: 40vw;
+  }
+}
 .header__home {
   background-color: #0099A8;
   width: 100%;
-  height: 70vh;
+  height: 90vh;
 }
 
+@media only screen and (min-width: 800px) {
+  .header__home {
+    height: 40vw;
+  }
+}
 .table__img {
   max-width: 100%;
   display: block;
