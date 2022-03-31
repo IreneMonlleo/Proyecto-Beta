@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-.swiper-slide {
+.slider__home {
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: center;
@@ -141,7 +141,7 @@ body {
     }
 }*/
 @media only screen and (min-width: 800px) {
-  .swiper-slide {
+  .slider__home {
     -ms-grid-columns: 1fr 24px 1fr;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
@@ -821,15 +821,32 @@ br {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 
   .upcycling {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+
+  .threeR {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 
   .Rs {

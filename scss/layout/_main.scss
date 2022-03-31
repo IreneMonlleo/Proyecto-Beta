@@ -98,14 +98,22 @@
 
 .about-us{
     display:flex;
-    flex-direction:row-reverse ;
+    flex-direction: row;
+    
 }   
 .upcycling{
     display:flex;
+    flex-direction:row-reverse ;
 } 
+.threeR{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
     
 .Rs{
     display:flex;
+    
     padding: 0px;
     margin: $space-medium;
     &__group{
