@@ -1,19 +1,22 @@
 //-------------------------> $TYPOGRAFY <----------------------------//
-.slider__title{
-    @include special-elite(24,$color-white);
-    text-align: center;
-    margin: $space-small;
-}
-.slider__description{
-    @include ralewey(14px, 400, $color-white);
-    width: 75vw;
-    margin:0px auto;
-    padding: $unit;
-}
-.slider__quest{
-    @include special-elite (18px,$color-greydark);
-    margin: $space-small;
-    text-align: center;
+.slider{
+    &__title--home{
+        @include special-elite(24,$color-white);
+        text-align: center;
+        margin: $space-small;
+    }
+    &__description{
+        @include ralewey(14px, 400, $color-white);
+        width: 75vw;
+        margin:0px auto;
+        padding: $unit;
+    }
+    &__quest{
+        @include special-elite (18px,$color-greydark);
+        margin: $space-small;
+        text-align: center;
+    }
+    
 }
 
 .title-page{
@@ -29,6 +32,14 @@
     @include ralewey (14px,400,$color-greydark);
     text-align: center;
     width: 70vw;
+}
+.final-claim{
+    @include special-elite (24px,$color-greydark);
+    margin:$space-mediumbig;
+    &::before{
+        content: "";
+        background-color: $color-greylight;
+    }
 }
 
 .newsletter__text{
@@ -63,24 +74,38 @@
     margin:0 auto;
     padding: $space-small;
 }
-
-br{
-    padding: $space-small;
-}
 .Rs__title{
     @include special-elite(14px,$color-turquoise);
     text-align: center;
     margin:0px;
     padding-top: $space-medium;
 }
+.title__slider{
+    @include special-elite(18px,$color-turquoise);
+    justify-content: left;
+}
+
+//PAGE PRODUCT//
+.products{
+    &--name{
+        @include special-elite (24px,$color-greydark);
+        
+    }
+    &--price{
+        @include ralewey (18px, 600,$color-greydark);
+        flex:1fr;
+    }
+    &--description{
+        @include ralewey (14px, 400,$color-greydark);
+    }
+}
+
 
 
 //BREAK//
 @media all and (min-width: 600px){
         .slider__title{
             @include special-elite(48px,$color-white);
-            text-align: center;
-            margin: $space-small;
         }
         .slider__description{
             @include ralewey(18px, 400, $color-white);
@@ -89,18 +114,14 @@ br{
         }
         .slider__quest{
             @include special-elite (24px,$color-greydark);
-            margin: $space-small;
-            text-align: center;
         }
         
         .title-page{
             @include ralewey (64px,600,$color-turquoise);
-            margin:0;
             padding-top:$unit*24; 
         }
         .subtitle-page{
             @include special-elite(36px,$color-green);
-            margin:0;
         }
         .text-top{
             @include ralewey (24px,400,$color-greydark);
@@ -121,36 +142,22 @@ br{
         
         .about-us__text{
             @include ralewey (14px,400,$color-white);
-            margin:auto;
-            padding: $space-mediumbig;
         }
         
         .title{
             @include special-elite (36px, $color-greydark);
-            text-align: center;
-            margin-bottom:0px;
         }
         .text{
             @include ralewey (18px,400,$color-greydark);
-            margin:0 auto;
         }
-        
-        br{
-            padding: $space-small;
-        }
-        .r__title{
-            @include special-elite(14,$color-turquoise);
-            text-align: center;
-            margin:0px;
-        }
-        .r__container{
-            border-color: $color-green;
-            border-width: $space-mediumbig;
+        .about-slider__title{
+            @include special-elite(24px,$color-turquoise);
+            margin-left: $space-mediumbig;
         }
 }
 
- @media all and (min-width: 800px){
+@media all and (min-width: 800px){
      .text-top{
         width: 40vw;
-     }
+    }
 }

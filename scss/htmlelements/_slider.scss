@@ -10,25 +10,37 @@
 
 //ABOUT US//
 .swiperAbout .mySwiper {
-    width: 50%;
-    height: 50%;
-  }
-
-  .container__slider {
-    text-align: center;
-  
-  }
-  .container__slider div {
-    display: block;
-    flex-basis: 33%;
+  margin-top: 30px;
+  padding: 0px 0px;
+  overflow: hidden;
+  width: 88%;
+  z-index: 0;
+}
+.container__slider{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+  .swiper-slide {
+    flex-shrink: 0;
+    width: 365px;
     height: 100%;
-    object-fit:cover;
+    position: relative;
+    transition-property: transform;
+  }
+  .about__slider__img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+ 
 
-   
-  }
-  .slider__about{
-    
-  }
+  
 
 
 @media all and (min-width: 600px){

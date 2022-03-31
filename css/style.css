@@ -308,6 +308,11 @@ body {
   padding: 24px;
 }
 
+.products--image {
+  width: 200px;
+  margin-top: 60px;
+}
+
 @media all and (min-width: 600px) {
   .slider__img {
     width: 359px;
@@ -338,21 +343,48 @@ body {
 }
 
 .swiperAbout .mySwiper {
-  width: 50%;
-  height: 50%;
+  margin-top: 30px;
+  padding: 0px 0px;
+  overflow: hidden;
+  width: 88%;
+  z-index: 0;
 }
 
 .container__slider {
-  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
-.container__slider div {
-  display: block;
-  -ms-flex-preferred-size: 33%;
-      flex-basis: 33%;
+.swiper-slide {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 365px;
   height: 100%;
+  position: relative;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.about__slider__img {
+  width: 100%;
+  height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 
 @media all and (min-width: 600px) {
@@ -374,15 +406,15 @@ body {
 .newletter__button {
   border-width: 3px;
   border-radius: 6px;
-  border-color: #BBEC00;
+  border-color: #c0d000;
   border-style: solid;
-  color: #BBEC00;
+  color: #c0d000;
   background-color: #4F4F4F;
   padding: 6px;
   margin: 12px;
 }
 .newletter__button:hover {
-  background-color: #BBEC00;
+  background-color: #c0d000;
   color: #4F4F4F;
 }
 
@@ -401,8 +433,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 2px 2px 1px #F2F2F2;
-          box-shadow: 2px 2px 1px #F2F2F2;
+  -webkit-box-shadow: 2px 2px 1px #E6E9E9;
+          box-shadow: 2px 2px 1px #E6E9E9;
   /*.float{
   	position:fixed;
   	width:60px;
@@ -470,17 +502,16 @@ body {
   color: #FFFFFF;
 }
 .legal-pag:hover {
-  color: #BBEC00;
+  color: #c0d000;
 }
 
-.slider__title {
+.slider__title--home {
   font-family: "Special Elite";
   font-size: 24;
   color: #FFFFFF;
   text-align: center;
   margin: 12px;
 }
-
 .slider__description {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -490,7 +521,6 @@ body {
   margin: 0px auto;
   padding: 6px;
 }
-
 .slider__quest {
   font-family: "Special Elite";
   font-size: 18px;
@@ -511,7 +541,7 @@ body {
 .subtitle-page {
   font-family: "Special Elite";
   font-size: 18px;
-  color: #BBEC00;
+  color: #c0d000;
   margin: 0;
 }
 
@@ -522,6 +552,17 @@ body {
   color: #4F4F4F;
   text-align: center;
   width: 70vw;
+}
+
+.final-claim {
+  font-family: "Special Elite";
+  font-size: 24px;
+  color: #4F4F4F;
+  margin: 36px;
+}
+.final-claim::before {
+  content: "";
+  background-color: #E6E9E9;
 }
 
 .newsletter__text {
@@ -564,10 +605,6 @@ body {
   padding: 12px;
 }
 
-br {
-  padding: 12px;
-}
-
 .Rs__title {
   font-family: "Special Elite";
   font-size: 14px;
@@ -577,13 +614,41 @@ br {
   padding-top: 24px;
 }
 
+.title__slider {
+  font-family: "Special Elite";
+  font-size: 18px;
+  color: #0099A8;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.products--name {
+  font-family: "Special Elite";
+  font-size: 24px;
+  color: #4F4F4F;
+}
+.products--price {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4F4F4F;
+  -webkit-box-flex: 1fr;
+      -ms-flex: 1fr;
+          flex: 1fr;
+}
+.products--description {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+
 @media all and (min-width: 600px) {
   .slider__title {
     font-family: "Special Elite";
     font-size: 48px;
     color: #FFFFFF;
-    text-align: center;
-    margin: 12px;
   }
 
   .slider__description {
@@ -599,8 +664,6 @@ br {
     font-family: "Special Elite";
     font-size: 24px;
     color: #4F4F4F;
-    margin: 12px;
-    text-align: center;
   }
 
   .title-page {
@@ -608,15 +671,13 @@ br {
     font-size: 64px;
     font-weight: 600;
     color: #0099A8;
-    margin: 0;
     padding-top: 144px;
   }
 
   .subtitle-page {
     font-family: "Special Elite";
     font-size: 36px;
-    color: #BBEC00;
-    margin: 0;
+    color: #c0d000;
   }
 
   .text-top {
@@ -643,16 +704,12 @@ br {
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
-    margin: auto;
-    padding: 36px;
   }
 
   .title {
     font-family: "Special Elite";
     font-size: 36px;
     color: #4F4F4F;
-    text-align: center;
-    margin-bottom: 0px;
   }
 
   .text {
@@ -660,24 +717,13 @@ br {
     font-size: 18px;
     font-weight: 400;
     color: #4F4F4F;
-    margin: 0 auto;
   }
 
-  br {
-    padding: 12px;
-  }
-
-  .r__title {
+  .about-slider__title {
     font-family: "Special Elite";
-    font-size: 14;
+    font-size: 24px;
     color: #0099A8;
-    text-align: center;
-    margin: 0px;
-  }
-
-  .r__container {
-    border-color: #BBEC00;
-    border-width: 36px;
+    margin-left: 36px;
   }
 }
 @media all and (min-width: 800px) {
@@ -744,6 +790,12 @@ br {
           align-items: center;
 }
 
+.container__final-claim {
+  background-color: #E6E9E9;
+  width: 100%;
+  height: 200px;
+}
+
 .main__about {
   position: relative;
   display: -webkit-box;
@@ -786,10 +838,34 @@ br {
   margin: 24px;
 }
 .Rs__group {
-  border-color: #BBEC00;
+  border-color: #c0d000;
   border-style: solid;
   margin-bottom: 24px;
   text-align: center;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 90vh;
+  width: 50vw;
+}
+.products--text {
+  background-color: #0099A8;
+  position: absolute;
+  top: 50vh;
+  width: 326px;
+  height: 326px;
+  left: 40px;
 }
 
 @media all and (min-width: 600px) {
@@ -857,7 +933,7 @@ br {
     margin: 24px;
   }
   .Rs__group {
-    border-color: #BBEC00;
+    border-color: #c0d000;
     border-style: solid;
     margin-bottom: 24px;
     text-align: center;
@@ -981,7 +1057,7 @@ label a {
 .newsletter__email {
   width: 100%;
   padding: 12px;
-  color: #F2F2F2;
+  color: #E6E9E9;
 }
 
 .legal-pag__container {

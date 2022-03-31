@@ -38,6 +38,15 @@
 
 }
 
+
+//PAGE-PRODUCT//
+
+.products--image{
+    width: 200px;
+    margin-top: $space-verybig;
+   
+}
+
 @media all and (min-width: 600px){
     .slider__img{
         width:359px;

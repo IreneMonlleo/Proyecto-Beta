@@ -32,7 +32,11 @@
     align-items: center;
 }
 
-
+.container__final-claim{
+    background-color: $color-greylight;
+    width: 100%;
+    height: 200px;
+}
 
 //ABOUT US//
 
@@ -74,6 +78,27 @@
     }
 }
 
+
+
+//PAGE PRODUCT//
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+    width: 50vw;
+
+    &--text{
+        background-color: $color-turquoise;
+        position: absolute;
+        top: 50vh;
+        width: 326px;
+        height: 326px;
+        left: 40px;
+    }
+}
 
 @media all and (min-width: 600px){
 

@@ -30,24 +30,32 @@
 
     </header>
     <!------------------ MAIN --------------------->
-    <main>
-        <div class="products">
+    <main class="products" >
+        <section class="products--image__container">
             <img src="" class="products--image"></img>
-            <h2 class="products--name">Title</h1>
+        </section> 
+        <h2 class="products--name">Title</h1>
+        <section class="products--text"></div>
             <h3 class="products--price">Subtitle</h3>
             <p class="products--description">blablabla</p>
-        </div>
+        </section>
+        
     </main>
     <section class="products__slider">
         <!-- Slider main container -->
-        <h3 class="title__slider">¡Visita Nuestros Productos!</h3>
+        
         <div class="swiperAbout mySwiper swiper">
+                <h3 class="title__slider">Recomendados</h3>
                 <div class="container__slide swiper-wrapper">
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
         </div>
+    </section>
+    <section class="container__final-claim">
+        <h2 class="final-claim">¡Con nuestros productos contribuyes a crear un mundo mejor!
+        </h2>
     </section>
     <!--------------Footer---------------------->
     <footer class="footer">
@@ -90,22 +98,7 @@
     </footer>
     <!-------------------------JS--------------------------------->
     <script src="js/commons.js"></script>
-    <script>
-        const params = new URLSearchParams(window.location.search);
-        const section = params.get('section');
-        const productId = params.get('product');
-
-        getJSON(function(products) {
-          const category = products[params.get('section')];
-          const product = category.elements.find(function(product) { return product.id === productId; });
-          console.log(product);
-          document.querySelector('.products--name').textContent = product.name;
-          document.querySelector('.products--description').textContent = product.description;
-          document.querySelector('.products--image').src = product.image;
-          document.querySelector('.products--price').src = product.image;
-        })
-
-    </script>
+    <script src="js/decor.js"></script>
 
 </body>
 </html>
