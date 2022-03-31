@@ -558,11 +558,6 @@ body {
   font-family: "Special Elite";
   font-size: 24px;
   color: #4F4F4F;
-  margin: 36px;
-}
-.final-claim::before {
-  content: "";
-  background-color: #E6E9E9;
 }
 
 .newsletter__text {
@@ -792,8 +787,9 @@ body {
 
 .container__final-claim {
   background-color: #E6E9E9;
+  text-align: center;
+  padding: 30px 15px 25px 15px;
   width: 100%;
-  height: 200px;
 }
 
 .main__about {

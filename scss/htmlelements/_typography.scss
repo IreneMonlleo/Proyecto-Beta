@@ -35,12 +35,8 @@
 }
 .final-claim{
     @include special-elite (24px,$color-greydark);
-    margin:$space-mediumbig;
-    &::before{
-        content: "";
-        background-color: $color-greylight;
     }
-}
+
 
 .newsletter__text{
     @include ralewey (14px,400,$color-white);
