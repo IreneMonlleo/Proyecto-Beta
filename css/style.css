@@ -337,12 +337,12 @@ body {
   --swiper-pagination-color: white;
 }
 
-.swiper {
+.swiper__home {
   width: 100%;
   height: 75vh;
 }
 
-.swiperAbout .mySwiper {
+.mySwiper {
   margin-top: 30px;
   padding: 0px 0px;
   overflow: hidden;
@@ -350,7 +350,7 @@ body {
   z-index: 0;
 }
 
-.container__slider {
+.container__slide {
   position: relative;
   width: 100%;
   height: 100%;
@@ -366,16 +366,16 @@ body {
           box-sizing: content-box;
 }
 
-.swiper-slide {
+.slider__about {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 365px;
-  height: 100%;
   position: relative;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
+  text-align: center;
 }
 
 .about__slider__img {
@@ -388,9 +388,22 @@ body {
 }
 
 @media all and (min-width: 600px) {
-  .swiper {
-    width: 100%;
+  .swiper__home {
+    width: 95%;
     height: 50vh;
+  }
+
+  .swiperAbout {
+    max-width: 80%;
+  }
+
+  .about__slider__img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: bottom;
+       object-position: bottom;
   }
 }
 .newletter__email {
