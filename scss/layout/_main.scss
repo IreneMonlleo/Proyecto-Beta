@@ -163,24 +163,39 @@
 }   
 .upcycling{
     display:flex;
-    flex-direction:row-reverse ;
+    flex-direction:row ;
 } 
 .threeR{
     display:flex;
-    flex-direction: row;
+    max-width:1070px;
     align-items: flex-end;
-}
+    &__container--text{
+        margin-right: $space-verybig
+    }
+    &__container--img{
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 180px;
+            left: 200px;
+            right: -35vw;
+            bottom: -30vh;
+            background-color: $color-greylight;
+            z-index: -1;
+        }
+    }
+}    
     
 .Rs{
-    display:flex;
-    
     padding: 0px;
-    margin: $space-medium;
+    margin:0px;
+    
+
     &__group{
-        border-color: $color-green;
-        border-style: solid;
-        margin-bottom:$space-medium ;
-        text-align: center;
+        display: flex;
+        
+      
     }
 }
 }

@@ -298,6 +298,7 @@ body {
 
 .upcycling__img {
   width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -306,9 +307,6 @@ body {
   margin: 0 auto;
   padding: 24px;
   padding-top: 60px;
-}
-.threeR__img::before {
-  background-color: #E6E9E9;
 }
 
 .products--image {
@@ -334,6 +332,11 @@ body {
     margin: 24px;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+  }
+
+  .threeR__img {
+    width: 472px;
+    padding-left: 0px;
   }
 }
 :root {
@@ -614,6 +617,14 @@ body {
   padding: 12px;
 }
 
+.threeR__title {
+  font-family: "Special Elite";
+  font-size: 24px;
+  color: #c0d000;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
 .Rs__title {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
@@ -721,7 +732,7 @@ body {
   .title {
     font-family: "Special Elite";
     font-size: 36px;
-    color: #4F4F4F;
+    color: #c0d000;
   }
 
   .text {
@@ -741,6 +752,17 @@ body {
 @media all and (min-width: 800px) {
   .text-top {
     width: 40vw;
+  }
+
+  .threeR__title {
+    font-family: "Special Elite";
+    font-size: 36px;
+    color: #c0d000;
+    padding: 12px;
+    text-align: left;
+  }
+  .threeR__text {
+    width: 472px;
   }
 }
 .header__home {
@@ -938,36 +960,45 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 
   .threeR {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    max-width: 1070px;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
   }
+  .threeR__container--text {
+    margin-right: 60px;
+  }
+  .threeR__container--img {
+    position: relative;
+  }
+  .threeR__container--img::before {
+    content: "";
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    right: -35vw;
+    bottom: -30vh;
+    background-color: #E6E9E9;
+    z-index: -1;
+  }
 
   .Rs {
+    padding: 0px;
+    margin: 0px;
+  }
+  .Rs__group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0px;
-    margin: 24px;
-  }
-  .Rs__group {
-    border-color: #c0d000;
-    border-style: solid;
-    margin-bottom: 24px;
-    text-align: center;
   }
 }
 .menu {
