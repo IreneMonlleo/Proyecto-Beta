@@ -297,9 +297,8 @@ body {
 }
 
 .upcycling__img {
-  width: 344px;
+  width: 100%;
   margin: 0 auto;
-  padding: 24px;
 }
 
 .threeR__img {
@@ -580,7 +579,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #4F4F4F;
   margin: auto;
   padding-left: 36px;
   padding-right: 36px;
@@ -590,9 +589,16 @@ body {
 .title {
   font-family: "Special Elite";
   font-size: 24px;
-  color: #4F4F4F;
+  color: #c0d000;
   text-align: center;
   margin-bottom: 0px;
+}
+
+.upcycling__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
 .text {
@@ -605,8 +611,9 @@ body {
 }
 
 .Rs__title {
-  font-family: "Special Elite";
-  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
   color: #0099A8;
   text-align: center;
   margin: 0px;
@@ -704,7 +711,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #4F4F4F;
   }
 
   .title {
@@ -817,20 +824,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #4F4F4F;
   width: 90vw;
 }
-.about-us::before {
-  content: "";
-  position: absolute;
-  top: 500px;
-  left: 0vw;
-  right: 0px;
-  bottom: 270vh;
-  background-color: #0099A8;
-  z-index: -1;
-}
 
+.upcycling {
+  background-color: #4F4F4F;
+}
 .upcycling__text {
   margin: 36px;
 }

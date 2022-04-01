@@ -10,9 +10,16 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__menu">
-            <a class="header__nav" href="aboutus.html">Sobre nosotros</a>
-            <a class="header__nav" href="index.html">Nuestros productos</a>
+        <nav role='navigation' id="mobile-nav">
+            <label>
+                <input type="checkbox">
+                <span class=" turquoise__menu"> <span class="turquoise__hamburger"></span> </span>
+                <ul style="list-style: none">
+                  <li> <a href="index.html">Nuestros productos</a> </li>
+                  <li> <a href="aboutus.html">Sobre nosotros</a> </li>
+                  <li> <a href="#">Contact</a> </li>
+                </ul>
+                </label>
         </nav>
     </header>
     <!----------- MAIN ---------->
@@ -30,51 +37,53 @@
                     ecología deberían ir siempre ligados.
                 </p>
             </div>
-            <article class="grid about-us">
-                <img class="about-us__img" src="resources\img\restaurant-img.webp" alt="restaurant lighting">
-                <div class="about-us__container-text">
-                    <p class="about-us__text">Este proyecto nace a raíz de una de las grandes problemáticas que tenemos hoy en día en el mundo, creada por el aumento vertiginoso de residuos perjudiciales para el medio ambiente de las últimas décadas. El objetivo es buscar otras soluciones para reutilizar los residuos existentes y reducir la producción de nuevos.
+            <article class="about-us">
+                <div class="about-us__text">
+                    <p class="text">Este proyecto nace a raíz de una de las grandes problemáticas que tenemos hoy en día en el mundo, creada por el aumento vertiginoso de residuos perjudiciales para el medio ambiente de las últimas décadas. El objetivo es buscar otras soluciones para reutilizar los residuos existentes y reducir la producción de nuevos.
                     </p>
-                    <p class="about-us__text"> La filosofía de la empresa consiste en dar otra vida a los residuos de forma creativa, convirtiéndolos en objetos de valor a través de la unión entre diseño y ecología.
+                    <p class="text"> La filosofía de la empresa consiste en dar otra vida a los residuos de forma creativa, convirtiéndolos en objetos de valor a través de la unión entre diseño y ecología.
                     </p>
-                    <p class="about-us__text"> Por lo que ofrecemos un producto exclusivo y único, ya que está creado mediante la descontextualización de materiales en desuso. Dándole una nueva funcionalidad, por lo que no puede haber dos piezas iguales, cada una de nuestras piezas son únicas e irrepetibles.
+                    <p class="text"> Por lo que ofrecemos un producto exclusivo y único, ya que está creado mediante la descontextualización de materiales en desuso. Dándole una nueva funcionalidad, por lo que no puede haber dos piezas iguales, cada una de nuestras piezas son únicas e irrepetibles.
                     </p>
                 </div>
-                </article>
-            <article class="grid upcycling">
-                <img class="upcycling__img" src="resources/img/lampara_material.jpg" alt="pipes lamps">
-                <div class="upcycling__text">
+                
+                
+            </article>
+            <article class="upcycling">
+                <div>
+                    <img class="upcycling__img" src="resources\img\restaurant-img.webp" alt="restaurant lighting">
+                </div>
+                <div class="upcycling__container__text">
                     <h2 class="title">Upcycling</h2>
-                    <p class="text">El Upcycling es un término acuñado recientemente, también conocido como supra-reciclaje, que consiste en aprovechar materiales reciclables para crear productos que tienen un mayor valor que el que tenía el material original. O, lo que es lo mismo: transformar residuos en objetos de valor, dándoles de este modo una nueva función utilitaria.
-                    </p><p class="text">No solo es una corriente interesante, es una corriente necesaria, ya que reduce la necesidad de nuevas materias primas para crear nuevos productos. Además, si nos evitamos el proceso de transformar estas materias primas en otros materiales (como, por ejemplo, sucede con el plástico y el cristal, entre otros) se ahorran los costes de producción y la energía que se dedicaría a ello, lo que hoy en día es una de las principales causas de contaminación.
-                    </p><p class="text">Las crecientes tendencias de utilizar materiales sostenibles están teniendo una gran aceptación entre el público. No es de extrañar, ya que el consumidor final no solo encuentra el producto atractivo por su valor diferenciador, sino que además cuenta con el valor añadido de estar contribuyendo con el bienestar del planeta y dando una segunda vida a un material que probablemente, si no, no la tendría. Es como adquirir un producto que tiene una gran historia detrás, aunque su nueva vida acabe de comenzar.
+                    <p class="upcycling__text">El Upcycling es un término acuñado recientemente, también conocido como supra-reciclaje, que consiste en aprovechar materiales reciclables para crear productos que tienen un mayor valor que el que tenía el material original. O, lo que es lo mismo: transformar residuos en objetos de valor, dándoles de este modo una nueva función utilitaria.
+                    </p><p class="upcycling__text">No solo es una corriente interesante, es una corriente necesaria, ya que reduce la necesidad de nuevas materias primas para crear nuevos productos. Además, si nos evitamos el proceso de transformar estas materias primas en otros materiales (como, por ejemplo, sucede con el plástico y el cristal, entre otros) se ahorran los costes de producción y la energía que se dedicaría a ello, lo que hoy en día es una de las principales causas de contaminación.
+                    </p><p class="upcycling__text">Las crecientes tendencias de utilizar materiales sostenibles están teniendo una gran aceptación entre el público. No es de extrañar, ya que el consumidor final no solo encuentra el producto atractivo por su valor diferenciador, sino que además cuenta con el valor añadido de estar contribuyendo con el bienestar del planeta y dando una segunda vida a un material que probablemente, si no, no la tendría. Es como adquirir un producto que tiene una gran historia detrás, aunque su nueva vida acabe de comenzar.
                     </p>
                 </div>
             </article>
-            <article class="grid threeR">
-                <img class="threeR__img" src="resources/img/paso_a_paso.jpg" alt="construction process">
+            <article class="threeR">
+                <img class="threeR__img" src="resources\img\lampara_material.jpg" alt="construction process">
                 <div class="threeR__text">
                     <h2 class="title">Las 3R's</h2>
                     <p class="text"> Es una regla para cuidar el medio ambiente, específicamente para reducir el volumen de residuos o basura generada. Para nosotros es muy importante cumplir con esto, por lo que nuestra marca y productos están basado en estas tres reglas.
                     </p>
                 </div>
-                
-
+                <ul class="Rs" style="list-style: none">
+                    <li class="Rs__group">
+                        <h3 class="Rs__title">Reducir</h3>
+                        <p class="text">Con nuestros productos pretendemos reducir la utilización de materias primas para crear objetos nuevos.</p>
+                    </li>
+                    <li class="Rs__group">
+                        <h3 class="Rs__title">Reutilizar</h3>
+                        <p class="text">Esta es la base principal de nuestra marca. Reutilizamos objetos en desuso, dándoles una segunda vida útil, sacancolos de su contexto y ofreciéndoles otra función utilitaria.</p>
+                    </li>
+                    <li class="Rs__group">
+                        <h3 class="Rs__title">Reciclar</h3>
+                        <p class="text">las partes que no podemos aprovechar de dichos objetos las reciclamos, separándolos y llevándolos a puntos limpios.</p>
+                    </li>
+                </ul>
             </article>
-            <ul class="Rs" style="list-style: none">
-                <li class="Rs__group">
-                    <h3 class="Rs__title">Reducir</h3>
-                    <p class="text">Con nuestros productos pretendemos reducir la utilización de materias primas para crear objetos nuevos.</p>
-                </li>
-                <li class="Rs__group">
-                    <h3 class="Rs__title">Reutilizar</h3>
-                    <p class="text">Esta es la base principal de nuestra marca. Reutilizamos objetos en desuso, dándoles una segunda vida útil, sacancolos de su contexto y ofreciéndoles otra función utilitaria.</p>
-                </li>
-                <li class="Rs__group">
-                    <h3 class="Rs__title">Reciclar</h3>
-                    <p class="text">las partes que no podemos aprovechar de dichos objetos las reciclamos, separándolos y llevándolos a puntos limpios.</p>
-                </li>
-            </ul>
+            
             	<!-- Slider main container -->
            
             <section class="swiperAbout mySwiper swiper" >                

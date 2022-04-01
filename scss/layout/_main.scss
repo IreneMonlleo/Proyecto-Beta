@@ -50,23 +50,18 @@
 
 .about-us{
     flex-direction: column;
-    background-color: $color-greydark;
     width: 90vw;
-    &::before {
-        content: "";
-        position: absolute;
-        top:500px;
-        left: 0vw;
-        right: 0px;
-        bottom: 270vh;
-        background-color: $color-turquoise;
-        z-index: -1;
-    }
    
-}  
-.upcycling__text{
-    margin:$space-mediumbig;
-}  
+   
+}
+
+.upcycling{
+    background-color: $color-greydark;
+    &__text{
+        margin:$space-mediumbig;
+    }  
+}
+
     
 .Rs{
     padding: 0px;
