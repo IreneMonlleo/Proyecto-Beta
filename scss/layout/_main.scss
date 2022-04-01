@@ -82,22 +82,42 @@
 
 
 //PAGE PRODUCT//
-
+// .productsText{
+//     background-color: $color-turquoise;
+//     position: absolute;
+//     top: 50vh;
+//     width: 326px;
+//     height: 326px;
+//     left: 40px;
+// }
 .products{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     height: 90vh;
-    width: 50vw;
 
     &--text{
         background-color: $color-turquoise;
-        position: absolute;
+        // position: absolute;
         top: 50vh;
         width: 326px;
         height: 326px;
         left: 40px;
+        z-index: -1;
+
+        // &::after{
+        //     content:"Hello world1";
+        //     background-color: $color-turquoise;
+        //     width: 326px;
+        //     height: 326px;
+        // }
+        // &::before{
+        //     content: "";
+            // background-color: $color-turquoise;
+            // width: 326px;
+            // height: 326px;
+        // }
     }
 }
 
