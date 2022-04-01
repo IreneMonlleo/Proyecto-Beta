@@ -292,10 +292,6 @@ body {
   padding: 0 4px;
 }
 
-.about-us__img {
-  width: 100%;
-}
-
 .upcycling__img {
   width: 100%;
   height: 100%;
@@ -324,7 +320,7 @@ body {
   }
 
   .upcycling__img {
-    width: 444px;
+    width: 50vw;
   }
 
   .about__slider__img {
@@ -764,6 +760,10 @@ body {
   .threeR__text {
     width: 472px;
   }
+
+  .Rs__title {
+    padding-top: 0px;
+  }
 }
 .header__home {
   background-color: #0099A8;
@@ -999,6 +999,16 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .Rs__arrow {
+    width: 1em;
+    height: 1em;
+    font-size: 6em;
+    margin: 0 auto;
   }
 }
 .menu {

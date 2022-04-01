@@ -194,8 +194,12 @@
 
     &__group{
         display: flex;
-        
+        flex-direction: row;
       
+    }
+    &__arrow{
+        @include icons (6em);
+        margin:0 auto;
     }
 }
 }
