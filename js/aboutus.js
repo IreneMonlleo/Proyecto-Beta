@@ -1,7 +1,7 @@
 function paintElements(elements) {
   let container = document.querySelector('.container__slide');
   elements.forEach(function (element) {
-      console.log(element.image);
+     // console.log(element.image);
       container.innerHTML = container.innerHTML + `
         <a class="swiper-slide slider__about" style="width: 200px; margin-right: 12px;" href="${element.href}">
           <img class="about__slider__img" src="${element.image}" alt="${element.alt}">
