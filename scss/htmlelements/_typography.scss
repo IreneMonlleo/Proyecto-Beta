@@ -76,9 +76,9 @@
 }
 .Rs__title{
     @include ralewey(24px,600,$color-turquoise);
-    text-align: center;
     margin:0px;
     padding-top: $space-medium;
+    padding-left: $space-small;
 }
 .title__slider{
     @include special-elite(18px,$color-turquoise);

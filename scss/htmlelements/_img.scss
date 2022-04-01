@@ -31,10 +31,14 @@
     margin: 0 auto;
 }
 .threeR__img{
-    width: 344px;
+    width: 240px;
     margin: 0 auto;
     padding: $space-medium;
+    padding-top: $space-verybig;
 
+    &::before{
+        background-color: $color-greylight;
+    }
 }
 
 

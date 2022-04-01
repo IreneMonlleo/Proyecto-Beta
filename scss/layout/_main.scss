@@ -62,13 +62,34 @@
     }  
 }
 
-    
+.threeR{
+    max-width: 260px;
+    &__container--img{
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 150px;
+            left: 128px;
+            right: -150vw;
+            bottom: -140vh;
+            background-color: $color-greylight;
+            z-index: -1;
+        }
+    }
+}    
 .Rs{
+    
     padding: 0px;
     margin: $space-medium;
     &__group{
-        margin-bottom:$space-medium ;
-       
+        display: flex;
+        flex-direction: column;
+        margin-bottom:$space-medium ; 
+    }
+    &__arrow{
+        @include icons (3em);
+        margin:0 auto;
     }
 }
 
