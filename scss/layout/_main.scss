@@ -89,8 +89,9 @@
         margin-bottom:$space-medium ; 
     }
     &__arrow{
-        font-size: 3em;
+        @include icons (3em);
         margin:0 auto;
+        
     }
 }
 
@@ -201,9 +202,14 @@
         flex-direction: row;
     }
     &__arrow{
-        font-size:6em;
+        font-size:8em;
         margin:0 auto;
+        &--2{
+            font-size: 15em;
+            
+        }
     }
+    
 }
 }
 

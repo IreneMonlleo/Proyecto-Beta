@@ -867,6 +867,8 @@ body {
   margin-bottom: 24px;
 }
 .Rs__arrow {
+  width: 1em;
+  height: 1em;
   font-size: 3em;
   margin: 0 auto;
 }
@@ -996,8 +998,11 @@ body {
             flex-direction: row;
   }
   .Rs__arrow {
-    font-size: 6em;
+    font-size: 8em;
     margin: 0 auto;
+  }
+  .Rs__arrow--2 {
+    font-size: 15em;
   }
 }
 .menu {
