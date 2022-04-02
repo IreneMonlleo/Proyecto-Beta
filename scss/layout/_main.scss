@@ -3,7 +3,7 @@
 .table__img {
     max-width: 100%;
     display: block;
-  }
+}
   
 .product-img {
     margin: 0;
@@ -11,7 +11,7 @@
     grid-template-rows: 1fr auto;
     margin-bottom: $space-small;
     break-inside: avoid;
- }
+}
   
 .product-img > img {
     grid-row: 1 / -1;
@@ -57,6 +57,7 @@
 
 .upcycling{
     background-color: $color-greydark;
+    
     &__text{
         margin:$space-mediumbig;
     }  
@@ -88,7 +89,7 @@
         margin-bottom:$space-medium ; 
     }
     &__arrow{
-        @include icons (3em);
+        font-size: 3em;
         margin:0 auto;
     }
 }
@@ -96,43 +97,32 @@
 
 
 //PAGE PRODUCT//
-// .productsText{
-//     background-color: $color-turquoise;
-//     position: absolute;
-//     top: 50vh;
-//     width: 326px;
-//     height: 326px;
-//     left: 40px;
-// }
+
 .products{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     height: 90vh;
-
     &--text{
-        background-color: $color-turquoise;
-        // position: absolute;
-        top: 50vh;
-        width: 326px;
-        height: 326px;
-        left: 40px;
-        z-index: -1;
-
-        // &::after{
-        //     content:"Hello world1";
-        //     background-color: $color-turquoise;
-        //     width: 326px;
-        //     height: 326px;
-        // }
-        // &::before{
-        //     content: "";
-            // background-color: $color-turquoise;
-            // width: 326px;
-            // height: 326px;
-        // }
+        
+        &--background{
+            position: relative;
+            &::before{
+                content: "";
+                background-color: $color-turquoise;
+                position: absolute;
+                height: 30vh;
+                width: 100%;
+                // left:10vw;
+                // right: -30vw;
+                z-index: -1;
+            }
+            
+        }
     }
+
+    
 }
 
 @media all and (min-width: 600px){
@@ -142,10 +132,27 @@
     }
 
     .father-grid {
-        column-count: 4;
+        column-count: 3;
         column-gap: $space-small;
         margin-left:12vw;
         margin-right:12vw;
+    }
+    .products{
+        display:flex;
+        flex-direction: row;
+        &--text--background{
+            &::before{
+                content: "";
+                background-color: $color-turquoise;
+                position: absolute;
+                height: 30vh;
+                width: 100%;
+                // left:10vw;
+                // right: -30vw;
+                z-index: -1;
+            }
+
+        }
     }
 
 }
@@ -190,16 +197,11 @@
 .Rs{
     padding: 0px;
     margin:0px;
-    
-    
-
     &__group{
-        display: flex;
         flex-direction: row;
-      
     }
     &__arrow{
-        @include icons (6em);
+        font-size:6em;
         margin:0 auto;
     }
 }

@@ -14,15 +14,9 @@
     color: $color;
 }
 
-// RRSS //
+// SVG //
 @mixin icons ($font-size){
     width: 1em;
     height: 1em;
     font-size: $font-size;
-}
-
-
-// GRID//
-@mixin grid (){
-    
 }

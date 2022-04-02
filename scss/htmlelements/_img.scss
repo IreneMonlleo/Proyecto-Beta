@@ -27,6 +27,7 @@
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    background-image: url("resources/img/restaurant-img.webp");
 }
 .threeR__img{
     width: 240px;
@@ -39,7 +40,8 @@
 //PAGE-PRODUCT//
 
 .products--image{
-    width: 200px;
+
+    width: 70vw;
     margin-top: $space-verybig;
    
 }
@@ -67,6 +69,10 @@
     .threeR__img{
         width: 472px;
         padding-left: 0px;
+    }
+
+    .products--image{
+        width:530px ;
     }
 }
 

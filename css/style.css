@@ -296,6 +296,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  background-image: url("resources/img/restaurant-img.webp");
 }
 
 .threeR__img {
@@ -306,7 +307,7 @@ body {
 }
 
 .products--image {
-  width: 200px;
+  width: 70vw;
   margin-top: 60px;
 }
 
@@ -333,6 +334,10 @@ body {
   .threeR__img {
     width: 472px;
     padding-left: 0px;
+  }
+
+  .products--image {
+    width: 530px;
   }
 }
 :root {
@@ -382,11 +387,11 @@ body {
 
 .about__slider__img {
   width: 100%;
-  height: 200px;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
-  -o-object-position: bottom;
-     object-position: bottom;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 @media all and (min-width: 600px) {
@@ -650,9 +655,6 @@ body {
   font-size: 18px;
   font-weight: 600;
   color: #FFFFFF;
-  -webkit-box-flex: 1fr;
-      -ms-flex: 1fr;
-          flex: 1fr;
   margin-left: 18px;
 }
 .products--description {
@@ -665,53 +667,35 @@ body {
 
 @media all and (min-width: 600px) {
   .slider__title {
-    font-family: "Special Elite";
     font-size: 48px;
-    color: #FFFFFF;
   }
 
   .slider__description {
-    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
     width: 30vw;
     margin-left: 24px;
   }
 
   .slider__quest {
-    font-family: "Special Elite";
     font-size: 24px;
-    color: #4F4F4F;
   }
 
   .title-page {
-    font-family: "Raleway", sans-serif;
     font-size: 64px;
-    font-weight: 600;
-    color: #0099A8;
     padding-top: 144px;
   }
 
   .subtitle-page {
-    font-family: "Special Elite";
     font-size: 36px;
-    color: #c0d000;
   }
 
   .text-top {
-    font-family: "Raleway", sans-serif;
     font-size: 24px;
-    font-weight: 400;
-    color: #4F4F4F;
     margin-bottom: 144px;
   }
 
   .newsletter__text {
-    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
     width: 100%;
     -ms-grid-column-align: start;
         justify-self: start;
@@ -719,29 +703,19 @@ body {
   }
 
   .about-us__text {
-    font-family: "Raleway", sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    color: #4F4F4F;
   }
 
   .title {
-    font-family: "Special Elite";
     font-size: 36px;
-    color: #c0d000;
   }
 
   .text {
-    font-family: "Raleway", sans-serif;
     font-size: 18px;
-    font-weight: 400;
-    color: #4F4F4F;
   }
 
   .about-slider__title {
-    font-family: "Special Elite";
     font-size: 24px;
-    color: #0099A8;
     margin-left: 36px;
   }
 }
@@ -750,10 +724,12 @@ body {
     width: 40vw;
   }
 
+  .final-claim {
+    font-size: 48px;
+  }
+
   .threeR__title {
-    font-family: "Special Elite";
     font-size: 36px;
-    color: #c0d000;
     padding: 12px;
     text-align: left;
   }
@@ -768,7 +744,6 @@ body {
 .header__home {
   background-color: #0099A8;
   width: 100%;
-  height: 90vh;
 }
 
 @media only screen and (min-width: 800px) {
@@ -892,8 +867,6 @@ body {
   margin-bottom: 24px;
 }
 .Rs__arrow {
-  width: 1em;
-  height: 1em;
   font-size: 3em;
   margin: 0 auto;
 }
@@ -912,12 +885,15 @@ body {
   position: relative;
   height: 90vh;
 }
-.products--text {
+.products--text--background {
+  position: relative;
+}
+.products--text--background::before {
+  content: "";
   background-color: #0099A8;
-  top: 50vh;
-  width: 326px;
-  height: 326px;
-  left: 40px;
+  position: absolute;
+  height: 30vh;
+  width: 100%;
   z-index: -1;
 }
 
@@ -927,14 +903,32 @@ body {
   }
 
   .father-grid {
-    -webkit-column-count: 4;
-       -moz-column-count: 4;
-            column-count: 4;
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
     -webkit-column-gap: 12px;
        -moz-column-gap: 12px;
             column-gap: 12px;
     margin-left: 12vw;
     margin-right: 12vw;
+  }
+
+  .products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .products--text--background::before {
+    content: "";
+    background-color: #0099A8;
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    z-index: -1;
   }
 }
 @media all and (min-width: 800px) {
@@ -996,17 +990,12 @@ body {
     margin: 0px;
   }
   .Rs__group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
   .Rs__arrow {
-    width: 1em;
-    height: 1em;
     font-size: 6em;
     margin: 0 auto;
   }
