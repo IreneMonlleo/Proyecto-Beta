@@ -414,12 +414,19 @@ body {
     width: 222px;
   }
 }
-.newletter__button {
+.button--main {
   border-width: 3px;
   border-radius: 6px;
   border-color: #c0d000;
   border-style: solid;
   color: #c0d000;
+}
+.button--main:hover {
+  background-color: #c0d000;
+  color: #4F4F4F;
+}
+
+.newletter__button {
   background-color: #4F4F4F;
   padding: 6px;
   margin: 12px;
@@ -466,6 +473,24 @@ body {
 .filter:hover {
   background-color: #0099A8;
   color: #FFFFFF;
+}
+
+.products__button {
+  background-color: #0099A8;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px;
+  margin: 12px;
+  width: 60vw;
+  text-align: center;
+}
+.products__button:hover {
+  background-color: #c0d000;
+  color: #4F4F4F;
+}
+.products__button:hover {
+  background-color: #c0d000;
+  color: #4F4F4F;
 }
 
 @media all and (min-width: 600px) {
@@ -648,21 +673,20 @@ body {
 .products--name {
   font-family: "Special Elite";
   font-size: 24px;
-  color: #4F4F4F;
+  color: #0099A8;
 }
 .products--price {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   color: #FFFFFF;
-  margin-left: 18px;
+  padding-top: 24px;
 }
 .products--description {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #FFFFFF;
-  margin-left: 18px;
 }
 
 @media all and (min-width: 600px) {
@@ -884,19 +908,29 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   height: 90vh;
 }
-.products--text--background {
-  position: relative;
-}
-.products--text--background::before {
+.products__text--background::before {
   content: "";
   background-color: #0099A8;
   position: absolute;
-  height: 30vh;
+  height: 50vh;
   width: 100%;
   z-index: -1;
+}
+
+.prueba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 300px;
 }
 
 @media all and (min-width: 600px) {
@@ -916,17 +950,15 @@ body {
   }
 
   .products {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
-  .products--text--background::before {
-    content: "";
-    background-color: #0099A8;
+  .products__text--background::before {
     position: absolute;
     height: 30vh;
     width: 100%;

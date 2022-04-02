@@ -16,7 +16,7 @@
         <img src="resources\logotipos\logo_mobile.png" alt="Logotipo Refer" style="width:auto;">
     </picture>
     <!--menu -->
-    <nav role='navigation' id="mobile-nav">
+    <!-- <nav role='navigation' id="mobile-nav">
         <label>
             <input type="checkbox">
             <span class=" turquoise__menu"> <span class="turquoise__hamburger"></span> </span>
@@ -26,7 +26,7 @@
               <li> <a href="#">Contact</a> </li>
             </ul>
             </label>
-    </nav>
+    </nav> -->
 
     </header>
     <!------------------ MAIN --------------------->
@@ -35,25 +35,31 @@
             <img src="" class="products--image"></img>
         </section>
         
-        <section class="products--text">
+        <section class="products__text">
             <h2 class="products--name">Title</h1>
-            <div class="products--text--background">
-                <h3 class="products--price">Subtitle</h3>
-                <p class="products--description">blablabla</p>
-            </div>        
+                
+            <div class="products__text--background">
+                <div class="prueba">
+                    <h3 class="products--price">Subtitle</h3>
+                    <p class="products--description">blablabla</p>
+                    <button class="button--main products__button">Comprar</button>
+                </div>
+                
+            </div>
+
         </section>
     </main>
     <section class="products__slider">
         <!-- Slider main container -->
         
-        <div class="swiperAbout mySwiper swiper">
-                <h3 class="title__slider">Recomendados</h3>
-                <div class="container__slide swiper-wrapper">
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-        </div>
+        <section class="swiperAbout mySwiper swiper" >                
+            <h3 class="title__slider">Relacionados</h3>
+                 <div class="container__slide swiper-wrapper">
+                 </div>
+                 <div class="swiper-button-next"></div>
+                 <div class="swiper-button-prev"></div>
+                 <div class="swiper-pagination"></div>
+         </section>
     </section>
     <section class="container__final-claim">
         <h2 class="final-claim">¡Con nuestros productos contribuyes a crear un mundo mejor!
@@ -68,7 +74,7 @@
         <form class="newsletter">
             <label class="newsletter__text"for="E-mail">Suscríbete a nuestra newsletter para ponte al día de las últimas novedades, tendencias, consejos y ofertas. </label>
             <input class="newletter__email"type="Email" id="Email" placeholder="Email">
-            <input class="newletter__button" type="submit" value="Unirse">
+            <input class="newletter__button button--main" type="submit" value="Unirse">
 
         </form>
         <div class="container--right">

@@ -3,19 +3,22 @@
 //button call to action in slider//
 
 
-
-
-
-
-.newletter__button{
+.button--main{
     border-width: 3px;
     border-radius: 6px;
     border-color: $color-green;
     border-style: solid;
     color: $color-green;
+    &:hover{
+        background-color: $color-green;
+        color: $color-greydark;
+    }
+}
+
+
+
+.newletter__button{
     background-color: $color-greydark;
-    // width: 248px;
-    // width: 100%;
     padding: $unit;
     margin: $space-small;
 
@@ -41,7 +44,6 @@
     align-items: center;
     box-shadow: 2px 2px 1px $color-greylight;
     
-
     &:hover{
         background-color:$color-turquoise ;
         color:$color-white;
@@ -64,6 +66,29 @@
 	margin-top:22px;
 }*/
     
+}
+
+
+//PRODUCTS//
+.products__button{
+    background-color: $color-turquoise;
+    font-weight: 600;
+    font-size: 18px;
+    padding: $space-small;
+    margin: $space-small;
+    width: 60vw;
+    text-align: center;
+
+    &:hover{
+        background-color: $color-green;
+        color: $color-greydark;
+    }
+    
+
+    &:hover{
+        background-color: $color-green;
+        color: $color-greydark;
+    }
 }
 
 //BREAK//

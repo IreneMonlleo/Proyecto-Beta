@@ -94,16 +94,21 @@
 //PAGE PRODUCT//
 .products{
     &--name{
-        @include special-elite (24px,$color-greydark);
+        @include special-elite (24px,$color-turquoise);
+        
         
     }
     &--price{
-        @include ralewey (18px,600,$color-white);
-        margin-left: 18px;
+        @include ralewey (24px,600,$color-white);
+        padding-top: $space-medium;
+       
+        
+        
     }
     &--description{
         @include ralewey (14px,400,$color-white);
-        margin-left: 18px;
+      
+        
     }
 }
 
