@@ -40,7 +40,7 @@ const params = new URLSearchParams(window.location.search);
           var swiper = new Swiper(".swiper", {
             slidesPerView: 3,
             spaceBetween: 15,
-            slidesPerGroup: 3,
+            slidesPerGroup: 4,
             loop: true,
             loopFillGroupWithBlank: true,
             pagination: {
