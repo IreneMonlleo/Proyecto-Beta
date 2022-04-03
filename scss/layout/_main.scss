@@ -50,20 +50,21 @@
 
 .about-us{
     flex-direction: column;
-    width: 90vw;
+    width: 80vw;
+    margin-top: $space-verybig;
+    margin-bottom: $space-verybig;
+    
    
    
 }
 
 .upcycling{
     background-color: $color-greydark;
-    
-    &__text{
-        margin:$space-mediumbig;
-    }  
+    width: 90vw; 
 }
 
 .threeR{
+    width: 80vw;
     &__container--img{
         position: relative;
         &::before {
@@ -72,7 +73,7 @@
             top: 150px;
             left: 128px;
             right: -150vw;
-            bottom: -140vh;
+            bottom: -130vh;
             background-color: $color-greylight;
             z-index: -1;
         }
@@ -110,8 +111,10 @@
                 content: "";
                 background-color: $color-turquoise;
                 position: absolute;
-                 height: 50vh;
-                 width: 100%;
+                top: 150px;
+                left: 128px;
+                right: -150vw;
+                bottom: -78vh;
                 z-index: -1;
             }
             
@@ -168,17 +171,23 @@
 .about-us{
     display:flex;
     flex-direction: row;
-    
+    margin-bottom: $space-medium*6;
+    max-width: 1070px;
 }   
 .upcycling{
     display:flex;
     flex-direction:row ;
+    width: 1070px;
+    
     
 } 
 .threeR{
     display:flex;
     align-items: flex-end;
-    
+    margin-top: $space-medium*6;
+    margin-bottom: $space-medium*6;
+    width: 1070px;
+
     &__container--text{
         margin-right: $space-verybig
     }
@@ -202,6 +211,7 @@
     margin:0px;
     &__group{
         flex-direction: row;
+        margin-left: $space-verybig;
     }
     &__arrow{
         font-size:8em;

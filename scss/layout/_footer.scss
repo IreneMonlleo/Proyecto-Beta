@@ -43,22 +43,24 @@
         }
         &__nav__container{
             padding:$space-medium;
-            
+            margin-left: $space-medium*6;
         }
         
     }
     .container--right{
         text-align: center;
-        
+       
     }
     .newsletter{
+        margin-left: $space-medium*6;
         &__email{
         width:100%;
         }
     }
     
     .legal-pag__container{
-        padding: $unit*2; 
+        padding: $unit*2;
+        margin-left: $space-medium*6; 
     }
     
     .rrss{

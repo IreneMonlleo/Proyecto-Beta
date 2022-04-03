@@ -34,7 +34,9 @@
     width: 70vw;
 }
 .final-claim{
-    @include special-elite (24px,$color-greydark);
+    @include special-elite (18px,$color-greydark);
+    width: 70vw;
+    margin:0 auto;
 }
 
 
@@ -49,24 +51,28 @@
     p:last-child{
         padding-bottom:$space-small;
     }
-}
-
-.about-us__text{
-    @include ralewey (14px,400,$color-greydark);
-    margin:auto;
-    padding-left: $space-mediumbig;
-    padding-right: $space-mediumbig;
-    padding-top:$space-small;
-    
+    &__text{
+        @include ralewey (14px,400,$color-greydark);
+        margin:auto;
+        padding-left: $space-mediumbig;
+        padding-right: $space-mediumbig;
+        padding-top:$space-small;
+    }
 }
 
 .title{
     @include special-elite (24px, $color-green);
     text-align: center;
-    margin-bottom:0px;
+    margin-top: $space-big;
 }
 .upcycling__text{
     @include ralewey (14px, 400,$color-white);
+    margin: 0 auto;
+    padding: $unit;
+    width: 80%;
+    &:last-child{
+        padding-bottom: $space-big;
+    }
 
 }
 .text{
