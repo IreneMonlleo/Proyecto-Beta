@@ -1,10 +1,13 @@
 .container__buttons{
     background-color: $color-greylight;
     display: flex;
-    justify-content: center;
+    margin-top: 20px;
+    
+    
 
 }
     .open-modal{
+        
         display:flex;
         flex-direction: row;
         background-color: $color-greylight;
@@ -13,6 +16,7 @@
         padding: $unit;
         width: 84px;
         height: 31px;
+        justify-content:center;
         align-items: center;
         width: 70%;
       
@@ -39,7 +43,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    z-index:2;
+    z-index:-1;
   }
   
   .modal{
@@ -58,20 +62,31 @@
         &__container {
         display: flex;
         align-items: center;
+        flex-direction: column;
         position: fixed;
-        top: 50%;
+        top:50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 70%;
-        max-height: 50%;
+        width: 50%;
+        max-height: 350px;
         padding: $space-big;
-        background-color: white;
-        color: $color-white;
+        background-color: turquoise;
+        color: $color-greydark;
         overflow-y: auto;
-        
-    
         }
     }
+    .row{
+      margin: 0 auto;
+    }
+    .row__input{
+      padding: $space-small $space-small;
+      background-color:$color-greylight;
+      margin: 5px;
+      width: 100%;
+      border:none;
+      line-height: 30px;
+    }
+    
   //-----------------------> BREAK <--------------------//
 
   
