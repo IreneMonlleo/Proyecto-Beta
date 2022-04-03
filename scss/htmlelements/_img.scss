@@ -23,12 +23,11 @@
   
 
   //ABOUT US//
-.upcycling__img{
+.upcycling--img{
     width: 100%;
     height: 100%;
-    margin: 0 auto;
-    background-image: url("resources/img/restaurant-img.webp");
 }
+
 .threeR__img{
     width: 240px;
     margin: 0 auto;
@@ -57,10 +56,6 @@
     }
 
     //ABOUT US//
-    .upcycling--img{
-        width: 50vw;
-        
-    }
     .about__slider__img{
         width: 25vw;
         margin:$space-medium;
@@ -76,7 +71,14 @@
     }
 }
 
-
+@media all and (min-width: 800px){
+    .upcycling--img{
+        width: 30vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+}
 
 
 

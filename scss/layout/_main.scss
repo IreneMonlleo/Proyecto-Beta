@@ -64,7 +64,6 @@
 }
 
 .threeR{
-    max-width: 260px;
     &__container--img{
         position: relative;
         &::before {
@@ -162,6 +161,8 @@
 
 .main__about{
     flex-direction: wrap;
+    max-width: 1070px;
+    margin:0 auto;
 }
 
 .about-us{
@@ -172,11 +173,12 @@
 .upcycling{
     display:flex;
     flex-direction:row ;
+    
 } 
 .threeR{
     display:flex;
-    max-width:1070px;
     align-items: flex-end;
+    
     &__container--text{
         margin-right: $space-verybig
     }
@@ -204,10 +206,7 @@
     &__arrow{
         font-size:8em;
         margin:0 auto;
-        &--2{
-            font-size: 15em;
-            
-        }
+        
     }
     
 }
