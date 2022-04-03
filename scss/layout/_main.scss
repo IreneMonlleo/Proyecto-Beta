@@ -164,10 +164,16 @@
         }
       
     }
- .prueba{
-    
- }
+
 }
+        //BUY-PAGE//
+        .buy-page{
+            &__container{
+
+            }
+        }
+
+
 @media all and (min-width: 800px){
     //ABOUT US//
 
@@ -229,6 +235,22 @@
     }
     
 }
+}
+//BUY-PAGE//
+.buy-page{
+    height: 100%;
+    align-content: center;
+    &__container{
+        margin:0 auto;
+        max-width: 600px;
+        height: 400px;
+        border-color: $color-greylight;
+        border-width: 5px;
+        border-style: solid;
+        width: 60%;
+        min-width: 300px;
+    }
+    
 }
 
 

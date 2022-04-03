@@ -20,22 +20,65 @@
     </header>    
 
     <!---------------------MAIN---------------------------->
-    <main class="page-buy">
-        <section class="page-buy__container">
-            <div class="page-buy__buttons">
-                <button class="page-buy__buttons--sections">Datos</button>
-                <button class="page-buy__buttons--sections">Información</button>
-                <button class="page-buy__buttons--sections">Pago</button>
-            </div>
-            <div class="data">
-
-            </div>
-            <div class="informatión">
-
-            </div>
-            <div class="payment">
+    <main class="buy-page">
+        <section class="buy-page__container">
+                <div class="conatiner__buttons">
+                    <label for="data" class="open-modal">
+                        <p>Descripción</p>
+                    </label> 
+                    <label for="info" class="open-modal">
+                        <p>Envio</p>    
+                    </label> 
+                    <label for="pay" class="open-modal">
+                        <p>Pago</p>
+                    </label> 
+                </div>
                 
-            </div>
+    
+                <input type="checkbox" id="data" class="open-modal__input">
+                <div aria="dialog">
+                    <div class="modal__container">
+                      <label for="data" class="modal" >X</label>
+                      <h5 class="modal__title" >Arte Tradicional</h5>
+                      <p>Debido a mis estudios en Bellas Artes poseo un variado conocimiento de técnicas tradicionales del mundo artístico, como son la acuarela, el óleo, la encáustica, el grabado, la ilustración…
+                      </p>
+                      <p>Estas técnicas empleadas debidamente y junto a unos acabados digitales, pueden dotar de personalidad y exclusividad a aquellos proyectos que lo necesiten.
+                      </p>
+                    </div>
+                </div>
+    
+                <!-------------------------Modal Diseño Grafico---------------->
+        
+               
+        
+                <input type="checkbox" id="info" class="open-modal__input">
+                <div aria="dialog">
+                    <div class="modal__container">
+                        <label for="modal-grafic" class="modal">X</label>
+                        <h5 class="modal__title">Diseño Gráfico</h5>
+                        <p>Como ya he mencionado anteriormente para mí es un honor poder ayudar a aquellos que necesitan contar su historia y ver representados sus valores a través de una identidad corporativa, un cartel publicitario, una presentación o un catálogo. Formar parte de algo tan importante de una marca como es su identidad es lo que hace que me encante mi trabajo y me sienta más unida y en sintonía con mis clientes.
+                        </p>
+                    </div>
+                </div>
+        
+                <!--------------------------Modal Diseño web-------------------->
+         
+                
+          
+                <input type="checkbox" id="pay" class="open-modal__input">
+                    <div aria="dialog">
+                        <div class="modal__container">
+                            <label for="modal-web" class="modal">X</label>
+                            
+                            <h5 class="modal__title">Diseño Digital</h5>
+                            <p>Gracias a mis conocimientos como UX/UI y SEO/SEM mis diseños de páginas web tiene como finalidad simplificar y mejorar la experiencia de usuario, así como ofrecer un buen posicionamiento para captar nuevos clientes.
+                            </p>
+                            <p> A estos conocimientos debemos añadir el dominio del lenguaje de programación HTML5, CSS3 y JavaScript lo que me permite diseñar sitios web desde cero totalmente responsive adaptándose a cualquier dispositivo.
+                            </p>
+                        </div>
+                    </div>
+           
+     
         </section>
 
     </main>

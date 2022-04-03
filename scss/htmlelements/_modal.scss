@@ -1,0 +1,78 @@
+.container__buttons{
+    background-color: $color-greylight;
+    display: flex;
+    justify-content: center;
+
+}
+    .open-modal{
+        display:flex;
+        flex-direction: row;
+        background-color: $color-greylight;
+        color:$color-turquoise;
+        border-style: none;
+        padding: $unit;
+        width: 84px;
+        height: 31px;
+        align-items: center;
+        width: 70%;
+      
+      &:hover {
+        background-color: $color-turquoise;
+        color: $color-white;  
+      } 
+    }
+
+  
+  
+  .open-modal__input {
+    display: none;
+  
+    &:checked + [aria="dialog"] {
+      display: block;
+    }
+  }
+  
+  [aria="dialog"] {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index:2;
+  }
+  
+  .modal{
+        color:$color-white;
+        position: fixed;
+        top: 10px;
+        right:20px;
+        z-index:2;
+        
+        &__title{
+        color: $color-white;
+        text-align: center;
+        }
+    
+        
+        &__container {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        max-height: 50%;
+        padding: $space-big;
+        background-color: white;
+        color: $color-white;
+        overflow-y: auto;
+        
+    
+        }
+    }
+  //-----------------------> BREAK <--------------------//
+
+  
+  
