@@ -1,9 +1,5 @@
-function loadSection(section) {
-  getJSON(function(products) {
-    const list = getProductByCategory(products, section);
-    console.log(list);
-  })
-}
+
+
 
 const params = new URLSearchParams(window.location.search);
         const section = params.get('section');
@@ -32,14 +28,12 @@ const params = new URLSearchParams(window.location.search);
           })
         }
         
-        getJSON(function(products) {
-          const list = getAllProducts(products);
-          paintElements(list);
-          initSwiper();
-        })
         
-
-        
+          getJSON(function(products) {
+            const list = getProductByCategory(products, section);
+            paintElements(list);
+            initSwiper();
+          })
         
         const initSwiper = function() {
           //ABOUT US//
@@ -58,7 +52,7 @@ const params = new URLSearchParams(window.location.search);
                 prevEl: ".swiper-button-prev",
             },
             breakpoints: {
-            375: {
+            280: {
                 slidesPerView: 1,
                 spaceBetween: 15,
             },
