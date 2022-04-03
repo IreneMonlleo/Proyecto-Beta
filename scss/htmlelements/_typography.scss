@@ -103,24 +103,16 @@
 .products{
     &--name{
         @include special-elite (24px,$color-turquoise);
-        
-        
     }
     &--price{
         @include ralewey (24px,600,$color-white);
-        padding-top: $space-medium;
-       
-        
         
     }
     &--description{
         @include ralewey (14px,400,$color-white);
-      
-        
+
     }
 }
-
-
 
 //--------------------------------BREAK-----------------------------------------//
 @media all and (min-width: 600px){
@@ -155,9 +147,7 @@
             margin-left:$space-small;
         }
         // ABOUT US//
-        
-        
-        
+    
         .about-us__text{
             font-size:14px;
         }
@@ -171,6 +161,20 @@
         .title__slider{
             font-size:  24px;
             margin-left: $space-mediumbig;
+        }
+
+        //PRODUCT//
+        .products{
+            &--name{
+                @include special-elite (24px,$color-turquoise);
+            }
+            &--price{
+                @include ralewey (24px,600,$color-white);
+                
+            }
+            &--description{
+                @include ralewey (14px,400,$color-white);
+            }
         }
 }
 

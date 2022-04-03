@@ -104,7 +104,7 @@
             {
                 "id": "i1",
                 "name": "Can og coffe",
-                "alt": "Lampara lecho",
+                "alt": "Lampara techo",
                 "href": "/decor.html?section=illumination&product=i1",
                 "description": "Antiguas latas de cafe, convertidas en una magnifica lampara ",
                 "image": "resources/img/I__can-of-coffe.jpg",
@@ -151,7 +151,7 @@
                 "name": "Tuberias",
                 "alt": "lampara pared tuberias",
                 "href": "/decor.html?section=illumination&product=i6",
-                "description": "Webpack vanilla starter seed",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "image": "resources/img/I__tuberias.jpg",
                 "price": "30€"
             },

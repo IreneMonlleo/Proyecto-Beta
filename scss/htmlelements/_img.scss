@@ -40,8 +40,10 @@
 
 .products--image{
 
-    width: 70vw;
+    width: 80vw;
     margin-top: $space-verybig;
+    max-width: 350px;
+    
    
 }
 
@@ -67,7 +69,8 @@
     }
 
     .products--image{
-        width:530px ;
+        width:400px ;
+        max-width: 1070px;
     }
 }
 

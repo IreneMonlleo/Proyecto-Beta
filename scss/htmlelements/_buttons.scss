@@ -21,12 +21,6 @@
     background-color: $color-greydark;
     padding: $unit;
     margin: $space-small;
-
-    &:hover{
-        background-color: $color-green;
-        color: $color-greydark;
-    }
-     
 }
 
 //FILTER//
@@ -49,9 +43,7 @@
     height: 31px;
     align-items: center;
     width: 70%;
-    
- 
-    
+
     &:hover{
         background-color:$color-turquoise ;
         color:$color-white;
@@ -84,14 +76,8 @@
     font-size: 18px;
     padding: $space-small;
     margin: $space-small;
-    width: 60vw;
-    text-align: center;
-
-    &:hover{
-        background-color: $color-green;
-        color: $color-greydark;
-    }
-     
+    width: 162px;
+    text-align: center;  
 }
 
 //BREAK//
@@ -102,6 +88,9 @@
     }
     .main__filter{
         width:75%;
+    }
+    .products__button{
+        width: 310px;
     }
 }
 @media all and (min-width: 800px){

@@ -267,8 +267,9 @@ body {
 }
 
 .products--image {
-  width: 70vw;
+  width: 80vw;
   margin-top: 60px;
+  max-width: 350px;
 }
 
 @media all and (min-width: 600px) {
@@ -293,7 +294,8 @@ body {
   }
 
   .products--image {
-    width: 530px;
+    width: 400px;
+    max-width: 1070px;
   }
 }
 @media all and (min-width: 800px) {
@@ -401,10 +403,6 @@ body {
   padding: 6px;
   margin: 12px;
 }
-.newletter__button:hover {
-  background-color: #c0d000;
-  color: #4F4F4F;
-}
 
 .main__filter {
   background-color: #E6E9E9;
@@ -457,12 +455,8 @@ body {
   font-size: 18px;
   padding: 12px;
   margin: 12px;
-  width: 60vw;
+  width: 162px;
   text-align: center;
-}
-.products__button:hover {
-  background-color: #c0d000;
-  color: #4F4F4F;
 }
 
 @media all and (min-width: 600px) {
@@ -473,6 +467,10 @@ body {
 
   .main__filter {
     width: 75%;
+  }
+
+  .products__button {
+    width: 310px;
   }
 }
 @media all and (min-width: 800px) {
@@ -662,7 +660,6 @@ body {
   font-size: 24px;
   font-weight: 600;
   color: #FFFFFF;
-  padding-top: 24px;
 }
 .products--description {
   font-family: "Raleway", sans-serif;
@@ -723,6 +720,24 @@ body {
   .title__slider {
     font-size: 24px;
     margin-left: 36px;
+  }
+
+  .products--name {
+    font-family: "Special Elite";
+    font-size: 24px;
+    color: #0099A8;
+  }
+  .products--price {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+  .products--description {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
   }
 }
 @media all and (min-width: 800px) {
@@ -886,20 +901,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 0 auto;
+  max-width: 350px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 90vh;
-}
-.products__text--background::before {
-  content: "";
-  background-color: #0099A8;
-  position: absolute;
-  top: 150px;
-  left: 128px;
-  right: -150vw;
-  bottom: -78vh;
-  z-index: -1;
 }
 
 .prueba {
@@ -913,7 +919,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 300px;
+  background-color: #0099A8;
 }
 
 @media all and (min-width: 600px) {
@@ -937,14 +943,20 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1070px;
+  }
+  .products__text {
+    margin-left: 36px;
   }
   .products__text--background::before {
     position: absolute;
-    height: 30vh;
-    width: 100%;
+    bottom: 23vh;
+    top: 20vh;
+    left: 60%;
     z-index: -1;
   }
 }
