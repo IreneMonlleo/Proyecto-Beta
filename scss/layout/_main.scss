@@ -22,9 +22,7 @@
 .father-grid {
     column-count: 2;
     column-gap: $unit;
-    margin-left:6vw;
-    margin-right: 6vw;
-    margin-top: $space-verybig;
+    margin: $space-verybig 6vw;
 }
 .main__text{
     display: flex;

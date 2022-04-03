@@ -32,11 +32,14 @@
     @include ralewey (14px,400,$color-greydark);
     text-align: center;
     width: 70vw;
+    padding-bottom: $space-verybig;
 }
 .final-claim{
-    @include special-elite (18px,$color-greydark);
+    @include special-elite (24px,$color-greydark);
     width: 70vw;
     margin:0 auto;
+    padding: $space-verybig 0;
+    
 }
 
 
@@ -54,7 +57,6 @@
     &__text{
         @include ralewey (14px,400,$color-greydark);
         margin:auto;
-        padding-left: $space-mediumbig;
         padding-right: $space-mediumbig;
         padding-top:$space-small;
     }
@@ -151,8 +153,6 @@
             width: 100%;
             justify-self: start;
             margin-left:$space-small;
-            
-            
         }
         // ABOUT US//
         
@@ -168,7 +168,7 @@
         .text{
             font-size :18px;
         }
-        .about-slider__title{
+        .title__slider{
             font-size:  24px;
             margin-left: $space-mediumbig;
         }
@@ -179,7 +179,8 @@
         width: 40vw;
     }
     .final-claim{
-        font-size: 48px;
+        font-size: 36px;
+        width:50%;
     }
     .threeR{
         &__title{

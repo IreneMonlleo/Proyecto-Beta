@@ -60,52 +60,6 @@
 }
                          
 
-
-// ABOUT US//
-
- /*.grid {
-    display: grid;
-    width: 70vw;
-    margin: 0 auto;
-    
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    
-    grid-template-areas: "header"
-                         "section"
-                         "main";
-}
-.about-us{
-    
-    &__text{
-        grid-area: main ;
-    }
-    &__img{
-        grid-area: header;
-
-    }
-    
-}
-.upcycling{
-    &__img{
-        grid-area: header;
-    }
-    
-}
-.title{
-    grid-area: section;
-}
-.text{
-    grid-area: main;
-    // text-align: justify;
-    justify-self: start;
-}
-.threeR{
-    &__img{
-        grid-area:header;
-    }
-}*/
-
 @media only screen and (min-width: 800px) {
     //SLIDER//
     .slider__home{
@@ -113,6 +67,7 @@
         grid-gap:$space-medium;
         justify-items: center;
         align-items: center;
+        align-content: space-between;
         grid-template-areas: "main  header "        
                         ;
         

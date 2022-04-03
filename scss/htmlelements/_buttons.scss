@@ -31,18 +31,26 @@
 
 //FILTER//
 .main__filter{
-   text-align: center;
+   background-color: $color-greylight;
+   display: flex;
+   justify-content: space-between;
+   width: 85%;
+   margin: 0 auto;
+  
+   
+   
 }
 .filter{
-    background-color: $color-white;
+    background-color: $color-greylight;
     color:$color-turquoise;
-    border-radius: $unit;
-    border:none;
+    border-style: none;
     padding: $unit;
     width: 84px;
     height: 31px;
     align-items: center;
-    box-shadow: 2px 2px 1px $color-greylight;
+    width: 70%;
+    
+ 
     
     &:hover{
         background-color:$color-turquoise ;
@@ -83,12 +91,7 @@
         background-color: $color-green;
         color: $color-greydark;
     }
-    
-
-    &:hover{
-        background-color: $color-green;
-        color: $color-greydark;
-    }
+     
 }
 
 //BREAK//
@@ -97,12 +100,14 @@
         width: 100%;
         margin:$space-medium;
     }
+    .main__filter{
+        width:75%;
+    }
 }
 @media all and (min-width: 800px){
+    
     .filter{
         padding: $space-medium;
-        width: 144px;
-        height: 48px;
         font-size: 18px;
         display:inline-flex;
         align-items: center;
