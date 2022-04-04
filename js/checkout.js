@@ -12,4 +12,5 @@ const params = new URLSearchParams(window.location.search);
           document.querySelector('.checkout--image').src = product.image;
           document.querySelector('.products--price').textContent = product.price;
         })
-    
+    setTimeout(function(){
+      document.querySelector('.order'), focus();})

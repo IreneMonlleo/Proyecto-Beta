@@ -576,22 +576,6 @@ input {
       -ms-flex-align: center;
           align-items: center;
   width: 70%;
-  /*.float{
-  	position:fixed;
-  	width:60px;
-  	height:60px;
-  	bottom:40px;
-  	right:40px;
-  	background-color:#0C9;
-  	color:#FFF;
-  	border-radius:50px;
-  	text-align:center;
-  	box-shadow: 2px 2px 3px #999;
-  }
-
-  .my-float{
-  	margin-top:22px;
-  }*/
 }
 .filter:focus {
   background-color: #0099A8;

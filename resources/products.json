@@ -6,11 +6,11 @@
         "elements": [
             {
                 "id": "f1",
-                "name": "Sillones y meda de bañera",
-                "alt": "sillones y mesa de bañera",
+                "name": "Sillones cajones",
+                "alt": "sillones cajones",
                 "href": "/decor.html?section=furniture&product=f1",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/F__conjunto-comedor.jpg",
+                "image": "resources/img/F__sillascajones.jpg",
                 "price": "165€"
             },
             {
@@ -37,7 +37,7 @@
                 "alt": "Mesita Mono patin",
                 "href": "/decor.html?section=furniture&product=f4",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
-                "image": "resources/img/F__mesita-patin.jpg",
+                "image": "resources/img/F__mono-patin.jpg",
                 "price": "50€"
             },
             {
@@ -64,7 +64,7 @@
                 "alt": "Tele cama para mascotas",
                 "href": "/decor.html?section=furniture&product=f7",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
-                "image": "resources/img/F__cama_gatos.jpg",
+                "image": "resources/img/F__cama-gatos.jpg",
                 "price": "87€"
             },
             {
@@ -91,7 +91,7 @@
                 "alt": "taburetes de cubos",
                 "href": "/decor.html?section=furniture&product=f10",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
-                "image": "resources/img/F__taburetes-cubo.jpg",
+                "image": "resources/img/F__taburetes.jpg",
                 "price": "30€"
             }
         ]
@@ -107,7 +107,7 @@
                 "alt": "Lampara techo",
                 "href": "/decor.html?section=illumination&product=i1",
                 "description": "Antiguas latas de cafe, convertidas en una magnifica lampara ",
-                "image": "resources/img/I__can-of-coffe.jpg",
+                "image": "resources/img/I__coffe.jpg",
                 "price": "100€"
             },
             {
@@ -116,7 +116,7 @@
                 "alt": "Ralladores lampara techo",
                 "href": "/decor.html?section=illumination&product=i2",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/I__rallando-e-sol.jpg",
+                "image": "resources/img/I__cook.jpg",
                 "price": "58€"
             },
             {
@@ -148,12 +148,12 @@
             },
             {
                 "id": "i6",
-                "name": "Tuberias",
-                "alt": "lampara pared tuberias",
+                "name": "Colorines",
+                "alt": "lampara techo tarros conserva",
                 "href": "/decor.html?section=illumination&product=i6",
                 "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "image": "resources/img/I__tuberias.jpg",
-                "price": "30€"
+                "image": "resources/img/I__color.jpg",
+                "price": "80€"
             },
             {
                 "id": "i7",
@@ -161,7 +161,7 @@
                 "alt": "lampara techo rueda bici",
                 "href": "/decor.html?section=illumination&product=i7",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/I__rueda-bici.jpg",
+                "image": "resources/img/I__radios.jpg",
                 "price": "46€"
             },
             {
@@ -172,6 +172,24 @@
                 "description": "Webpack vanilla starter seed",
                 "image": "resources/img/I__interior-perchas.jpg",
                 "price": "81€"
+            },
+            {
+                "id": "i9",
+                "name": "Rueda bici vertical",
+                "alt": "lampara techo bici",
+                "href": "/decor.html?section=illumination&product=i9",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/I__rodando.jpg",
+                "price": "170€"
+            },
+            {
+                "id": "i10",
+                "name": "Lampara bola del mundo",
+                "alt": "lampara techo bici",
+                "href": "/decor.html?section=illumination&product=i10",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/I__el-mundo.jpg",
+                "price": "60€"
             }
         ]
     },
@@ -236,21 +254,39 @@
             },
             {
                 "id": "d7",
-                "name": "Posa belas",
-                "alt": "botes metal posa belas",
+                "name": "Reloz bici",
+                "alt": "Reloj con una rueda de bici",
                 "href": "/decor.html?section=decor&product=d7",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/D__posa-belas.jpg",
+                "image": "resources/img/D__puntual.jpg",
                 "price": "10€"
             },
             {
                 "id": "d8",
                 "name": "Alfombra de corcho",
                 "alt": "felpudo corcho",
-                "href": "/decor.html?section=decor&product=d2",
+                "href": "/decor.html?section=decor&product=d8",
                 "description": "Webpack vanilla starter seed",
-                "image": "resources/img/D__botasagua.jpg",
+                "image": "resources/img/D__acorchado.jpg",
                 "price": "62€"
+            },
+            {
+                "id": "d9",
+                "name": "Alfombra de corcho",
+                "alt": "felpudo corcho",
+                "href": "/decor.html?section=decor&product=d9",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/D__sabor-a-vino.jpg",
+                "price": "40€"
+            },
+            {
+                "id": "d10",
+                "name": "Botes de Metal",
+                "alt": "Botes conserva",
+                "href": "/decor.html?section=decor&product=d10",
+                "description": "Webpack vanilla starter seed",
+                "image": "resources/img/D__lata.jpg",
+                "price": "25€"
             }
         ]
     }
