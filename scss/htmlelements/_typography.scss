@@ -18,6 +18,22 @@
     }
     
 }
+.politics{
+    
+    &__title{
+        @include special-elite(18,$color-turquoise);
+       text-align: center;
+       margin-top: $space-verybig;
+    }
+    &__text{
+        @include ralewey (14,400,$color-greydark);
+        width: 80%;
+        padding: $space-small;
+        margin: 0 auto;
+        
+    }
+}
+
 
 .title-page{
     @include ralewey (36px,600,$color-turquoise);
@@ -219,6 +235,9 @@
         padding-top: 0px;
     }
     .checkout__title{
+        font-size: 24px;
+    }
+    .politics__title{
         font-size: 24px;
     }
 }

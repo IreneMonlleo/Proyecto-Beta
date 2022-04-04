@@ -695,6 +695,23 @@ input {
   text-align: center;
 }
 
+.politics__title {
+  font-family: "Special Elite";
+  font-size: 18;
+  color: #0099A8;
+  text-align: center;
+  margin-top: 60px;
+}
+.politics__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14;
+  font-weight: 400;
+  color: #4F4F4F;
+  width: 80%;
+  padding: 12px;
+  margin: 0 auto;
+}
+
 .title-page {
   font-family: "Raleway", sans-serif;
   font-size: 36px;
@@ -947,6 +964,10 @@ input {
   }
 
   .checkout__title {
+    font-size: 24px;
+  }
+
+  .politics__title {
     font-size: 24px;
   }
 }
