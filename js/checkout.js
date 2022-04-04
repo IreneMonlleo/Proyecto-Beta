@@ -1,3 +1,5 @@
+
+
 const params = new URLSearchParams(window.location.search);
         const section = params.get('section');
         const productId = params.get('product');

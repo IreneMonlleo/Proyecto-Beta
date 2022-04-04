@@ -461,8 +461,13 @@ input:focus {
           align-items: center;
   width: 70%;
   font-family: "Raleway", sans-serif;
+  z-index: 2;
 }
 .open-modal:hover {
+  background-color: #0099A8;
+  color: #FFFFFF;
+}
+.open-modal:checked {
   background-color: #0099A8;
   color: #FFFFFF;
 }
@@ -476,12 +481,6 @@ input:focus {
 
 [aria=dialog] {
   display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
 }
 
 .modal__container {
@@ -501,9 +500,6 @@ input:focus {
 }
 
 .modal--data {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

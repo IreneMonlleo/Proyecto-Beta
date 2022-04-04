@@ -16,28 +16,34 @@
         align-items: center;
         width: 70%;
         font-family: 'Raleway', sans-serif;
+        z-index: 2;
       
       &:hover {
         background-color: $color-turquoise;
         color: $color-white;  
       } 
+      &:checked{
+        background-color: $color-turquoise;
+        color: $color-white;  
+      }
     }
   .open-modal__input {
     display: none;
   
     &:checked + [aria="dialog"] {
       display: block;
+      
     }
   }
   
   [aria="dialog"] {
     display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index:-1;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // bottom: 0;
+    // right: 0;
+    
   }
   
   
@@ -55,12 +61,13 @@
 }
 .modal--order{
   text-align: center;
+  
 
 }
 .modal--data{
-  display: flex;
   align-items: center;
   flex-direction: column;
+ 
 }    
 .pricetotal{
   display: flex;
