@@ -130,6 +130,27 @@
     
 }
 
+
+//CHECKOUT//
+.payment{
+    height: 100%;
+    align-content: center;
+  
+    &__container{
+        
+        max-width: 1070px;
+        height: 500px;
+        width: 80%;
+        margin:0 auto;
+        margin-top:$space-verybig;
+        border-color: $color-greylight;
+        border-width: 5px;
+        border-style: solid;
+       
+    }
+    
+}
+
 @media all and (min-width: 600px){
 
     .about-us{
@@ -166,12 +187,8 @@
     }
 
 }
-        //BUY-PAGE//
-        .buy-page{
-            &__container{
-
-            }
-        }
+    
+        
 
 
 @media all and (min-width: 800px){
@@ -235,22 +252,19 @@
     }
     
 }
-}
-//BUY-PAGE//
-.buy-page{
-    height: 100%;
-    align-content: center;
+//CKECHOUT//
+.payment{
+
     &__container{
-        margin:0 auto;
-        max-width: 600px;
-        height: 400px;
-        border-color: $color-greylight;
-        border-width: 5px;
-        border-style: solid;
+        // max-width: 1070px;
+        height: 600px;
         width: 60%;
-        min-width: 300px;
+    
+       
     }
     
 }
+}
+
 
 

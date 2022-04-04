@@ -80,6 +80,20 @@
     text-align: center;  
 }
 
+//CHECKOUT//
+.discounts__button{
+    background-color: $color-white;
+    width: 100%;
+    padding: 6px;
+}
+.payment__button{
+    background-color:$color-white;
+    padding: $unit;
+    width: 100%;
+    margin:0 auto;
+    font-weight: 600;
+}
+
 //BREAK//
 @media all and (min-width: 600px){
     .newsletter__button{
@@ -102,5 +116,11 @@
         align-items: center;
         justify-content: center;
        
+    }
+    .discounts__button{
+        background-color: $color-white;
+        width: 78px;
+
+    
     }
 }

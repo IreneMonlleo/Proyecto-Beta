@@ -5,9 +5,43 @@
     margin:$space-small;
 }
 
+//CHECKOUT//
+.checkout{
+    margin: 0 auto;
+    &__input{
+      padding: $space-small ;
+      background-color:$color-greylight;
+      margin: $unit;
+      border:none;
+    }
+}
+
+.discounts__text{
+    padding: $unit ;
+    background-color:$color-greylight;
+    margin: $unit;
+    border:none;
+   
+    
+}
+
 //BREAK//
 @media all and (min-width: 600px){
     .newletter__email{
         width: 222px;
     }
+    //CHECKOUT//
+.checkout{
+    width: 100%;
+    &__input{
+      width: 100%;
+    }
+}
+.discounts{
+    display: flex;
+    &__text{
+        margin:0px $unit;
+    }
+}
+
 }
