@@ -147,6 +147,13 @@
     
 }
 
+hr{
+    width: 100%;
+    border:$color-greylight 3px solid;
+    margin-top: $space-medium;
+    background-color: $color-greylight;
+}
+
 @media all and (min-width: 600px){
 
     .about-us{

@@ -272,6 +272,15 @@ body {
   max-width: 350px;
 }
 
+.checkout--product {
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 24px;
+}
+
 @media all and (min-width: 600px) {
   .slider__img {
     width: 359px;
@@ -419,7 +428,7 @@ input:focus {
     display: flex;
   }
   .discounts__text {
-    margin: 0px 6px;
+    margin: 0 6px;
   }
 }
 .container__buttons {
@@ -472,10 +481,26 @@ input:focus {
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: 2;
+  z-index: -1;
 }
 
 .modal__container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 48px;
+  background-color: #FFFFFF;
+  color: #4F4F4F;
+}
+
+.modal--order {
+  text-align: center;
+}
+
+.modal--data {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,20 +511,34 @@ input:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: fixed;
-  top: 60%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 50%;
-  padding: 48px;
-  background-color: turquoise;
-  color: #4F4F4F;
+}
+
+.pricetotal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media all and (min-width: 800px) {
   .modal__container {
     top: 50%;
+    max-width: 900px;
+  }
+
+  .group--product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .checkout__detail {
+    text-align: end;
   }
 }
 .button--main {
@@ -812,6 +851,25 @@ input:focus {
   font-size: 18px;
   color: #0099A8;
 }
+.checkout--name {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4F4F4F;
+}
+.checkout--price {
+  font-family: "Raleway", sans-serif;
+  font-size: 14;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+
+.total {
+  font-family: "Raleway", sans-serif;
+  font-size: 14;
+  font-weight: 600;
+  color: #4F4F4F;
+}
 
 @media all and (min-width: 600px) {
   .slider__title {
@@ -1083,6 +1141,13 @@ input:focus {
   margin: 0 auto;
   margin-top: 60px;
   border: #E6E9E9 6px solid;
+}
+
+hr {
+  width: 100%;
+  border: #E6E9E9 3px solid;
+  margin-top: 24px;
+  background-color: #E6E9E9;
 }
 
 @media all and (min-width: 600px) {

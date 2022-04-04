@@ -42,9 +42,14 @@
 
     width: 80vw;
     margin-top: $space-verybig;
-    max-width: 350px;
-    
-   
+    max-width: 350px; 
+}
+//CHECKOUT//
+.checkout--product{
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: $space-medium;
 }
 
 @media all and (min-width: 600px){

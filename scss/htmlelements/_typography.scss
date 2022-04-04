@@ -114,10 +114,22 @@
     }
 }
 //CHECKOUT//
-.checkout__title{
-    @include special-elite (18px,$color-turquoise);
-
+.checkout{
+    &__title{
+        @include special-elite (18px,$color-turquoise);
+    }
+    &--name{
+        @include ralewey(18px,600,$color-greydark);
+    }
+    &--price{
+        @include ralewey(14,400, $color-greydark);
+    }
 }
+
+.total{
+    @include ralewey(14,600,$color-greydark);
+}
+
 
 //--------------------------------BREAK-----------------------------------------//
 @media all and (min-width: 600px){

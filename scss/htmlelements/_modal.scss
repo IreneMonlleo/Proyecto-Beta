@@ -37,27 +37,36 @@
     left: 0;
     bottom: 0;
     right: 0;
-    z-index:2;
+    z-index:-1;
   }
   
   
         
 .modal__container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  position: fixed;
+  position: absolute;
   top:60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
   padding: $space-big;
-  background-color: turquoise;
+  background-color: $color-white;
   color: $color-greydark;
+ 
+}
+.modal--order{
+  text-align: center;
 
 }
-    
-    
+.modal--data{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}    
+.pricetotal{
+  display: flex;
+  justify-content: space-between;
+}   
+
     
     
   //-----------------------> BREAK <--------------------//
@@ -65,9 +74,15 @@
   @media all and ( min-width:800px){
     .modal__container {
       top:50%;
-     
+      max-width: 900px;
     }
-
+    .group--product{
+      display:flex;
+      justify-content: space-between;
+    }
+    .checkout__detail{
+      text-align: end;
+    }
 
 
 

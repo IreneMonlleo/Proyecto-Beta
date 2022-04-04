@@ -37,14 +37,16 @@
             <!-------------------Modal data order---------------------------------->
                 <input type="checkbox" id="data" class="open-modal__input">
                 <div aria="dialog">
-                    <div class="modal__container" >
+                    <div class="modal__container modal--order" >
                       <!-- <label for="data" class="modal" >X</label> -->
-                      <h3 class="checkout__title">Tu pedido</h3>
-                      <img class="checkout--product"src="https://fakeimg.pl/100/" >
-                        <div class="checkout__detail">
-                            <h2 class="checkout--name">Nombre producto</h2>
-                            <p class="checkout--price">150€</p>
-                        </div>    
+                        <h3 class="checkout__title">Tu pedido</h3>
+                        <div class="group--product">
+                            <img class="checkout--product"src="https://fakeimg.pl/100/" >
+                            <div class="checkout__detail">
+                                <h3 class="checkout--name">Nombre producto</h3>
+                                <p class="checkout--price price--top">150€</p>
+                            </div>
+                        </div>      
                         <form class="discounts">
                             <label  for="discount"></label>
                             <input class="discounts__text" type="text" id="discount" placeholder="Descuentos">
@@ -53,17 +55,15 @@
                         <hr>
                         <div class="pricetotal">
                             <p class="total">Total</p>
-                            <p class="checkout--price">150€</p>
+                            <p class="checkout--price totalprice ">150€</p>
                         </div>
-                        
-                     
                     </div>
                 </div>
     
                 <!-------------------------Modal Shipping---------------->
                 <input type="checkbox" id="info" class="open-modal__input">
                 <div aria="dialog">
-                    <div class="modal__container">
+                    <div class="modal__container modal--data">
                         <!-- <label for="modal-grafic" class="modal">X</label> -->
                         <h3 class=" checkout__title">Datos de envío</h3>
                         
@@ -87,7 +87,7 @@
                 <!--------------------------Modal payment-------------------->
                 <input type="checkbox" id="pay" class="open-modal__input">
                     <div aria="dialog">
-                        <div class="modal__container">
+                        <div class="modal__container modal--data">
                             <!-- <label for="modal-web" class="modal">X</label> -->
                             <h3 class=" checkout__title">Datos de compra</h3>
                              
