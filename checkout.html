@@ -37,13 +37,13 @@
             <!-------------------Modal data order---------------------------------->
                 <input type="checkbox" id="data" class="open-modal__input">
                 <div aria="dialog">
-                    <div class="modal__container">
+                    <div class="modal__container" >
                       <!-- <label for="data" class="modal" >X</label> -->
                       <h3 class="checkout__title">Tu pedido</h3>
-                      <img class="checkout--product" >
+                      <img class="checkout--product"src="https://fakeimg.pl/100/" >
                         <div class="checkout__detail">
-                            <h2 class="checkout--name"></h2>
-                            <p class="checkout--price"></p>
+                            <h2 class="checkout--name">Nombre producto</h2>
+                            <p class="checkout--price">150€</p>
                         </div>    
                         <form class="discounts">
                             <label  for="discount"></label>
@@ -51,9 +51,9 @@
                             <input class="discounts__button button--main" type="submit" value="Aplicar">
                         </form>
                         <hr>
-                        <div class="price--total">
+                        <div class="pricetotal">
                             <p class="total">Total</p>
-                            <p class="checkout--price"></p>
+                            <p class="checkout--price">150€</p>
                         </div>
                         
                      
@@ -66,28 +66,21 @@
                     <div class="modal__container">
                         <!-- <label for="modal-grafic" class="modal">X</label> -->
                         <h3 class=" checkout__title">Datos de envío</h3>
-                        <span class="checkout"> 
-                            <label for="name"></label>                       
-                            <input class="checkout__input" id="name" type="name" placeholder="Nombre y apellidos"/>
-                        </span>
-
-                        <span class="checkout">
-                            <label for="direccion"></label>
-                            <input class="checkout__input" id="direccion" type="text" placeholder="Dirección del envio"/>
-                        </span>
-                        <span class="checkout">
-                            <label for="tl"></label>
-                            <input class="checkout__input" id="tl" type="text" placeholder="Telefono"/>
-                        </span>
-                        <span class="checkout">
-                            <label for="CP"></label>
-                            <input class="checkout__input" id="CP" type="text" placeholder="CP"/>
-                            
-                        </span>
-                        <span class="checkout">
-                            <label for="mail"></label>
-                            <input class="checkout__input" id="mail" type="mail" placeholder="E-mail"/>
-                        </span>
+                        
+                        <label for="name"></label>                       
+                        <input class="checkout__input" id="name" type="name" placeholder="Nombre y apellidos"/>
+                    
+                        <label for="direccion"></label>
+                        <input class="checkout__input" id="direccion" type="text" placeholder="Dirección del envio"/>
+                        
+                        <label for="tl"></label>
+                        <input class="checkout__input" id="tl" type="text" placeholder="Telefono"/>
+                      
+                        <input class="checkout__input" id="CP" type="text" placeholder="CP"/>
+                        <label  for="CP"></label>
+                
+                        <label for="mail"></label>
+                        <input class="checkout__input" id="mail" type="mail" placeholder="E-mail"/>
                     </div>
                 </div>
         
@@ -97,23 +90,19 @@
                         <div class="modal__container">
                             <!-- <label for="modal-web" class="modal">X</label> -->
                             <h3 class=" checkout__title">Datos de compra</h3>
-                            <span class="checkout"> 
-                                <label for="card"></label>                       
-                                <input class="checkout__input" id="card" type="text" placeholder="Número de la tarjeta"/>
-                            </span>
-
-                            <span class="checkout">
-                                <label for="card-name"></label>
-                                <input class="checkout__input" id="card-name" type="name" placeholder="Nombre del titular"/>
-                            </span>
-                            <span class="checkout">
-                                <label for="expiration"></label>
-                                <input class="checkout__input" id="expiration" type="text" placeholder="Fecha de validez"/>
-                            </span>
-                            <span class="checkout">
-                                <label for="CSV"></label>
-                                <input class="checkout__input" id="CSV" type="text" placeholder="Código de validez"/>  
-                            </span>
+                             
+                            <label for="card"></label>                       
+                            <input class="checkout__input" id="card" type="text" placeholder="Número de la tarjeta"/>
+        
+                            <label for="card-name"></label>
+                            <input class="checkout__input" id="card-name" type="name" placeholder="Nombre del titular"/>
+                        
+                            <label for="expiration"></label>
+                            <input class="checkout__input" id="expiration" type="text" placeholder="Fecha de validez"/>
+                    
+                            <label for="CSV"></label>
+                            <input class="checkout__input" id="CSV" type="text" placeholder="Código de validez"/>  
+                            
                             <button class="button--main payment__button" href="">Finalizar compra</button>
                             
                         </div>

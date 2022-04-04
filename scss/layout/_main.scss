@@ -137,16 +137,12 @@
     align-content: center;
   
     &__container{
-        
         max-width: 1070px;
         height: 500px;
         width: 80%;
         margin:0 auto;
         margin-top:$space-verybig;
-        border-color: $color-greylight;
-        border-width: 5px;
-        border-style: solid;
-       
+        border: $color-greylight $unit solid;
     }
     
 }
@@ -256,8 +252,8 @@
 .payment{
 
     &__container{
-        // max-width: 1070px;
-        height: 600px;
+        max-width: 1070px; 
+        height: 500px;
         width: 60%;
     
        

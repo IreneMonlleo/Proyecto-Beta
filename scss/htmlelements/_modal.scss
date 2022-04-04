@@ -47,14 +47,14 @@
   align-items: center;
   flex-direction: column;
   position: fixed;
-  top:55%;
+  top:60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
-  max-height: 350px;
   padding: $space-big;
   background-color: turquoise;
   color: $color-greydark;
+
 }
     
     
@@ -62,5 +62,14 @@
     
   //-----------------------> BREAK <--------------------//
 
-  
+  @media all and ( min-width:800px){
+    .modal__container {
+      top:50%;
+     
+    }
+
+
+
+
+  }
   

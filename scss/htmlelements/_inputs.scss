@@ -1,3 +1,9 @@
+input{
+    border:none;
+    &:focus{
+        border:none;
+    }
+}
 .newletter__email{
     // width: 248px;
     // width: 100%;
@@ -6,14 +12,13 @@
 }
 
 //CHECKOUT//
-.checkout{
+.checkout__input{
     margin: 0 auto;
-    &__input{
-      padding: $space-small ;
-      background-color:$color-greylight;
-      margin: $unit;
-      border:none;
-    }
+    padding: $space-small ;
+    background-color:$color-greylight;
+    margin: $unit;
+    border:none;
+    
 }
 
 .discounts__text{
@@ -31,11 +36,10 @@
         width: 222px;
     }
     //CHECKOUT//
-.checkout{
-    width: 100%;
-    &__input{
-      width: 100%;
-    }
+.checkout__input{
+    width: 80%;
+    border:none;
+    
 }
 .discounts{
     display: flex;

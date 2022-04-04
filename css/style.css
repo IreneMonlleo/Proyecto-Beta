@@ -376,15 +376,20 @@ body {
     max-width: 1070px;
   }
 }
+input {
+  border: none;
+}
+input:focus {
+  border: none;
+}
+
 .newletter__email {
   padding: 6px;
   margin: 12px;
 }
 
-.checkout {
-  margin: 0 auto;
-}
 .checkout__input {
+  margin: 0 auto;
   padding: 12px;
   background-color: #E6E9E9;
   margin: 6px;
@@ -403,11 +408,9 @@ body {
     width: 222px;
   }
 
-  .checkout {
-    width: 100%;
-  }
   .checkout__input {
-    width: 100%;
+    width: 80%;
+    border: none;
   }
 
   .discounts {
@@ -484,22 +487,24 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   position: fixed;
-  top: 55%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 50%;
-  max-height: 350px;
   padding: 48px;
   background-color: turquoise;
   color: #4F4F4F;
 }
 
+@media all and (min-width: 800px) {
+  .modal__container {
+    top: 50%;
+  }
+}
 .button--main {
-  border-width: 3px;
   border-radius: 6px;
-  border-color: #c0d000;
-  border-style: solid;
+  border: #c0d000 3px solid;
   color: #c0d000;
 }
 .button--main:hover {
@@ -614,6 +619,12 @@ body {
   .discounts__button {
     background-color: #FFFFFF;
     width: 78px;
+  }
+
+  .payment__button {
+    width: 60%;
+    margin-top: 24px;
+    padding: 12px;
   }
 }
 .header__nav {
@@ -896,6 +907,10 @@ body {
   .Rs__title {
     padding-top: 0px;
   }
+
+  .checkout__title {
+    font-size: 24px;
+  }
 }
 .header__home {
   background-color: #0099A8;
@@ -1067,9 +1082,7 @@ body {
   width: 80%;
   margin: 0 auto;
   margin-top: 60px;
-  border-color: #E6E9E9;
-  border-width: 5px;
-  border-style: solid;
+  border: #E6E9E9 6px solid;
 }
 
 @media all and (min-width: 600px) {
@@ -1188,7 +1201,8 @@ body {
   }
 
   .payment__container {
-    height: 600px;
+    max-width: 1070px;
+    height: 500px;
     width: 60%;
   }
 }
