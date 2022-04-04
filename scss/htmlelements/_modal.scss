@@ -16,13 +16,10 @@
         align-items: center;
         width: 70%;
         font-family: 'Raleway', sans-serif;
+        padding: $space-medium;
         z-index: 2;
       
-      &:hover {
-        background-color: $color-turquoise;
-        color: $color-white;  
-      } 
-      &:checked{
+      &:focus{
         background-color: $color-turquoise;
         color: $color-white;  
       }
@@ -46,7 +43,7 @@
     
   }
   
-  
+
         
 .modal__container {
   position: absolute;
@@ -54,24 +51,25 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
-  padding: $space-big;
   background-color: $color-white;
   color: $color-greydark;
  
 }
 .modal--order{
   text-align: center;
-  
+  max-height: 500px;
+  padding: 12px 24px 0px 24px;
 
 }
 .modal--data{
   align-items: center;
   flex-direction: column;
- 
+  padding: $space-big;
 }    
 .pricetotal{
   display: flex;
   justify-content: space-between;
+ 
 }   
 
     

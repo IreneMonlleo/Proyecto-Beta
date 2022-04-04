@@ -1,8 +1,5 @@
 input{
-    border:none;
-    &:focus{
-        border:none;
-    }
+    outline: none;
 }
 .newletter__email{
     // width: 248px;

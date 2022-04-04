@@ -278,7 +278,6 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  margin-bottom: 24px;
 }
 
 @media all and (min-width: 600px) {
@@ -313,6 +312,11 @@ body {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+
+  .checkout--product {
+    width: 200px;
+    margin-bottom: 24px;
   }
 }
 :root {
@@ -386,10 +390,7 @@ body {
   }
 }
 input {
-  border: none;
-}
-input:focus {
-  border: none;
+  outline: none;
 }
 
 .newletter__email {
@@ -461,13 +462,10 @@ input:focus {
           align-items: center;
   width: 70%;
   font-family: "Raleway", sans-serif;
+  padding: 24px;
   z-index: 2;
 }
-.open-modal:hover {
-  background-color: #0099A8;
-  color: #FFFFFF;
-}
-.open-modal:checked {
+.open-modal:focus {
   background-color: #0099A8;
   color: #FFFFFF;
 }
@@ -490,13 +488,14 @@ input:focus {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 50%;
-  padding: 48px;
   background-color: #FFFFFF;
   color: #4F4F4F;
 }
 
 .modal--order {
   text-align: center;
+  max-height: 500px;
+  padding: 12px 24px 0px 24px;
 }
 
 .modal--data {
@@ -507,6 +506,7 @@ input:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 48px;
 }
 
 .pricetotal {
@@ -593,7 +593,7 @@ input:focus {
   	margin-top:22px;
   }*/
 }
-.filter:hover {
+.filter:focus {
   background-color: #0099A8;
   color: #FFFFFF;
 }
@@ -1263,7 +1263,7 @@ hr {
 
   .payment__container {
     max-width: 1070px;
-    height: 500px;
+    height: 550px;
     width: 60%;
   }
 }

@@ -42,10 +42,11 @@
     align-items: center;
     width: 70%;
 
-    &:hover{
+    &:focus{
         background-color:$color-turquoise ;
         color:$color-white;
     }
+    
     //Float BUTTON//
 /*.float{
 	position:fixed;
