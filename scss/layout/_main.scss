@@ -33,7 +33,6 @@
 .container__final-claim{
     background-color: $color-greylight;
     text-align: center;
-    padding: 30px 15px 25px 15px;
     width: 100%;
 }
 
@@ -166,16 +165,19 @@ hr{
         margin-left:12vw;
         margin-right:12vw;
     }
+    //PRODUCTS//
     .products{
         flex-direction: row;
         margin:0 auto;
-        align-items: center;
         max-width: 1070px;
+        align-items: flex-end;
         
         &__text{
             margin-left: $space-mediumbig;
-            
+            justify-content: flex-end;
+            flex:1;
             &--background{
+               
                 &::before{
                     position: absolute;
                     bottom: 23vh;

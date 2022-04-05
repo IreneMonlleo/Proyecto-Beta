@@ -52,9 +52,9 @@
 }
 .final-claim{
     @include special-elite (24px,$color-greydark);
-    width: 70vw;
+    width: 80vw;
     margin:0 auto;
-    padding: $space-verybig 0;
+    padding: $space-big 0;
     
 }
 
@@ -119,13 +119,19 @@
 .products{
     &--name{
         @include special-elite (24px,$color-turquoise);
+        text-align: center
     }
     &--price{
         @include ralewey (24px,600,$color-white);
+        text-align: right;
+        margin-bottom: 0px;
+   
         
     }
-    &--description{
+    &--detail{
         @include ralewey (14px,400,$color-white);
+        padding: $space-small;
+        margin:0;
 
     }
 }
@@ -199,14 +205,16 @@
         //PRODUCT//
         .products{
             &--name{
-                @include special-elite (24px,$color-turquoise);
+                @include special-elite (48px,$color-turquoise);
+                text-align: left;
             }
             &--price{
                 @include ralewey (24px,600,$color-white);
                 
             }
-            &--description{
+            &--detail{
                 @include ralewey (14px,400,$color-white);
+                width: 80%;
             }
         }
         
@@ -219,7 +227,7 @@
     }
     .final-claim{
         font-size: 36px;
-        width:70%;
+        width:50vw;
     }
     .threeR{
         &__title{

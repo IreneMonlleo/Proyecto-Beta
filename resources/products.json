@@ -9,7 +9,9 @@
                 "name": "Sillones cajones",
                 "alt": "sillones cajones",
                 "href": "/decor.html?section=furniture&product=f1",
-                "description": "Los cajones de fruta han sido utilizados como asiento improvisado desde tiempos muy lejanos, por lo que consideramos que ha llegado la hora de que pase a ser esta su función. Con unos cajones viejos y unas patas de muebles rotos, hemos creado este conjunto de 3 sillas, ideales para exteriores y para niños terremoto. Pese a tener materiales muy resistentes son muy ligeras y fáciles de transportar. Ancho: 30cm Alto:50cm",
+                "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__sillascajones.jpg",
                 "price": "185€"
             },
@@ -18,7 +20,9 @@
                 "name": "Por la boca vive el pez",
                 "alt": "silla de perchas",
                 "href": "/decor.html?section=furniture&product=f2",
-                "description": "Hoy en día consumimos muchísima ropa y a un ritmo vertiginoso, ¿Y que va acompañado siempre de una prenda de ropa? Una percha, ¿Qué es lo que hacemos con todas estas cuando nos sobran? En Refer, con unas perchas viejas hemos decidido crear esta silla tan peculiar y única. Sus materiales son robustos pero flexibles, dispone de un leve balanceo. Pasará a ser el centro de todas las miradas. Ancho: 57 cm, Altura: 117 cm.",
+                "description": "Hoy en día consumimos muchísima ropa y a un ritmo vertiginoso, ¿Y que va acompañado siempre de una prenda de ropa? Una percha, ¿Qué es lo que hacemos con todas estas cuando nos sobran? En REFER, pensando en darle un nuevo uso, hemos creado esta silla de lo más peculiar y única. Esta pieza quedara espectacular en cualquier rincón de tu salón o negocio, aportando un punto de distinción. Sus materiales robustos pero flexibles le aportan un leve balanceo, produciendo una agradable sensación de comodidad. Ancho: 57 cm, Altura: 117 cm. ",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__esqueleto.jpg",
                 "price": "159€"
             },
@@ -28,6 +32,8 @@
                 "alt": "sillon carretilla",
                 "href": "/decor.html?section=furniture&product=f3",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__carretilla-sillon.jpg",
                 "price": "63€"
             },
@@ -37,6 +43,8 @@
                 "alt": "Mesita Mono patin",
                 "href": "/decor.html?section=furniture&product=f4",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__mono-patin.jpg",
                 "price": "50€"
             },
@@ -46,6 +54,8 @@
                 "alt": "Sillon bicicleta",
                 "href": "/decor.html?section=furniture&product=f5",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__silla-bici.jpg",
                 "price": "112€"
             },
@@ -55,6 +65,8 @@
                 "alt": "mesita perchas",
                 "href": "/decor.html?section=furniture&product=f6",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__mesita-perchas.jpg",
                 "price": "90€"
             },
@@ -64,6 +76,8 @@
                 "alt": "Tele cama para mascotas",
                 "href": "/decor.html?section=furniture&product=f7",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__cama-gatos.jpg",
                 "price": "87€"
             },
@@ -72,7 +86,9 @@
                 "name": "La flaca",
                 "alt": "silla de perchas",
                 "href": "/decor.html?section=furniture&product=f8",
-                "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "description": "Hoy en día consumimos muchísima ropa y a un ritmo vertiginoso, ¿Y que va acompañado siempre de una prenda de ropa? Una percha, ¿Qué es lo que hacemos con todas estas cuando nos sobran? En Refer, con unas perchas viejas hemos decidido crear esta silla de lo mas peculiar y única. Sus materiales son robustos pero flexibles, dispone de un leve balanceo. Pasará a ser el centro de todas las miradas. Ancho: 57 cm, Altura: 117 cm.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__silla-perchas.jpg",
                 "price": "55€"
             },
@@ -82,6 +98,8 @@
                 "alt": "sillon maleta",
                 "href": "/decor.html?section=furniture&product=f9",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__sillo-baul.jpg",
                 "price": "120€"
             },
@@ -91,6 +109,8 @@
                 "alt": "taburetes de cubos",
                 "href": "/decor.html?section=furniture&product=f10",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/F__taburetes.jpg",
                 "price": "30€"
             }
@@ -106,36 +126,44 @@
                 "name": "Ojalá llueva café",
                 "alt": "Lampara techo",
                 "href": "/decor.html?section=illumination&product=i1",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "description": "El primer café de la mañana es sagrado para poder empezar el día con buen pie. Encontramos estas latas de café viejas que son toda una reliquia, pero que hace años que termino su utilidad. Por lo que cogimos una lampara que le faltaban unas piezas y ensamblamos estas antiguas latas. Como resultado nos quedo una lampara de techo con mucha historia, con un pasado y una historia propia. ",
                 "image": "resources/img/I__coffe.jpg",
                 "price": "200€"
             },
             {
                 "id": "i2",
+                "name": "El idioma de los dioses",
+                "alt": "lampara casets",
+                "href": "/decor.html?section=illumination&product=i2",
+                "description": "¿Quién no recuerda las antiguas cintas de casete? Fueron el vínculo musical de una generación. ¿Qué ha pasado con esas cintas?  En REFER las hemos reciclado creando una lampara de mesa totalmente cuadrada. Solamente sobresale un cable con su interruptor para encenderla y apagarla. Desprende una luz bohemia, que proyectando unas sombras de lo más interesantes y acogedoras. Perfecta para relajarte y escuchar tus canciones favoritas. Sus dimensiones son de 50x50cm.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+                "image": "resources/img/I__casets.jpg",
+                "price": "35€"
+            },
+            {
+                "id": "i3",
                 "name": "Rallando el sol",
                 "alt": "Ralladores lampara techo",
-                "href": "/decor.html?section=illumination&product=i2",
-                "description": "Webpack vanilla starter seed",
+                "href": "/decor.html?section=illumination&product=i3",
+                "description": "Lámpara de techo con cuatro luminarias creadas a partir de ralladores de alimentos y madera natural. Realizada de forma artesanal completamente. El resultado final, sobrio y elegante, es sin duda una apuesta segura en la decoración de viviendas, locales o negocios, y se corresponde con dos de las tendencias del hábitat que están marcando la diferencia en iluminación: ‘Nature in design’ y ‘Sostenibilidad’. Ideal para amantes de la decoración original, y de la cocina o gastronomía. Muy buena opción para cocinas, restaurantes, etc..",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/I__cook.jpg",
                 "price": "58€"
             },
             {
-                "id": "i3",
+                "id": "i4",
                 "name": "Pasame la botella",
                 "alt": "botellas jacker lamapara techo",
-                "href": "/decor.html?section=illumination&product=i3",
-                "description": "Webpack vanilla starter seed",
+                "href": "/decor.html?section=illumination&product=i4",
+                "description": "Lámpara de techo con cuatro luminarias creadas a partir del corte de botellas de vidrio transparente, madera natural, casquillos y cables plateados decorativos. El resultado final, sobrio y elegante, es sin duda una apuesta segura en la decoración de viviendas, locales o negocios, y se corresponde con dos de las tendencias del hábitat que están marcando la diferencia en iluminación: ‘Nature in design’ y ‘Sostenibilidad’. Ideal para amantes de la decoración original, y de la cocina o gastronomía. Muy buena opción para cocinas, restaurantes, etc..",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/I__botellas.jpg",
                 "price": "135€"
-            },
-            {
-                "id": "i4",
-                "name": "El idioma de los dioses",
-                "alt": "lampara casets",
-                "href": "/decor.html?section=illumination&product=i4",
-                "description": "¿Quién no recuerda las antiguas cintas de casete? Fueron nuestra alimentación musical durante muchos años, hasta que quedaron obsoletas. ¿Qué ha pasado con todas esas cintas? En Refer hemos decidido crear una lampara reciclada. Se trata de una lampara de mesa, totalmente cuadrada. Solamente sobresale un cable con un interruptor para poder encenderla y apagarla. Tiene una luz muy bohemia, proyecta unas sombras en la estancia de lo más interesantes y acogedoras. Perfecta para relajarte por las noches y escuchar tus canciones favoritas. Sus dimensiones son de 50x50cm.",
-                "image": "resources/img/I__casets.jpg",
-                "price": "35€"
             },
             {
                 "id": "i5",
@@ -143,6 +171,8 @@
                 "alt": "lampara techo perchas",
                 "href": "/decor.html?section=illumination&product=i5",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/I__exterior-perchas.jpg",
                 "price": "78€"
             },
@@ -152,6 +182,8 @@
                 "alt": "lampara techo tarros conserva",
                 "href": "/decor.html?section=illumination&product=i6",
                 "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/I__color.jpg",
                 "price": "80€"
             },
@@ -161,6 +193,8 @@
                 "alt": "lampara techo rueda bici",
                 "href": "/decor.html?section=illumination&product=i7",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/I__radios.jpg",
                 "price": "46€"
             },
@@ -170,6 +204,8 @@
                 "alt": "lampara techo perchas",
                 "href": "/decor.html?section=illumination&product=i8",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/I__interior-perchas.jpg",
                 "price": "81€"
             },
@@ -179,15 +215,19 @@
                 "alt": "lampara techo bici",
                 "href": "/decor.html?section=illumination&product=i9",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/I__rodando.jpg",
                 "price": "170€"
             },
             {
                 "id": "i10",
                 "name": "La vuelta al mundo",
-                "alt": "lampara techo bici",
+                "alt": "lámpara mesa bola mundo",
                 "href": "/decor.html?section=illumination&product=i10",
-                "description": "Webpack vanilla starter seed",
+                "description": "Lámparas de mesa de luminaria individual creadas a partir de globos terráqueos. Realizada de forma artesanal completamente. Ideal para los amantes de la decoración original, y si te gustan los viajes o la geografía. También es muy buena opción para habitaciones infantiles. El resultado final, elegante y muy original, es sin duda una apuesta segura en la decoración de viviendas, locales o negocios, y se corresponde con dos de las tendencias del hábitat que están marcando la diferencia en iluminación: ‘Nature in design’ y ‘Sostenibilidad’.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/I__el-mundo.jpg",
                 "price": "60€"
             }
@@ -204,6 +244,8 @@
                 "alt": "percha clavijero guitarra",
                 "href": "/decor.html?section=decor&product=d6",
                 "description": "El amor por la música es algo que compartimos muchísimas personas. Unos se dedican a crearla y otros simplemente a escucharla. Pero es indiscutible que la música forma parte de nuestra vida. En Refer hemos querido hacer referencia al mundo del rock, por lo que hemos creado un perchero reciclado con clavijeros de unas guitarras eléctricas rotas. Restauramos los clavijeros, convirtiéndolos en una decoración reciclada de lo más llamativa y atractiva.",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__percha-musical.jpg",
                 "price": "50€"
             },
@@ -213,6 +255,8 @@
                 "alt": "corchos posa vasos",
                 "href": "/decor.html?section=decor&product=d1",
                 "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__posa-vasos.jpg",
                 "price": "85€"
             },
@@ -222,6 +266,8 @@
                 "alt": "reloj tambor",
                 "href": "/decor.html?section=decor&product=d8",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__reloj-tambor.jpg",
                 "price": "80€"
             },
@@ -231,6 +277,8 @@
                 "alt": "Estanteria pared",
                 "href": "/decor.html?section=decor&product=d3",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__decoración-pared.jpg",
                 "price": "10€"
             },
@@ -240,6 +288,8 @@
                 "alt": "Macetas de escurridores",
                 "href": "/decor.html?section=decor&product=d4",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__escurridor-macetas.jpg",
                 "price": "20€"
             },
@@ -249,6 +299,8 @@
                 "alt": "estanteria pared de tambor",
                 "href": "/decor.html?section=decor&product=d5",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__tambor-stanteria.jpg",
                 "price": "63€"
             },
@@ -258,6 +310,8 @@
                 "alt": "Reloj con una rueda de bici",
                 "href": "/decor.html?section=decor&product=d7",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__puntual.jpg",
                 "price": "10€"
             },
@@ -267,6 +321,8 @@
                 "alt": "felpudo corcho",
                 "href": "/decor.html?section=decor&product=d8",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__acorchado.jpg",
                 "price": "62€"
             },
@@ -276,6 +332,8 @@
                 "alt": "felpudo corcho",
                 "href": "/decor.html?section=decor&product=d9",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__sabor-a-vino.jpg",
                 "price": "40€"
             },
@@ -285,6 +343,8 @@
                 "alt": "Botes conserva",
                 "href": "/decor.html?section=decor&product=d10",
                 "description": "Webpack vanilla starter seed",
+                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "image": "resources/img/D__lata.jpg",
                 "price": "25€"
             }

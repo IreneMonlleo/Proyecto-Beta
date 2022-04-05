@@ -302,8 +302,11 @@ body {
   }
 
   .products--image {
-    width: 400px;
+    width: 500px;
     max-width: 1070px;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
   }
 }
 @media all and (min-width: 800px) {
@@ -588,6 +591,7 @@ input {
   font-size: 18px;
   padding: 12px;
   margin: 12px;
+  margin-bottom: 24px;
   width: 162px;
   text-align: center;
 }
@@ -742,9 +746,9 @@ input {
   font-family: "Special Elite";
   font-size: 24px;
   color: #4F4F4F;
-  width: 70vw;
+  width: 80vw;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 48px 0;
 }
 
 .newsletter__text {
@@ -829,18 +833,23 @@ input {
   font-family: "Special Elite";
   font-size: 24px;
   color: #0099A8;
+  text-align: center;
 }
 .products--price {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 600;
   color: #FFFFFF;
+  text-align: right;
+  margin-bottom: 0px;
 }
-.products--description {
+.products--detail {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #FFFFFF;
+  padding: 12px;
+  margin: 0;
 }
 
 .checkout__title {
@@ -924,8 +933,9 @@ input {
 
   .products--name {
     font-family: "Special Elite";
-    font-size: 24px;
+    font-size: 48px;
     color: #0099A8;
+    text-align: left;
   }
   .products--price {
     font-family: "Raleway", sans-serif;
@@ -933,11 +943,12 @@ input {
     font-weight: 600;
     color: #FFFFFF;
   }
-  .products--description {
+  .products--detail {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
+    width: 80%;
   }
 }
 @media all and (min-width: 800px) {
@@ -947,7 +958,7 @@ input {
 
   .final-claim {
     font-size: 36px;
-    width: 70%;
+    width: 50vw;
   }
 
   .threeR__title {
@@ -1030,7 +1041,6 @@ input {
 .container__final-claim {
   background-color: #E6E9E9;
   text-align: center;
-  padding: 30px 15px 25px 15px;
   width: 100%;
 }
 
@@ -1173,13 +1183,19 @@ hr {
         -ms-flex-direction: row;
             flex-direction: row;
     margin: 0 auto;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     max-width: 1070px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .products__text {
     margin-left: 36px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   .products__text--background::before {
     position: absolute;

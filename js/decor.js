@@ -13,6 +13,8 @@ const params = new URLSearchParams(window.location.search);
           document.querySelector('.products--description').textContent = product.description;
           document.querySelector('.products--image').src = product.image;
           document.querySelector('.products--price').textContent = product.price;
+          document.querySelector('.products--certificate').textContent = product.certificate;
+          document.querySelector('.products--shipping').textContent = product.shipping;
         })
 
 
