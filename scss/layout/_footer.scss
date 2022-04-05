@@ -25,14 +25,11 @@
     padding: $unit*2;
     
 }
-
 .rrss{
-    display:inline-block;
-    color:$color-white;
-    @include icons(1.5em);
-    margin-top: $space-small;
-    
+    font-size: 3em;
+    text-decoration:none;
 }
+
 
 @media all and (min-width: 600px){
     .footer{
@@ -63,10 +60,6 @@
         margin-left: $space-medium*6; 
     }
     
-    .rrss{
-        color:$color-white;
-        @include icons(1.5em);
-        margin-top: $space-small; 
-    }
+    
 
 }

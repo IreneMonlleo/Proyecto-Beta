@@ -9,22 +9,22 @@
                 "name": "Sillones cajones",
                 "alt": "sillones cajones",
                 "href": "/decor.html?section=furniture&product=f1",
-                "description": "Webpack vanilla starter seed",
+                "description": "Los cajones de fruta han sido utilizados como asiento improvisado desde tiempos muy lejanos, por lo que consideramos que ha llegado la hora de que pase a ser esta su función. Con unos cajones viejos y unas patas de muebles rotos, hemos creado este conjunto de 3 sillas, ideales para exteriores y para niños terremoto. Pese a tener materiales muy resistentes son muy ligeras y fáciles de transportar. Ancho: 30cm Alto:50cm",
                 "image": "resources/img/F__sillascajones.jpg",
-                "price": "165€"
+                "price": "185€"
             },
             {
                 "id": "f2",
-                "name": "Esqueleto",
+                "name": "Por la boca vive el pez",
                 "alt": "silla de perchas",
                 "href": "/decor.html?section=furniture&product=f2",
-                "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
+                "description": "Hoy en día consumimos muchísima ropa y a un ritmo vertiginoso, ¿Y que va acompañado siempre de una prenda de ropa? Una percha, ¿Qué es lo que hacemos con todas estas cuando nos sobran? En Refer, con unas perchas viejas hemos decidido crear esta silla tan peculiar y única. Sus materiales son robustos pero flexibles, dispone de un leve balanceo. Pasará a ser el centro de todas las miradas. Ancho: 57 cm, Altura: 117 cm.",
                 "image": "resources/img/F__esqueleto.jpg",
-                "price": "100€"
+                "price": "159€"
             },
             {
                 "id": "f3",
-                "name": "sillon carretilla",
+                "name": "Yellow Submarine",
                 "alt": "sillon carretilla",
                 "href": "/decor.html?section=furniture&product=f3",
                 "description": "Webpack vanilla starter seed",
@@ -33,7 +33,7 @@
             },
             {
                 "id": "f4",
-                "name": "Mesita patinete",
+                "name": "Lose yourself",
                 "alt": "Mesita Mono patin",
                 "href": "/decor.html?section=furniture&product=f4",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
@@ -42,7 +42,7 @@
             },
             {
                 "id": "f5",
-                "name": "Sillon bicicleta",
+                "name": "La bicicleta",
                 "alt": "Sillon bicicleta",
                 "href": "/decor.html?section=furniture&product=f5",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
@@ -51,7 +51,7 @@
             },
             {
                 "id": "f6",
-                "name": "Mesita perchas",
+                "name": "Cafe del mar",
                 "alt": "mesita perchas",
                 "href": "/decor.html?section=furniture&product=f6",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
@@ -60,7 +60,7 @@
             },
             {
                 "id": "f7",
-                "name": "Cama para mascotas",
+                "name": "Animals",
                 "alt": "Tele cama para mascotas",
                 "href": "/decor.html?section=furniture&product=f7",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
@@ -69,7 +69,7 @@
             },
             {
                 "id": "f8",
-                "name": "Silla perchas",
+                "name": "La flaca",
                 "alt": "silla de perchas",
                 "href": "/decor.html?section=furniture&product=f8",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
@@ -78,7 +78,7 @@
             },
             {
                 "id": "f9",
-                "name": "Sillon Maleta",
+                "name": "Born To Be Wild",
                 "alt": "sillon maleta",
                 "href": "/decor.html?section=furniture&product=f9",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
@@ -87,7 +87,7 @@
             },
             {
                 "id": "f10",
-                "name": "Taburetes",
+                "name": "Parchis",
                 "alt": "taburetes de cubos",
                 "href": "/decor.html?section=furniture&product=f10",
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
@@ -103,12 +103,12 @@
         "elements": [
             {
                 "id": "i1",
-                "name": "Can og coffe",
+                "name": "Ojalá llueva café",
                 "alt": "Lampara techo",
                 "href": "/decor.html?section=illumination&product=i1",
-                "description": "Antiguas latas de cafe, convertidas en una magnifica lampara ",
+                "description": "El primer café de la mañana es sagrado para poder empezar el día con buen pie. Encontramos estas latas de café viejas que son toda una reliquia, pero que hace años que termino su utilidad. Por lo que cogimos una lampara que le faltaban unas piezas y ensamblamos estas antiguas latas. Como resultado nos quedo una lampara de techo con mucha historia, con un pasado y una historia propia. ",
                 "image": "resources/img/I__coffe.jpg",
-                "price": "100€"
+                "price": "200€"
             },
             {
                 "id": "i2",
@@ -121,7 +121,7 @@
             },
             {
                 "id": "i3",
-                "name": "Botellas Jacker",
+                "name": "Pasame la botella",
                 "alt": "botellas jacker lamapara techo",
                 "href": "/decor.html?section=illumination&product=i3",
                 "description": "Webpack vanilla starter seed",
@@ -130,16 +130,16 @@
             },
             {
                 "id": "i4",
-                "name": "Casets",
+                "name": "El idioma de los dioses",
                 "alt": "lampara casets",
                 "href": "/decor.html?section=illumination&product=i4",
-                "description": "Webpack vanilla starter seed",
+                "description": "¿Quién no recuerda las antiguas cintas de casete? Fueron nuestra alimentación musical durante muchos años, hasta que quedaron obsoletas. ¿Qué ha pasado con todas esas cintas? En Refer hemos decidido crear una lampara reciclada. Se trata de una lampara de mesa, totalmente cuadrada. Solamente sobresale un cable con un interruptor para poder encenderla y apagarla. Tiene una luz muy bohemia, proyecta unas sombras en la estancia de lo más interesantes y acogedoras. Perfecta para relajarte por las noches y escuchar tus canciones favoritas. Sus dimensiones son de 50x50cm.",
                 "image": "resources/img/I__casets.jpg",
                 "price": "35€"
             },
             {
                 "id": "i5",
-                "name": "Perchas fuera",
+                "name": "A la sombra de la sierra",
                 "alt": "lampara techo perchas",
                 "href": "/decor.html?section=illumination&product=i5",
                 "description": "Webpack vanilla starter seed",
@@ -148,7 +148,7 @@
             },
             {
                 "id": "i6",
-                "name": "Colorines",
+                "name": "She's A Rainbow",
                 "alt": "lampara techo tarros conserva",
                 "href": "/decor.html?section=illumination&product=i6",
                 "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -157,7 +157,7 @@
             },
             {
                 "id": "i7",
-                "name": "Rueda bici",
+                "name": "Mirando al cielo",
                 "alt": "lampara techo rueda bici",
                 "href": "/decor.html?section=illumination&product=i7",
                 "description": "Webpack vanilla starter seed",
@@ -166,7 +166,7 @@
             },
             {
                 "id": "i8",
-                "name": "Perchas huevo",
+                "name": "Luces de Bohemia",
                 "alt": "lampara techo perchas",
                 "href": "/decor.html?section=illumination&product=i8",
                 "description": "Webpack vanilla starter seed",
@@ -175,7 +175,7 @@
             },
             {
                 "id": "i9",
-                "name": "Rueda bici vertical",
+                "name": "Viva las Vegas",
                 "alt": "lampara techo bici",
                 "href": "/decor.html?section=illumination&product=i9",
                 "description": "Webpack vanilla starter seed",
@@ -184,7 +184,7 @@
             },
             {
                 "id": "i10",
-                "name": "Lampara bola del mundo",
+                "name": "La vuelta al mundo",
                 "alt": "lampara techo bici",
                 "href": "/decor.html?section=illumination&product=i10",
                 "description": "Webpack vanilla starter seed",
@@ -199,8 +199,17 @@
         "classes": "filter decor",
         "elements": [
             {
+                "id": "d6",
+                "name": "Back In Black",
+                "alt": "percha clavijero guitarra",
+                "href": "/decor.html?section=decor&product=d6",
+                "description": "El amor por la música es algo que compartimos muchísimas personas. Unos se dedican a crearla y otros simplemente a escucharla. Pero es indiscutible que la música forma parte de nuestra vida. En Refer hemos querido hacer referencia al mundo del rock, por lo que hemos creado un perchero reciclado con clavijeros de unas guitarras eléctricas rotas. Restauramos los clavijeros, convirtiéndolos en una decoración reciclada de lo más llamativa y atractiva.",
+                "image": "resources/img/D__percha-musical.jpg",
+                "price": "50€"
+            },
+            {
                 "id": "d1",
-                "name": "Corchos Posa vasos",
+                "name": "Vino tinto",
                 "alt": "corchos posa vasos",
                 "href": "/decor.html?section=decor&product=d1",
                 "description": "WAntiguas latas de cafe, convertidas en una magnifica lampara ",
@@ -209,7 +218,7 @@
             },
             {
                 "id": "d2",
-                "name": "Reloj Tambor",
+                "name": "Madre tierra",
                 "alt": "reloj tambor",
                 "href": "/decor.html?section=decor&product=d8",
                 "description": "Webpack vanilla starter seed",
@@ -218,7 +227,7 @@
             },
             {
                 "id": "d3",
-                "name": "Palitos estanterias",
+                "name": "Días de Verano",
                 "alt": "Estanteria pared",
                 "href": "/decor.html?section=decor&product=d3",
                 "description": "Webpack vanilla starter seed",
@@ -227,7 +236,7 @@
             },
             {
                 "id": "d4",
-                "name": "Escurridores maceteros",
+                "name": "Colgando en tus manos",
                 "alt": "Macetas de escurridores",
                 "href": "/decor.html?section=decor&product=d4",
                 "description": "Webpack vanilla starter seed",
@@ -236,7 +245,7 @@
             },
             {
                 "id": "d5",
-                "name": "Tambor estanteria",
+                "name": "Tamborilero",
                 "alt": "estanteria pared de tambor",
                 "href": "/decor.html?section=decor&product=d5",
                 "description": "Webpack vanilla starter seed",
@@ -244,17 +253,8 @@
                 "price": "63€"
             },
             {
-                "id": "d6",
-                "name": "Perchas musical",
-                "alt": "percha clavijero guitarra",
-                "href": "/decor.html?section=decor&product=d6",
-                "description": "Webpack vanilla starter seed",
-                "image": "resources/img/D__percha-musical.jpg",
-                "price": "50€"
-            },
-            {
                 "id": "d7",
-                "name": "Reloz bici",
+                "name": "19 Dias y 500 Noches",
                 "alt": "Reloj con una rueda de bici",
                 "href": "/decor.html?section=decor&product=d7",
                 "description": "Webpack vanilla starter seed",
@@ -263,7 +263,7 @@
             },
             {
                 "id": "d8",
-                "name": "Alfombra de corcho",
+                "name": "Singing in the rain",
                 "alt": "felpudo corcho",
                 "href": "/decor.html?section=decor&product=d8",
                 "description": "Webpack vanilla starter seed",
@@ -281,7 +281,7 @@
             },
             {
                 "id": "d10",
-                "name": "Botes de Metal",
+                "name": "Maquillaje",
                 "alt": "Botes conserva",
                 "href": "/decor.html?section=decor&product=d10",
                 "description": "Webpack vanilla starter seed",

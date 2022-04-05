@@ -1478,12 +1478,8 @@ label input:checked + .turquoise__menu + ul {
 }
 
 .rrss {
-  display: inline-block;
-  color: #FFFFFF;
-  width: 1em;
-  height: 1em;
-  font-size: 1.5em;
-  margin-top: 12px;
+  font-size: 3em;
+  text-decoration: none;
 }
 
 @media all and (min-width: 600px) {
@@ -1514,13 +1510,5 @@ label input:checked + .turquoise__menu + ul {
   .legal-pag__container {
     padding: 12px;
     margin-left: 144px;
-  }
-
-  .rrss {
-    color: #FFFFFF;
-    width: 1em;
-    height: 1em;
-    font-size: 1.5em;
-    margin-top: 12px;
   }
 }
