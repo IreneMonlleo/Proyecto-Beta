@@ -41,11 +41,17 @@
     object-fit: cover;
     object-position: center;
   }
-  .swiper-button-next{
+  .swiper-button-prev::after{
     color:$color-turquoise;
-    width: 20px;
+    display: none;
+    
   }
-
+  .swiper-button-next::after{
+    color:$color-turquoise;
+    display: none;
+  }
+  
+  
  
 
 @media all and (min-width: 600px){
