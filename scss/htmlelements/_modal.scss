@@ -47,10 +47,8 @@
         
 .modal__container {
   position: absolute;
-  top:60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
+  width: 80%;
+  
   background-color: $color-white;
   color: $color-greydark;
  
@@ -78,8 +76,9 @@
 
   @media all and ( min-width:800px){
     .modal__container {
-      top:50%;
       max-width: 900px;
+      width: 90%;
+      left: 2%;
     }
     .group--product{
       display:flex;

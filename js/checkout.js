@@ -9,8 +9,9 @@ const params = new URLSearchParams(window.location.search);
           const product = category.elements.find(function(product) { return product.id === productId; });
           console.log(product);
           document.querySelector('.checkout--name').textContent = product.name;
-          document.querySelector('.checkout--image').src = product.image;
-          document.querySelector('.products--price').textContent = product.price;
+          document.querySelector('.checkout--img').src = product.image;
+          document.querySelector('.checkout--price').textContent = product.price;
+          document.querySelector('.checkout--totalprice').textContent = product.price;
         })
-    setTimeout(function(){
-      document.querySelector('.order'), focus();})
+    
+      

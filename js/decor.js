@@ -15,6 +15,7 @@ const params = new URLSearchParams(window.location.search);
           document.querySelector('.products--price').textContent = product.price;
           document.querySelector('.products--certificate').textContent = product.certificate;
           document.querySelector('.products--shipping').textContent = product.shipping;
+          document.querySelector('.products--button').href = product.hrefcheckout;
         })
 
 
@@ -29,6 +30,7 @@ const params = new URLSearchParams(window.location.search);
                 </a>`
           })
         }
+      
         
         
           getJSON(function(products) {
@@ -69,3 +71,5 @@ const params = new URLSearchParams(window.location.search);
             },
           })
         }
+
+        eval.target.classList.toggle('active)')

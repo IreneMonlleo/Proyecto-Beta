@@ -62,4 +62,4 @@ function init() {
 window.onload = init();
 
 
-
+setTimeout(()=> document.querySelector("#filter--all"),focus(),1000);
