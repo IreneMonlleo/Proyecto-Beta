@@ -587,8 +587,13 @@ input {
       -ms-flex-align: center;
           align-items: center;
   width: 70%;
+  cursor: pointer;
 }
 .filter:focus {
+  background-color: #0099A8;
+  color: #FFFFFF;
+}
+.filter:hover {
   background-color: #0099A8;
   color: #FFFFFF;
 }
@@ -608,6 +613,7 @@ input {
   background-color: #FFFFFF;
   width: 75%;
   padding: 6px;
+  cursor: pointer;
 }
 
 .payment__button {
@@ -899,7 +905,7 @@ input {
   }
   .slider__description {
     font-size: 18px;
-    width: 30vw;
+    width: 28vw;
     margin-left: 24px;
   }
   .slider__quest {

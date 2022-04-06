@@ -20,4 +20,7 @@ const params = new URLSearchParams(window.location.search);
               document.getElementById("Check" + i).checked = false;
           }
           document.getElementById(id).checked = true;
-      }
+        }
+
+
+      

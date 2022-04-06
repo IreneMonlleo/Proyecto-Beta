@@ -42,15 +42,18 @@
     height: 31px;
     align-items: center;
     width: 70%;
-
+    cursor: pointer;
     &:focus{
         background-color:$color-turquoise ;
         color:$color-white;
     }
-    
-    
-    
+    &:hover{
+        background-color:$color-turquoise ;
+        color:$color-white;
+    }
 }
+
+
 
 
 //PRODUCTS//
@@ -70,6 +73,7 @@
     background-color: $color-white;
     width: 75%;
     padding: 6px;
+    cursor: pointer;
 }
 .payment__button{
     background-color:$color-white;
