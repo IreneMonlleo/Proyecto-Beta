@@ -497,7 +497,6 @@ input {
 .modal__container {
   position: absolute;
   width: 80%;
-  background-color: #FFFFFF;
   color: #4F4F4F;
 }
 
@@ -576,6 +575,7 @@ input {
 }
 
 .filter {
+  font-family: "Raleway", sans-serif;
   background-color: #E6E9E9;
   color: #0099A8;
   border-style: none;
