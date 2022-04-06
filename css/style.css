@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .slider__home {
@@ -1308,8 +1309,8 @@ hr {
 }
 .menu {
   position: absolute;
-  right: -100px;
-  top: -100px;
+  right: 0px;
+  top: 0px;
   z-index: 100;
   width: 200px;
   height: 200px;
@@ -1320,7 +1321,9 @@ hr {
   -webkit-box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
           box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
   cursor: pointer;
-  overflow-x: hidden;
+  overflow: hidden;
+  -webkit-transform: translate(100px, -100px);
+          transform: translate(100px, -100px);
 }
 
 .hamburger {
