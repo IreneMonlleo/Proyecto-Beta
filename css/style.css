@@ -606,14 +606,14 @@ input {
 
 .discounts__button {
   background-color: #FFFFFF;
-  width: 100%;
+  width: 75%;
   padding: 6px;
 }
 
 .payment__button {
   background-color: #FFFFFF;
   padding: 6px;
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
   font-weight: 600;
 }
