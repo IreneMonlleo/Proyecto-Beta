@@ -6,7 +6,7 @@
         "elements": [
             {
                 "id": "f1",
-                "name": "Sillones cajones",
+                "name": "Get Up stand up",
                 "alt": "sillones cajones",
                 "hrefcheckout":"/checkout.html?section=furniture&product=f1",
                 "href": "/decor.html?section=furniture&product=f1",
@@ -37,7 +37,7 @@
                 "description": "Webpack vanilla starter seed",
                 "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
                 "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "resources\img\F__carretilla-sillon.jpg",
+                "image": "resources/img/F__carretilla-sillon.jpg",
                 "price": "63€"
             },
             {
@@ -49,7 +49,7 @@
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
                 "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "resources\img\F__mono-patin.jpg",
+                "image": "resources/img/F__mono-patin.jpg",
                 "price": "50€"
             },
             {
@@ -109,7 +109,7 @@
                 "description": "Este elegante banco de almacenamiento será un aporte único a su decoración con su diseño clásico. Tiene un asiento acolchado que está tapizado con una tela moderna.",
                 "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
                 "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "/resources/img/F__sillo-baul.jpg",
+                "image": "resources/img/F__sillo-baul.jpg",
                 "price": "120€"
             },
             {
@@ -121,7 +121,7 @@
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
                 "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "/resources/img/F__taburetes.jpg",
+                "image": "resources/img/F__taburetes.jpg",
                 "price": "30€"
             }
         ]
@@ -140,7 +140,7 @@
                 "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
                 "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
                 "description": "El primer café de la mañana es sagrado para poder empezar el día con buen pie. Encontramos estas latas de café viejas que son toda una reliquia, pero que hace años que termino su utilidad. Por lo que cogimos una lampara que le faltaban unas piezas y ensamblamos estas antiguas latas. Como resultado nos quedo una lampara de techo con mucha historia, con un pasado y una historia propia. ",
-                "image": "/resources/img/I__coffe.jpg",
+                "image": "resources/img/I__coffe.jpg",
                 "price": "200€"
             },
             {
