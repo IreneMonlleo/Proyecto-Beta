@@ -37,7 +37,7 @@
                 "description": "Webpack vanilla starter seed",
                 "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
                 "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "resources/img/F__carretilla-sillon.jpg",
+                "image": "resources\img\F__carretilla-sillon.jpg",
                 "price": "63€"
             },
             {
@@ -49,7 +49,7 @@
                 "description": "Esta silla esta hecha con perchas recuperadas de una tienda de ropa.",
                 "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
                 "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "resources/img/F__mono-patin.jpg",
+                "image": "resources\img\F__mono-patin.jpg",
                 "price": "50€"
             },
             {
