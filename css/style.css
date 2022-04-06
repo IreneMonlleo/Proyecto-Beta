@@ -589,11 +589,12 @@ input {
   width: 70%;
   cursor: pointer;
 }
-.filter:focus {
+.filter:hover {
   background-color: #0099A8;
   color: #FFFFFF;
 }
-.filter:hover {
+
+.active {
   background-color: #0099A8;
   color: #FFFFFF;
 }

@@ -1,6 +1,6 @@
 //llama al json//
 function getJSON(callback) {
-  fetch('products.json')
+  fetch('js/products.json')
       .then(function (resources) {
           return resources.json();
       }).then(function (products) {

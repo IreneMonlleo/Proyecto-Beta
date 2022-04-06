@@ -29,17 +29,8 @@ function initialFunction(products) {
         button.addEventListener('click', (ev) => {
             showCategorie(products, ev.target);
         })
-    })
-
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-        },
-      });
+    });
+   
 }
 
 //identifica la classe del boton//
@@ -58,8 +49,15 @@ function init() {
         initialFunction(products);
     });
 }
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
 
 window.onload = init();
 
-
-setTimeout(()=> document.querySelector("#filter--all"),focus(),1000);
