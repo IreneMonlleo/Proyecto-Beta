@@ -34,6 +34,7 @@
     background-color: $color-greylight;
     text-align: center;
     width: 100%;
+    margin-top: $space-big;
 }
 
 //ABOUT US//
@@ -102,22 +103,7 @@
     margin: 0 auto;
     max-width: 350px;
     align-items: center;
-    
-    // &__text{
-    //     &--background{
-    //         &::before{
-    //             content: "";
-    //             background-color: $color-turquoise;
-    //             position: absolute;
-    //             top: 65vh;
-    //             left: 10%;
-    //             right: 0;
-    //             bottom: -20vh;
-    //             z-index: -1;
-    //         }
-            
-    //     }
-    // }
+
 
     
 }

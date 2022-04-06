@@ -155,17 +155,21 @@
 
 //--------------------------------BREAK-----------------------------------------//
 @media all and (min-width: 600px){
-        .slider__title{
+    .slider{
+        &__title--home{
             font-size:48px;
         }
-        .slider__description{
+        &__description{
             font-size:18px;
             width: 30vw;
             margin-left: $space-medium;
         }
-        .slider__quest{
+        &__quest{
             font-size:24px;
         }
+    }
+        
+       
         
         .title-page{
             font-size:64px;

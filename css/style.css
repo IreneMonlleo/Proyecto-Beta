@@ -289,6 +289,10 @@ body {
     margin: 24px;
   }
 
+  .logo_desktop {
+    margin: 24px;
+  }
+
   .about__slider__img {
     width: 25vw;
     margin: 24px;
@@ -323,8 +327,8 @@ body {
   }
 }
 :root {
-  --swiper-pagination-color: white;
-  --swiper-navigation-size:36px ;
+  --swiper-pagination-color: #0099A8;
+  --swiper-navigation-size:48px ;
 }
 
 .swiper__home {
@@ -390,7 +394,7 @@ body {
 @media all and (min-width: 600px) {
   .swiper__home {
     width: 95%;
-    height: 100%;
+    height: 85%;
     max-width: 1070px;
   }
 
@@ -881,16 +885,14 @@ input {
 }
 
 @media all and (min-width: 600px) {
-  .slider__title {
+  .slider__title--home {
     font-size: 48px;
   }
-
   .slider__description {
     font-size: 18px;
     width: 30vw;
     margin-left: 24px;
   }
-
   .slider__quest {
     font-size: 24px;
   }
@@ -1045,6 +1047,7 @@ input {
   background-color: #E6E9E9;
   text-align: center;
   width: 100%;
+  margin-top: 48px;
 }
 
 .main__about {
