@@ -24,17 +24,17 @@
         <section class="payment__container">
                 <div class="container__buttons">
                     <button class="open-modal order"> 
-                        <label for="data"  checked>
+                        <label for="Check1"  checked>
                             <p>Pedido</p>
                         </label> 
                     </button>
                     <button class="open-modal">
-                        <label for="info" >
+                        <label for="Check2" >
                             <p>Envío</p>    
                         </label>
                     </button>
                     <button class="open-modal">
-                        <label for="pay" >
+                        <label for="Check3" >
                             <p>Pago</p>
                         </label>
                     </button> 
@@ -42,7 +42,7 @@
                 </div>
                 
             <!-------------------Modal data order---------------------------------->
-                <input type="checkbox" id="data" class="open-modal__input" checked>
+                <input type="checkbox" id="Check1" class="open-modal__input" onclick="selectOnlyThis(this.id)" checked>
                 <div aria="dialog">
                     <div class="modal__container modal--order" >
                       
@@ -68,7 +68,7 @@
                 </div>
     
                 <!-------------------------Modal Shipping---------------->
-                <input type="checkbox" id="info" class="open-modal__input">
+                <input type="checkbox" id="Check2" class="open-modal__input" onclick="selectOnlyThis(this.id)"> 
                 <div aria="dialog">
                     <div class="modal__container modal--data">
                         
@@ -92,7 +92,7 @@
                 </div>
         
                 <!--------------------------Modal payment-------------------->
-                <input type="checkbox" id="pay" class="open-modal__input">
+                <input type="checkbox" id="Check3" class="open-modal__input" onclick="selectOnlyThis(this.id)">
                     <div aria="dialog">
                         <div class="modal__container modal--data">
                             <!-- <label for="modal-web" class="modal">X</label> -->

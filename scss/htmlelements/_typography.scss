@@ -15,6 +15,11 @@
         @include special-elite (18px,$color-greydark);
         margin: $space-small;
         text-align: center;
+        cursor:pointer;
+       
+        &:hover{
+            color:$color-white;
+        }
     }
     
 }
@@ -134,6 +139,7 @@
         margin:0;
 
     }
+    
 }
 //CHECKOUT//
 .checkout{
@@ -166,7 +172,9 @@
         }
         &__quest{
             font-size:24px;
+            margin-top: $space-big;
         }
+        
     }
         
        
@@ -219,6 +227,7 @@
             &--detail{
                 @include ralewey (14px,400,$color-white);
                 width: 80%;
+
             }
         }
         

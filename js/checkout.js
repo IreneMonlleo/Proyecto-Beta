@@ -14,4 +14,10 @@ const params = new URLSearchParams(window.location.search);
           document.querySelector('.checkout--totalprice').textContent = product.price;
         })
     
-   
+        function selectOnlyThis(id) {
+          for (var i = 1;i <= 3; i++)
+          {
+              document.getElementById("Check" + i).checked = false;
+          }
+          document.getElementById(id).checked = true;
+      }
