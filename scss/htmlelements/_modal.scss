@@ -19,10 +19,7 @@
         padding: $space-medium;
         z-index: 2;
       
-      &:focus{
-        background-color: $color-turquoise;
-        color: $color-white;  
-      }
+     
     }
   .open-modal__input {
     display: none;
@@ -45,7 +42,6 @@
   position: absolute;
   width: 80%;
   
-  // background-color: $color-white;
   color: $color-greydark;
  
 }

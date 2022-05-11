@@ -479,10 +479,6 @@ input {
   padding: 24px;
   z-index: 2;
 }
-.open-modal:focus {
-  background-color: #0099A8;
-  color: #FFFFFF;
-}
 
 .open-modal__input {
   display: none;

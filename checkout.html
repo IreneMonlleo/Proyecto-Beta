@@ -26,17 +26,17 @@
     <main class="payment">
         <section class="payment__container">
                 <div class="container__buttons">
-                    <button class="open-modal order"> 
+                    <button class="open-modal order active "> 
                         <label for="Check1"  checked>
                             <p>Pedido</p>
                         </label> 
                     </button>
-                    <button class="open-modal">
+                    <button class="open-modal ">
                         <label for="Check2" >
                             <p>Envío</p>    
                         </label>
                     </button>
-                    <button class="open-modal">
+                    <button class="open-modal ">
                         <label for="Check3" >
                             <p>Pago</p>
                         </label>
@@ -98,7 +98,6 @@
                 <input type="checkbox" id="Check3" class="open-modal__input" onclick="selectOnlyThis(this.id)">
                     <div aria="dialog">
                         <div class="modal__container modal--data">
-                            <!-- <label for="modal-web" class="modal">X</label> -->
                             <h3 class=" checkout__title">Datos de compra</h3>
                              
                             <label for="card"></label>                       

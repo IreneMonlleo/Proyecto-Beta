@@ -13,7 +13,19 @@ const params = new URLSearchParams(window.location.search);
           document.querySelector('.checkout--price').textContent = product.price;
           document.querySelector('.checkout--totalprice').textContent = product.price;
         })
-    
+
+        function initialFunction(check) {
+
+          document.querySelectorAll('.open-modal').forEach(function (button) {
+              button.addEventListener('click', (ev) => {
+                  document.querySelector('.active').classList.remove('active');
+                  ev.target.classList.add('active');
+                  showCategorie(check, ev.target);
+              })
+          })
+         
+      }
+      
         function selectOnlyThis(id) {
           for (var i = 1;i <= 3; i++)
           {
